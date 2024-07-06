@@ -1,0 +1,89 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage[a4paper, left=2cm, right=2cm, top=2.5cm, bottom=2cm]{geometry}
+\usepackage[english]{babel}
+\usepackage[small]{titlesec}
+\usepackage{subcaption} 
+\usepackage[hidelinks]{hyperref}
+\usepackage{listings}
+\usepackage{sectsty}
+%\usepackage[light]{CormorantGaramond}
+\usepackage{fancyhdr}
+\usepackage{footnote}
+\usepackage{tgadventor}
+\usepackage{titling}
+\usepackage{graphicx}
+\usepackage{tcolorbox}
+\usepackage{multirow}
+\usepackage{booktabs}
+\usepackage{makecell}
+\usepackage{algpseudocode}
+\usepackage{algorithm}
+\usepackage{mathtools}
+\usepackage{amssymb}
+\input{setup.tex}
+\input{macro.tex}
+
+\setlength{\droptitle}{-5em}   % regola la posizione del titolo
+\pretitle{\begin{center}\LARGE}   % imposta la dimensione della font del titolo
+\posttitle{\end{center}}
+%\lstset{language=C}
+\renewcommand\bfdefault{bx}
+\sectionfont{\fontsize{20.74}{15}\selectfont}
+\subsectionfont{\fontsize{17.28}{15}\selectfont}
+\subsubsectionfont{\fontsize{12}{15}\selectfont}
+\title{}
+
+\author{}
+\date{\today}
+
+
+\begin{document}
+\pagestyle{fancy}
+\fancyhf{}
+%\rhead{\thepage}
+%\lhead{\rightmark}
+\rfoot{\thepage}
+\lhead{\quad \leftmark}
+\rhead{ \quad \rightmark}
+
+\renewcommand{\headrulewidth}{0.2pt}
+
+
+
+\begin{titlepage}
+    \begin{figure}[t]
+        \centering
+        \includegraphics[width=0.7\textwidth]{drawings/logo_sapienza_new.png}
+        \label{fig:logo}
+    \end{figure}    
+    \null\vfill
+    \begin{center}
+      {\Huge Cryptography} \\[2cm]
+      {\Large Colacel Alexandru Andrei}
+    \end{center}
+    \vfill\null
+    \renewcommand{\abstractname}{Disclaimer}
+
+    
+    
+    \begin{abstract}  
+    
+    \hrulefill\\
+
+    	Notes taken during the Cryptography lectures held by Daniele Venturi (\url{http://danieleventuri.altervista.org/crypto.shtml}) in fall 2016 at Sapienza.\\
+    \textbf{Note: It is strictly prohibited to sell this material in any form without my consent.} \\
+
+    \hrulefill
+    \end{abstract}
+  \end{titlepage}
+
+
+\pagebreak
+\tableofcontents
+
+\pagebreak
+\input{content.tex}
+\input{acronyms.tex}
+
+\end{document}
