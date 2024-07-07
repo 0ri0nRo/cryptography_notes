@@ -49,7 +49,7 @@
 \input{macro.tex}
 
 \setlength{\droptitle}{-5em}   % regola la posizione del titolo
-\pretitle{\begin{center}\LARGE}   % imposta la dimensione della font del titolo
+\pretitle{\begin{center}\Huge}   % imposta la dimensione della font del titolo
 \posttitle{\end{center}}
 %\lstset{language=C}
 \renewcommand\bfdefault{bx}
@@ -68,7 +68,7 @@
 \fancyhf{}
 \rfoot{\thepage}
 \lhead{\quad \leftmark}
-\rhead{ \quad \rightmark}
+\rhead{\quad \rightmark}
 
 \renewcommand{\headrulewidth}{0.2pt}
 
@@ -80,11 +80,23 @@
     \end{figure}    
     \null\vfill
     \begin{center}
-      {\Huge Cryptography} \\[2cm]
-      {\Large Colacel Alexandru Andrei}
+        \rule{\textwidth}{0.4mm} % Line above the title
+        \\[0.8cm] % Space between line and title
+        \begin{minipage}{\textwidth}
+            \centering
+            {\Huge \textbf{Cryptography}}
+        \end{minipage}
+        \\[0.8cm] % Space between title and line
+        \rule{\textwidth}{0.4mm} % Line below the title
+        \vspace{2cm}
+        { \\ \Large Colacel Alexandru Andrei}
     \end{center}
     \vfill\null
     \renewcommand{\abstractname}{Disclaimer}
+    \begin{center}
+        These notes are derived from the lectures of Prof. Daniele Venturi, from books, and other educational materials. The sale of this material is prohibited.
+    \end{center}
+
   \end{titlepage}
 
 \tableofcontents
