@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.7.6)  7 JUL 2024 15:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.7.6)  7 JUL 2024 15:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -820,8 +820,101 @@ Package hyperref Info: Option `colorlinks' set `false' on input line 16.
 \c@proposition=\count361
 \c@definition=\count362
 \c@construction=\count363
-) (./macro.tex)
-No file root.aux.
+) (./macro.tex) (./root.aux
+
+LaTeX Warning: Label `acro:PPT@cref' multiply defined.
+
+
+LaTeX Warning: Label `acro:PRG@cref' multiply defined.
+
+
+LaTeX Warning: Label `acro:OTP@cref' multiply defined.
+
+
+LaTeX Warning: Label `acro:PRF@cref' multiply defined.
+
+
+LaTeX Warning: Label `acro:MAC@cref' multiply defined.
+
+
+LaTeX Warning: Label `acro:OWF@cref' multiply defined.
+
+
+LaTeX Warning: Label `acro:OWF@cref' multiply defined.
+
+
+LaTeX Warning: Label `acro:PPT@cref' multiply defined.
+
+
+LaTeX Warning: Label `acro:OWP@cref' multiply defined.
+
+
+LaTeX Warning: Label `acro:PRG@cref' multiply defined.
+
+
+LaTeX Warning: Label `acro:PRF@cref' multiply defined.
+
+
+LaTeX Warning: Label `acro:GGM@cref' multiply defined.
+
+
+LaTeX Warning: Label `acro:CFP@cref' multiply defined.
+
+
+LaTeX Warning: Label `acro:CPA@cref' multiply defined.
+
+
+LaTeX Warning: Label `acro:CCA@cref' multiply defined.
+
+
+LaTeX Warning: Label `acro:PPT@cref' multiply defined.
+
+
+LaTeX Warning: Label `acro:DDH@cref' multiply defined.
+
+
+LaTeX Warning: Label `acro:DL@cref' multiply defined.
+
+
+LaTeX Warning: Label `acro:RO@cref' multiply defined.
+
+
+LaTeX Warning: Label `acro:CRH@cref' multiply defined.
+
+
+LaTeX Warning: Label `acro:MAC@cref' multiply defined.
+
+
+LaTeX Warning: Label `acro:UFCMA@cref' multiply defined.
+
+
+LaTeX Warning: Label `acro:PPT@cref' multiply defined.
+
+
+LaTeX Warning: Label `acro:RSA@cref' multiply defined.
+
+
+LaTeX Warning: Label `acro:RO@cref' multiply defined.
+
+
+LaTeX Warning: Label `acro:TDP@cref' multiply defined.
+
+
+LaTeX Warning: Label `acro:OWF@cref' multiply defined.
+
+
+LaTeX Warning: Label `acro:CDH@cref' multiply defined.
+
+
+LaTeX Warning: Label `acro:DDH@cref' multiply defined.
+
+
+LaTeX Warning: Label `acro:RV@cref' multiply defined.
+
+
+LaTeX Warning: Label `acro:DL@cref' multiply defined.
+
+)
 \openout1 = `root.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
@@ -842,7 +935,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 64.
 LaTeX Font Info:    ... okay on input line 64.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 64.
 LaTeX Font Info:    ... okay on input line 64.
-(/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count364
 \scratchdimen=\dimen307
@@ -901,17 +994,18 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring OFF on input line 64.
+(./root.out) (./root.out)
 \@outlinefile=\write4
 \openout4 = `root.out'.
 
 \c@lstlisting=\count370
-<drawings/logo_sapienza_new.png, id=7, 2569.6pt x 769.87625pt>
+<drawings/logo_sapienza_new.png, id=139, 2569.6pt x 769.87625pt>
 File: drawings/logo_sapienza_new.png Graphic file (type png)
 <use drawings/logo_sapienza_new.png>
 Package pdftex.def Info: drawings/logo_sapienza_new.png  used on input line 78.
 (pdftex.def)             Requested size: 338.58632pt x 101.43837pt.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 88.
-(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 88.
@@ -926,7 +1020,10 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX Font Info:    Trying to load font information for OT1+qag on input line 102.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/tex-gyre/ot1qag.fd
 File: ot1qag.fd 2009/09/25 v1.2 font definition file for OT1/qag
-) (./root.toc)
+) (./root.toc
+Package acronym Info: Label `acro:PRF' newly defined as it shall be overridden
+although it is yet undefined on input line 28.
+)
 \tf@toc=\write5
 \openout5 = `root.toc'.
 
@@ -946,116 +1043,31 @@ Package epstopdf Info: Source file: <drawings/symmetric-encryption.eps>
 (epstopdf)             Command: <repstopdf --outfile=drawings/symmetric-encryption-eps-converted-to.pdf drawings/symmetric-encryption.eps>
 (epstopdf)             \includegraphics on input line 13.
 Package epstopdf Info: Output file is already uptodate.
-<drawings/symmetric-encryption-eps-converted-to.pdf, id=26, 469.755pt x 108.405pt>
+<drawings/symmetric-encryption-eps-converted-to.pdf, id=202, 469.755pt x 108.405pt>
 File: drawings/symmetric-encryption-eps-converted-to.pdf Graphic file (type pdf)
 <use drawings/symmetric-encryption-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/symmetric-encryption-eps-converted-to.pdf  used on input line 13.
 (pdftex.def)             Requested size: 386.95897pt x 89.29793pt.
-
-LaTeX Warning: Reference `fig:symmetric-encryption' on page 1 undefined on input line 22.
-
 Package hyperref Info: bookmark level for unknown definition defaults to 0 on input line 37.
 Package acronym Info: Label `acro:RV' newly defined as it shall be overridden
 although it is yet undefined on input line 38.
-
-Package acronym Warning: Acronym `RV' is not defined on input line 38.
-
-
-Package acronym Warning: Acronym `RV' is not defined on input line 38.
-
 
 
 [3
 
  <./drawings/symmetric-encryption-eps-converted-to.pdf>]
-
-Package acronym Warning: Acronym `RV' is not defined on input line 44.
-
 Package hyperref Info: bookmark level for unknown theorem defaults to 0 on input line 48.
-
-LaTeX Warning: Reference `def:perfect-secrecy' on page 1 undefined on input line 51.
-
 
 
 [4]
 
-LaTeX Warning: Reference `thm:perfect-secrecy:equivalent-definitions' on page 1 undefined on input line 109.
-
-
-LaTeX Warning: Reference `itm:thm:perfect-secrecy:original' on page 5 undefined on input line 110.
-
-
-LaTeX Warning: Reference `itm:thm:perfect-secrecy:independent' on page 5 undefined on input line 110.
-
-
-LaTeX Warning: Reference `itm:thm:perfect-secrecy:independent' on page 5 undefined on input line 122.
-
-
-LaTeX Warning: Reference `itm:thm:perfect-secrecy:invariant' on page 5 undefined on input line 122.
-
-
-Package acronym Warning: Acronym `RV' is not defined on input line 131.
-
-
-LaTeX Warning: Reference `itm:thm:perfect-secrecy:independent' on page 5 undefined on input line 131.
-
-
-Package acronym Warning: Acronym `RV' is not defined on input line 131.
-
-
-LaTeX Warning: Reference `itm:thm:perfect-secrecy:independent' on page 5 undefined on input line 131.
-
-
-LaTeX Warning: Reference `itm:thm:perfect-secrecy:invariant' on page 5 undefined on input line 136.
-
-
-
 [5]
-
-LaTeX Warning: Reference `itm:thm:perfect-secrecy:invariant' on page 6 undefined on input line 138.
-
-
-LaTeX Warning: Reference `itm:thm:perfect-secrecy:original' on page 6 undefined on input line 138.
-
-
-LaTeX Warning: Reference `itm:thm:perfect-secrecy:independent' on page 6 undefined on input line 138.
-
-
-Package acronym Warning: Acronym `OTP' is not defined on input line 173.
-
 Package acronym Info: Label `acro:OTP' newly defined as it shall be overridden
 although it is yet undefined on input line 175.
-
-Package acronym Warning: Acronym `OTP' is not defined on input line 175.
-
-
-Package acronym Warning: Acronym `OTP' is not defined on input line 175.
-
-
-Package acronym Warning: Acronym `OTP' is not defined on input line 177.
-
 Package hyperref Info: bookmark level for unknown construction defaults to 0 on input line 177.
 
-Package acronym Warning: Acronym `OTP' is not defined on input line 195.
-
-
-LaTeX Warning: Reference `thm:otp:perfect-secrecy' on page 1 undefined on input line 198.
-
-
-Package acronym Warning: Acronym `OTP' is not defined on input line 206.
-
-
-
-
-Package acronym Warning: Acronym `OTP' is not defined on input line 208.
 
 [6{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-
-LaTeX Warning: Reference `thm:shannon:1949' on page 1 undefined on input line 226.
-
-
-LaTeX Warning: Reference `fig:symmetric-authentication' on page 1 undefined on input line 244.
-
 
 LaTeX Warning: File `drawings/symmetric-authentication.eps' not found on input line 248.
 
@@ -1066,7 +1078,7 @@ Package epstopdf Info: Source file: <drawings/symmetric-authentication.eps>
 (epstopdf)             Command: <repstopdf --outfile=drawings/symmetric-authentication-eps-converted-to.pdf drawings/symmetric-authentication.eps>
 (epstopdf)             \includegraphics on input line 248.
 Package epstopdf Info: Output file is already uptodate.
-<drawings/symmetric-authentication-eps-converted-to.pdf, id=99, 469.755pt x 108.405pt>
+<drawings/symmetric-authentication-eps-converted-to.pdf, id=295, 469.755pt x 108.405pt>
 File: drawings/symmetric-authentication-eps-converted-to.pdf Graphic file (type pdf)
 <use drawings/symmetric-authentication-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/symmetric-authentication-eps-converted-to.pdf  used on input line 248.
@@ -1074,154 +1086,27 @@ Package pdftex.def Info: drawings/symmetric-authentication-eps-converted-to.pdf 
 Package acronym Info: Label `acro:MAC' newly defined as it shall be overridden
 although it is yet undefined on input line 253.
 
-Package acronym Warning: Acronym `MAC' is not defined on input line 253.
-
-
-Package acronym Warning: Acronym `MAC' is not defined on input line 253.
-
-
-Package acronym Warning: Acronym `MAC' is not defined on input line 259.
-
-
-Package acronym Warning: Acronym `MAC' is not defined on input line 266.
-
-
-Package acronym Warning: Acronym `MAC' is not defined on input line 268.
-
-
 
 [7 <./drawings/symmetric-authentication-eps-converted-to.pdf>]
 
-LaTeX Warning: Reference `cons:pairwise-independent' on page 1 undefined on input line 302.
-
-
-LaTeX Warning: Reference `thm:mod-pairwise-independent' on page 1 undefined on input line 305.
-
-
-Package acronym Warning: Acronym `MAC' is not defined on input line 361.
-
-
-LaTeX Warning: Reference `thm:pairwise-independent:statistical-security' on page 1 undefined on input line 367.
-
-
-LaTeX Warning: Reference `cons:pairwise-independent' on page 1 undefined on input line 404.
-
-
-
-[8]
-
-Package acronym Warning: Acronym `MAC' is not defined on input line 407.
-
-
-Package acronym Warning: Acronym `RV' is not defined on input line 413.
-
-
-Package acronym Warning: Acronym `RV' is not defined on input line 415.
-
-
-Package acronym Warning: Acronym `RV' is not defined on input line 416.
-
-
-Package acronym Warning: Acronym `RV' is not defined on input line 417.
-
-)
+[8])
 
 [9] (./computational-crypto.tex
 Chapter 2.
 Package acronym Info: Label `acro:PPT' newly defined as it shall be overridden
 although it is yet undefined on input line 5.
-
-Package acronym Warning: Acronym `PPT' is not defined on input line 5.
-
-
-Package acronym Warning: Acronym `PPT' is not defined on input line 5.
-
-
-Package acronym Warning: Acronym `OWF' is not defined on input line 13.
-
 Package acronym Info: Label `acro:OWF' newly defined as it shall be overridden
 although it is yet undefined on input line 15.
-
-Package acronym Warning: Acronym `OWF' is not defined on input line 15.
-
-
-Package acronym Warning: Acronym `OWF' is not defined on input line 15.
-
-
-Package acronym Warning: Acronym `OWF' is not defined on input line 17.
-
-
-Package acronym Warning: Acronym `OWF' is not defined on input line 18.
-
-
-Package acronym Warning: Acronym `PPT' is not defined on input line 18.
-
-
-Package acronym Warning: Acronym `OWF' is not defined on input line 26.
-
-
-Package acronym Warning: Acronym `OWF' is not defined on input line 35.
-
 Package acronym Info: Label `acro:PKC' newly defined as it shall be overridden
 although it is yet undefined on input line 35.
-
-Package acronym Warning: Acronym `PKC' is not defined on input line 35.
-
-
-Package acronym Warning: Acronym `PKC' is not defined on input line 35.
-
-
-Package acronym Warning: Acronym `OWF' is not defined on input line 36.
-
-
-Package acronym Warning: Acronym `PKC' is not defined on input line 36.
-
-
-Package acronym Warning: Acronym `OWF' is not defined on input line 40.
-
 
 
 [10
 
 ]
-
-Package acronym Warning: Acronym `PPT' is not defined on input line 56.
-
 Package hyperref Info: bookmark level for unknown lemma defaults to 0 on input line 62.
-
-Package acronym Warning: Acronym `PPT' is not defined on input line 63.
-
-
-LaTeX Warning: Reference `lem:reduction' on page 1 undefined on input line 66.
-
-
-LaTeX Warning: Reference `lem:hybrid-argument' on page 1 undefined on input line 92.
-
-
-Package acronym Warning: Acronym `PRG' is not defined on input line 114.
-
 Package acronym Info: Label `acro:PRG' newly defined as it shall be overridden
 although it is yet undefined on input line 117.
-
-Package acronym Warning: Acronym `PRG' is not defined on input line 117.
-
-
-Package acronym Warning: Acronym `PRG' is not defined on input line 117.
-
-
-Package acronym Warning: Acronym `PRG' is not defined on input line 119.
-
-
-Package acronym Warning: Acronym `PRG' is not defined on input line 120.
-
-
-Package acronym Warning: Acronym `PRG' is not defined on input line 129.
-
-
-Package acronym Warning: Acronym `PRG' is not defined on input line 129.
-
-
-LaTeX Warning: Reference `thm:prg-any-stretch' on page 1 undefined on input line 132.
 
 
 LaTeX Warning: File `drawings/prg-any-stretch.eps' not found on input line 137.
@@ -1233,41 +1118,11 @@ Package epstopdf Info: Source file: <drawings/prg-any-stretch.eps>
 (epstopdf)             Command: <repstopdf --outfile=drawings/prg-any-stretch-eps-converted-to.pdf drawings/prg-any-stretch.eps>
 (epstopdf)             \includegraphics on input line 137.
 Package epstopdf Info: Output file is already uptodate.
-<drawings/prg-any-stretch-eps-converted-to.pdf, id=157, 505.89pt x 108.405pt>
+<drawings/prg-any-stretch-eps-converted-to.pdf, id=385, 505.89pt x 108.405pt>
 File: drawings/prg-any-stretch-eps-converted-to.pdf Graphic file (type pdf)
 <use drawings/prg-any-stretch-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/prg-any-stretch-eps-converted-to.pdf  used on input line 137.
 (pdftex.def)             Requested size: 386.95897pt x 82.92126pt.
-
-Package acronym Warning: Acronym `PRG' is not defined on input line 138.
-
-
-Package acronym Warning: Acronym `PRG' is not defined on input line 138.
-
-
-Package acronym Warning: Acronym `PRG' is not defined on input line 138.
-
-
-Package acronym Warning: Acronym `PRG' is not defined on input line 138.
-
-
-LaTeX Warning: Reference `fig:prg-any-stretch' on page 1 undefined on input line 142.
-
-
-Package acronym Warning: Acronym `PRG' is not defined on input line 143.
-
-
-Package acronym Warning: Acronym `PRG' is not defined on input line 144.
-
-
-Package acronym Warning: Acronym `PRG' is not defined on input line 144.
-
-
-Package acronym Warning: Acronym `PRG' is not defined on input line 144.
-
-
-Package acronym Warning: Acronym `PRG' is not defined on input line 146.
-
 
 Overfull \hbox (7.68694pt too wide) in paragraph at lines 146--147
 \OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 1\OMS/cmsy/m/n/10 g[]$ \OT1/cmr/m/n/10 is our pro-posed con-struc-tion, and $\OMS/cmsy/m/n/10 H[]$ \OT1/cmr/m/n/10 takes $\OML/cmm/m/it/10 b[]; [] ; b[] \OMS/cmsy/m/n/10   [][]$\OT1/cmr/m/n/10 , $\OML/cmm/m/it/10 s[] \OMS/cmsy/m/n/10   [][]$\OT1/cmr/m/n/10 , and out-puts $(\OML/cmm/m/it/10 b[]; [] ; b[]; s[]\OT1/cmr/m/n/10 )$,
@@ -1276,357 +1131,51 @@ Overfull \hbox (7.68694pt too wide) in paragraph at lines 146--147
 
 
 [11]
-
-Package acronym Warning: Acronym `PRG' is not defined on input line 155.
-
-
-Package acronym Warning: Acronym `PPT' is not defined on input line 156.
-
-
-Package acronym Warning: Acronym `PRG' is not defined on input line 158.
-
-
-Package acronym Warning: Acronym `HCP' is not defined on input line 163.
-
-
-Package acronym Warning: Acronym `HCP' is not defined on input line 165.
-
-
-Package acronym Warning: Acronym `PPT' is not defined on input line 166.
-
-
-Package acronym Warning: Acronym `HCP' is not defined on input line 173.
-
-
-Package acronym Warning: Acronym `PPT' is not defined on input line 174.
-
-
-LaTeX Warning: Reference `def:hcp-i' on page 1 undefined on input line 198.
-
-
-LaTeX Warning: Reference `def:hcp-ii' on page 1 undefined on input line 198.
-
-
-Package acronym Warning: Acronym `OWF' is not defined on input line 202.
-
 Package acronym Info: Label `acro:HCP' newly defined as it shall be overridden
 although it is yet undefined on input line 202.
-
-Package acronym Warning: Acronym `HCP' is not defined on input line 202.
-
-
-Package acronym Warning: Acronym `HCP' is not defined on input line 202.
-
-
-Package acronym Warning: Acronym `HCP' is not defined on input line 203.
-
-
-Package acronym Warning: Acronym `OWF' is not defined on input line 203.
-
-
-Package acronym Warning: Acronym `OWF' is not defined on input line 207.
-
-
-Package acronym Warning: Acronym `OWF' is not defined on input line 207.
-
 Package acronym Info: Label `acro:GL' newly defined as it shall be overridden
 although it is yet undefined on input line 209.
-
-Package acronym Warning: Acronym `GL' is not defined on input line 209.
-
-
-Package acronym Warning: Acronym `GL' is not defined on input line 209.
-
-
-Package acronym Warning: Acronym `OWF' is not defined on input line 210.
-
-
-Package acronym Warning: Acronym `OWF' is not defined on input line 211.
-
-
-Package acronym Warning: Acronym `OWP' is not defined on input line 218.
-
 Package acronym Info: Label `acro:OWP' newly defined as it shall be overridden
 although it is yet undefined on input line 219.
-
-Package acronym Warning: Acronym `OWP' is not defined on input line 219.
-
-
-Package acronym Warning: Acronym `OWP' is not defined on input line 219.
-
-
-Package acronym Warning: Acronym `OWF' is not defined on input line 219.
-
 Package hyperref Info: bookmark level for unknown corollary defaults to 0 on input line 222.
 
-Package acronym Warning: Acronym `OWP' is not defined on input line 223.
-
-
-Package acronym Warning: Acronym `GL' is not defined on input line 223.
-
-
-Package acronym Warning: Acronym `PRG' is not defined on input line 224.
-
-
-
-
-Package acronym Warning: Acronym `HCP' is not defined on input line 225.
 
 [12 <./drawings/prg-any-stretch-eps-converted-to.pdf>]
-
-LaTeX Warning: Reference `cor:owp-hcp-prg' on page 1 undefined on input line 227.
-
-
-Package acronym Warning: Acronym `GL' is not defined on input line 239.
-
-
-Package acronym Warning: Acronym `GL' is not defined on input line 239.
-
-
-Package acronym Warning: Acronym `OWF' is not defined on input line 246.
-
-
-Package acronym Warning: Acronym `PRG' is not defined on input line 248.
-
-
-Package acronym Warning: Acronym `OWF' is not defined on input line 248.
-
-
-Overfull \hbox (31.49771pt too wide) in paragraph at lines 246--249
+Overfull \hbox (24.85905pt too wide) in paragraph at lines 246--249
 []\OT1/cmr/m/n/10 Assume in-stead $\OML/cmm/m/it/10 f$ \OT1/cmr/m/n/10 is a [][], and that is 1-to-1 (in-jec-tive). Con-sider $\OMS/cmsy/m/n/10 X \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 g[]\OT1/cmr/m/n/10 ([]) = (\OML/cmm/m/it/10 g\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; h\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; [] ; g\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; h\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x[]\OT1/cmr/m/n/10 ))$,
  []
 
 Package hyperref Info: bookmark level for unknown fact defaults to 0 on input line 251.
 )
 
-
-Package acronym Warning: Acronym `HCP' is not defined on input line 8.
-
 [13] (./ske.tex
 Chapter 3.
-
-Package acronym Warning: Acronym `SKE' is not defined on input line 2.
-
-LaTeX Font Info:    Font shape `OT1/qag/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/qag/b/n' tried instead on input line 2.
-
-Package acronym Warning: Acronym `SKE' is not defined on input line 4.
-
 Package acronym Info: Label `acro:SKE' newly defined as it shall be overridden
 although it is yet undefined on input line 5.
-
-Package acronym Warning: Acronym `SKE' is not defined on input line 5.
-
-
-Package acronym Warning: Acronym `SKE' is not defined on input line 5.
-
-
-Package acronym Warning: Acronym `SKE' is not defined on input line 16.
-
 Package acronym Info: Label `acro:PPT' overridden on input line 16.
-
-Package acronym Warning: Acronym `PPT' is not defined on input line 16.
-
-
-Package acronym Warning: Acronym `PPT' is not defined on input line 16.
-
 
 LaTeX Warning: Command \c invalid in math mode on input line 29.
 
-
-Package acronym Warning: Acronym `SKE' is not defined on input line 35.
-
-
-Package acronym Warning: Acronym `PRG' is not defined on input line 35.
-
 Package acronym Info: Label `acro:PRG' overridden on input line 36.
-
-Package acronym Warning: Acronym `PRG' is not defined on input line 36.
-
-
-Package acronym Warning: Acronym `PRG' is not defined on input line 36.
-
-
-Package acronym Warning: Acronym `PRG' is not defined on input line 42.
-
-
-Package acronym Warning: Acronym `SKE' is not defined on input line 42.
-
-
-LaTeX Warning: Reference `cons:ske-prg' on page 1 undefined on input line 42.
-
-
-LaTeX Warning: Reference `thm:ske-prg' on page 1 undefined on input line 45.
-
 Package acronym Info: Label `acro:OTP' overridden on input line 59.
-
-Package acronym Warning: Acronym `OTP' is not defined on input line 59.
-
-
-Package acronym Warning: Acronym `OTP' is not defined on input line 59.
-
 
 
 [14
 
 ]
-
-Package acronym Warning: Acronym `PPT' is not defined on input line 71.
-
-
-Package acronym Warning: Acronym `PRG' is not defined on input line 71.
-
-
-Package acronym Warning: Acronym `OTP' is not defined on input line 81.
-
-
-Package acronym Warning: Acronym `SKE' is not defined on input line 85.
-
 Package acronym Info: Label `acro:CPA' newly defined as it shall be overridden
 although it is yet undefined on input line 90.
+Package acronym Info: Label `acro:PRF' overridden on input line 90.
 
-Package acronym Warning: Acronym `CPA' is not defined on input line 90.
-
-
-Package acronym Warning: Acronym `CPA' is not defined on input line 90.
-
-Package acronym Info: Label `acro:PRF' newly defined as it shall be overridden
-although it is yet undefined on input line 90.
-
-Package acronym Warning: Acronym `PRF' is not defined on input line 90.
+Overfull \hbox (1.16542pt too wide) in paragraph at lines 92--92
+[]\OT1/cmr/bx/n/20.74 Chosen Plain-text At-tacks[] and Pseudo Ran-
+ []
 
 
-Package acronym Warning: Acronym `PRF' is not defined on input line 90.
-
-
-Package acronym Warning: Acronym `CPA' is not defined on input line 92.
-
-
-Package acronym Warning: Acronym `PRF' is not defined on input line 92.
-
-
-Package acronym Warning: Acronym `PRF' is not defined on input line 94.
-
-
-Package acronym Warning: Acronym `PRF' is not defined on input line 109.
-
-
-Package acronym Warning: Acronym `PPT' is not defined on input line 109.
-
-
-Package acronym Warning: Acronym `CPA' is not defined on input line 120.
-
-
-Package acronym Warning: Acronym `CPA' is not defined on input line 120.
-
-
-Package acronym Warning: Acronym `SKE' is not defined on input line 120.
-
-
-Package acronym Warning: Acronym `CPA' is not defined on input line 120.
-
-
-Package acronym Warning: Acronym `SKE' is not defined on input line 121.
-
-
-Package acronym Warning: Acronym `CPA' is not defined on input line 123.
-
-
-Package acronym Warning: Acronym `SKE' is not defined on input line 123.
-
-
-Package acronym Warning: Acronym `SKE' is not defined on input line 124.
-
-
-Package acronym Warning: Acronym `CPA' is not defined on input line 133.
-
-
-Package acronym Warning: Acronym `PPT' is not defined on input line 133.
-
-
-Package acronym Warning: Acronym `CPA' is not defined on input line 141.
-
-
-Package acronym Warning: Acronym `SKE' is not defined on input line 141.
-
-
-Package acronym Warning: Acronym `PRF' is not defined on input line 141.
-
-
-Package acronym Warning: Acronym `SKE' is not defined on input line 142.
-
-
-Package acronym Warning: Acronym `PRF' is not defined on input line 142.
-
-
-Package acronym Warning: Acronym `PRF' is not defined on input line 143.
-
-
-Package acronym Warning: Acronym `SKE' is not defined on input line 143.
-
-
-
-
-Package acronym Warning: Acronym `SKE' is not defined on input line 144.
-
-
-Package acronym Warning: Acronym `CPA' is not defined on input line 144.
-
-
-Package acronym Warning: Acronym `PRF' is not defined on input line 144.
 
 [15]
 
-Package acronym Warning: Acronym `CPA' is not defined on input line 152.
-
-
-Package acronym Warning: Acronym `PRF' is not defined on input line 154.
-
-
-LaTeX Warning: Reference `cons:ske-prf' on page 1 undefined on input line 154.
-
-
-Package acronym Warning: Acronym `CPA' is not defined on input line 154.
-
-
-LaTeX Warning: Reference `thm:ske-prf-cpa' on page 1 undefined on input line 157.
-
-
-Package acronym Warning: Acronym `CPA' is not defined on input line 165.
-
-
-Package acronym Warning: Acronym `PRF' is not defined on input line 176.
-
-
-Package acronym Warning: Acronym `GGM' is not defined on input line 209.
-
-
-Package acronym Warning: Acronym `PRF' is not defined on input line 210.
-
-
-Package acronym Warning: Acronym `PRG' is not defined on input line 210.
-
-
-Package acronym Warning: Acronym `PRF' is not defined on input line 214.
-
-
-Package acronym Warning: Acronym `GGM' is not defined on input line 217.
-
-
-
-
-Package acronym Warning: Acronym `SKE' is not defined on input line 218.
-
-
-Package acronym Warning: Acronym `CPA' is not defined on input line 218.
-
-
-Package acronym Warning: Acronym `PRF' is not defined on input line 218.
-
 [16]
-
-Package acronym Warning: Acronym `PRG' is not defined on input line 218.
-
 
 LaTeX Warning: File `drawings/ggm-tree.eps' not found on input line 223.
 
@@ -1637,255 +1186,36 @@ Package epstopdf Info: Source file: <drawings/ggm-tree.eps>
 (epstopdf)             Command: <repstopdf --outfile=drawings/ggm-tree-eps-converted-to.pdf drawings/ggm-tree.eps>
 (epstopdf)             \includegraphics on input line 223.
 Package epstopdf Info: Output file is already uptodate.
-<drawings/ggm-tree-eps-converted-to.pdf, id=287, 433.62pt x 252.945pt>
+<drawings/ggm-tree-eps-converted-to.pdf, id=602, 433.62pt x 252.945pt>
 File: drawings/ggm-tree-eps-converted-to.pdf Graphic file (type pdf)
 <use drawings/ggm-tree-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/ggm-tree-eps-converted-to.pdf  used on input line 223.
 (pdftex.def)             Requested size: 386.95897pt x 225.73788pt.
-
-Package acronym Warning: Acronym `GGM' is not defined on input line 224.
-
-
-Package acronym Warning: Acronym `GGM' is not defined on input line 224.
-
-
-Package acronym Warning: Acronym `PRF' is not defined on input line 228.
-
 Package acronym Info: Label `acro:GGM' newly defined as it shall be overridden
 although it is yet undefined on input line 228.
-
-Package acronym Warning: Acronym `GGM' is not defined on input line 228.
-
-
-Package acronym Warning: Acronym `GGM' is not defined on input line 228.
-
-
-LaTeX Warning: Reference `fig:ggm-tree' on page 1 undefined on input line 228.
-
-
-Package acronym Warning: Acronym `PRF' is not defined on input line 229.
-
-
-Package acronym Warning: Acronym `PRG' is not defined on input line 236.
-
-
-LaTeX Warning: Reference `lem:prg-poly-times' on page 1 undefined on input line 245.
-
-
-Package acronym Warning: Acronym `PRG' is not defined on input line 252.
-
-
-LaTeX Warning: Reference `cons:ggm-tree' on page 1 undefined on input line 258.
-
-
-Package acronym Warning: Acronym `PRF' is not defined on input line 258.
-
-
-Package acronym Warning: Acronym `GGM' is not defined on input line 259.
-
-
-Package acronym Warning: Acronym `PRF' is not defined on input line 259.
-
-
-Package acronym Warning: Acronym `GGM' is not defined on input line 260.
-
-
-Package acronym Warning: Acronym `GGM' is not defined on input line 272.
-
-
-Package acronym Warning: Acronym `PRG' is not defined on input line 275.
-
-
-Package acronym Warning: Acronym `MAC' is not defined on input line 278.
-
 Package acronym Info: Label `acro:MAC' overridden on input line 280.
 
-Package acronym Warning: Acronym `MAC' is not defined on input line 280.
-
-
-Package acronym Warning: Acronym `MAC' is not defined on input line 280.
-
-
-
-
-Package acronym Warning: Acronym `SKE' is not defined on input line 282.
-
-
-Package acronym Warning: Acronym `CPA' is not defined on input line 282.
-
-
-Package acronym Warning: Acronym `PRF' is not defined on input line 282.
 
 [17 <./drawings/ggm-tree-eps-converted-to.pdf>]
-
-Package acronym Warning: Acronym `UFCMA' is not defined on input line 282.
-
-
-Package acronym Warning: Acronym `MAC' is not defined on input line 282.
-
-
-Package acronym Warning: Acronym `MAC' is not defined on input line 283.
-
 Package acronym Info: Label `acro:UFCMA' newly defined as it shall be overridden
 although it is yet undefined on input line 289.
-
-Package acronym Warning: Acronym `UFCMA' is not defined on input line 289.
-
-
-Package acronym Warning: Acronym `UFCMA' is not defined on input line 289.
-
-
-Package acronym Warning: Acronym `PPT' is not defined on input line 289.
-
-
-Package acronym Warning: Acronym `PRF' is not defined on input line 295.
-
-
-Package acronym Warning: Acronym `MAC' is not defined on input line 295.
-
-
-Package acronym Warning: Acronym `MAC' is not defined on input line 297.
-
-
-Package acronym Warning: Acronym `PRF' is not defined on input line 297.
-
-
-Package acronym Warning: Acronym `PRF' is not defined on input line 298.
-
-
-Package acronym Warning: Acronym `PRF' is not defined on input line 303.
-
-
-Package acronym Warning: Acronym `MAC' is not defined on input line 303.
-
-
-LaTeX Warning: Reference `cons:mac-prf' on page 1 undefined on input line 303.
-
-
-Package acronym Warning: Acronym `UFCMA' is not defined on input line 303.
-
-
-LaTeX Warning: Reference `thm:mac-prf-ufcma' on page 1 undefined on input line 306.
-
-
-Package acronym Warning: Acronym `PPT' is not defined on input line 313.
-
-
-Package acronym Warning: Acronym `PRF' is not defined on input line 314.
-
 Package acronym Info: Label `acro:OWF' overridden on input line 321.
-
-Package acronym Warning: Acronym `OWF' is not defined on input line 321.
-
-
-Package acronym Warning: Acronym `OWF' is not defined on input line 321.
-
-
-Package acronym Warning: Acronym `PRG' is not defined on input line 321.
-
-
-Package acronym Warning: Acronym `PRF' is not defined on input line 321.
-
-
-Package acronym Warning: Acronym `MAC' is not defined on input line 321.
-
-
-Package acronym Warning: Acronym `PRF' is not defined on input line 326.
-
-
-Package acronym Warning: Acronym `PRF' is not defined on input line 336.
-
 Package acronym Info: Label `acro:CRH' newly defined as it shall be overridden
 although it is yet undefined on input line 337.
-
-Package acronym Warning: Acronym `CRH' is not defined on input line 337.
-
-
-Package acronym Warning: Acronym `CRH' is not defined on input line 337.
-
-
-Package acronym Warning: Acronym `UHF' is not defined on input line 340.
-
 Package acronym Info: Label `acro:UHF' newly defined as it shall be overridden
 although it is yet undefined on input line 341.
-
-Package acronym Warning: Acronym `UHF' is not defined on input line 341.
-
-
-Package acronym Warning: Acronym `UHF' is not defined on input line 341.
-
 Package acronym Info: Label `acro:PU' newly defined as it shall be overridden
 although it is yet undefined on input line 347.
-
-Package acronym Warning: Acronym `PU' is not defined on input line 347.
-
-
-Package acronym Warning: Acronym `PU' is not defined on input line 347.
-
 Package acronym Info: Label `acro:AU' newly defined as it shall be overridden
 although it is yet undefined on input line 348.
 
-Package acronym Warning: Acronym `AU' is not defined on input line 348.
-
-
-Package acronym Warning: Acronym `AU' is not defined on input line 348.
-
-
-Package acronym Warning: Acronym `UHF' is not defined on input line 352.
-
-
-Package acronym Warning: Acronym `PRF' is not defined on input line 352.
-
-
-
-
-Package acronym Warning: Acronym `SKE' is not defined on input line 353.
-
-
-Package acronym Warning: Acronym `MAC' is not defined on input line 353.
 
 [18]
-
-Package acronym Warning: Acronym `PRF' is not defined on input line 354.
-
-
-Package acronym Warning: Acronym `AU' is not defined on input line 354.
-
-
-Package acronym Warning: Acronym `PRF' is not defined on input line 358.
-
-
-LaTeX Warning: Reference `thm:uhf-prf-extension' on page 1 undefined on input line 361.
-
-
-Package acronym Warning: Acronym `UHF' is not defined on input line 396.
-
-
-Package acronym Warning: Acronym `PPT' is not defined on input line 419.
-
-
-Package acronym Warning: Acronym `PRF' is not defined on input line 424.
-
 Package acronym Info: Label `acro:CBC' newly defined as it shall be overridden
 although it is yet undefined on input line 425.
 
-Package acronym Warning: Acronym `CBC' is not defined on input line 425.
 
-
-Package acronym Warning: Acronym `CBC' is not defined on input line 425.
-
-
-Package acronym Warning: Acronym `MAC' is not defined on input line 425.
-
-
-LaTeX Warning: Reference `fig:cbc-mac' on page 1 undefined on input line 425.
-
-
-Package acronym Warning: Acronym `CBC' is not defined on input line 426.
-
-
-Package acronym Warning: Acronym `MAC' is not defined on input line 426.
-
+[19]
 
 LaTeX Warning: File `drawings/cbc-mac.eps' not found on input line 433.
 
@@ -1896,406 +1226,37 @@ Package epstopdf Info: Source file: <drawings/cbc-mac.eps>
 (epstopdf)             Command: <repstopdf --outfile=drawings/cbc-mac-eps-converted-to.pdf drawings/cbc-mac.eps>
 (epstopdf)             \includegraphics on input line 433.
 Package epstopdf Info: Output file is already uptodate.
-<drawings/cbc-mac-eps-converted-to.pdf, id=331, 289.08pt x 216.81pt>
+<drawings/cbc-mac-eps-converted-to.pdf, id=730, 289.08pt x 216.81pt>
 File: drawings/cbc-mac-eps-converted-to.pdf Graphic file (type pdf)
 <use drawings/cbc-mac-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/cbc-mac-eps-converted-to.pdf  used on input line 433.
 (pdftex.def)             Requested size: 386.95897pt x 290.23607pt.
-
-Package acronym Warning: Acronym `CBC' is not defined on input line 434.
-
-
-Package acronym Warning: Acronym `MAC' is not defined on input line 434.
-
-
-Package acronym Warning: Acronym `CBC' is not defined on input line 434.
-
-
-Package acronym Warning: Acronym `MAC' is not defined on input line 434.
-
-
-Package acronym Warning: Acronym `CBC' is not defined on input line 439.
-
-
-Package acronym Warning: Acronym `MAC' is not defined on input line 439.
-
-
-Package acronym Warning: Acronym `AU' is not defined on input line 439.
-
-
-Package acronym Warning: Acronym `PRF' is not defined on input line 439.
-
-
-
-
-Package acronym Warning: Acronym `SKE' is not defined on input line 440.
-
-[19]
-
-Package acronym Warning: Acronym `CBC' is not defined on input line 442.
-
-
-Package acronym Warning: Acronym `MAC' is not defined on input line 442.
-
-
-Package acronym Warning: Acronym `CBC' is not defined on input line 445.
-
-
-Package acronym Warning: Acronym `MAC' is not defined on input line 445.
-
-
-Package acronym Warning: Acronym `PRF' is not defined on input line 445.
-
-
-Package acronym Warning: Acronym `CBC' is not defined on input line 449.
-
-
-Package acronym Warning: Acronym `MAC' is not defined on input line 449.
-
-
-Package acronym Warning: Acronym `AU' is not defined on input line 449.
-
-
-Package acronym Warning: Acronym `CBC' is not defined on input line 452.
-
-
-Package acronym Warning: Acronym `MAC' is not defined on input line 452.
-
-
-Package acronym Warning: Acronym `MAC' is not defined on input line 454.
-
-
-Package acronym Warning: Acronym `PRF' is not defined on input line 455.
-
-
-Package acronym Warning: Acronym `PRF' is not defined on input line 455.
-
-
-Package acronym Warning: Acronym `MAC' is not defined on input line 457.
-
-
-Package acronym Warning: Acronym `PRF' is not defined on input line 462.
-
-
-Package acronym Warning: Acronym `MAC' is not defined on input line 462.
-
 Package acronym Info: Label `acro:FIL' newly defined as it shall be overridden
 although it is yet undefined on input line 462.
-
-Package acronym Warning: Acronym `FIL' is not defined on input line 462.
-
-
-Package acronym Warning: Acronym `FIL' is not defined on input line 462.
-
-
-Package acronym Warning: Acronym `FIL' is not defined on input line 462.
-
-
-Package acronym Warning: Acronym `MAC' is not defined on input line 462.
-
-
-LaTeX Warning: Reference `tab:vil-fil-mac' on page 1 undefined on input line 463.
-
-
-Package acronym Warning: Acronym `FIL' is not defined on input line 463.
-
-
-Package acronym Warning: Acronym `MAC' is not defined on input line 463.
-
 Package acronym Info: Label `acro:VIL' newly defined as it shall be overridden
 although it is yet undefined on input line 463.
 
-Package acronym Warning: Acronym `VIL' is not defined on input line 463.
-
-
-Package acronym Warning: Acronym `VIL' is not defined on input line 463.
-
-
-Package acronym Warning: Acronym `MAC' is not defined on input line 463.
-
-
-Package acronym Warning: Acronym `FIL' is not defined on input line 468.
-
-
-Package acronym Warning: Acronym `PRF' is not defined on input line 468.
-
-
-Package acronym Warning: Acronym `FIL' is not defined on input line 468.
-
-
-Package acronym Warning: Acronym `MAC' is not defined on input line 468.
-
-
-Package acronym Warning: Acronym `VIL' is not defined on input line 468.
-
-
-Package acronym Warning: Acronym `MAC' is not defined on input line 468.
-
-
-Package acronym Warning: Acronym `CBC' is not defined on input line 471.
-
-
-Package acronym Warning: Acronym `MAC' is not defined on input line 471.
-
-
-Package acronym Warning: Acronym `CBC' is not defined on input line 472.
-
-
-Package acronym Warning: Acronym `MAC' is not defined on input line 472.
-
-
-Package acronym Warning: Acronym `MAC' is not defined on input line 473.
-
-
-Package acronym Warning: Acronym `FIL' is not defined on input line 475.
-
-
-Package acronym Warning: Acronym `PRF' is not defined on input line 475.
-
-
-Package acronym Warning: Acronym `FIL' is not defined on input line 475.
-
-
-Package acronym Warning: Acronym `MAC' is not defined on input line 475.
-
-
-Package acronym Warning: Acronym `VIL' is not defined on input line 475.
-
-
-Package acronym Warning: Acronym `MAC' is not defined on input line 475.
-
-
-Package acronym Warning: Acronym `FIL' is not defined on input line 475.
-
-
-Package acronym Warning: Acronym `PRF' is not defined on input line 475.
-
-
-Package acronym Warning: Acronym `FIL' is not defined on input line 475.
-
-
-Package acronym Warning: Acronym `MAC' is not defined on input line 475.
-
-
-Package acronym Warning: Acronym `VIL' is not defined on input line 475.
-
-
-Package acronym Warning: Acronym `MAC' is not defined on input line 475.
-
-
-Package acronym Warning: Acronym `CBC' is not defined on input line 479.
-
-
-Package acronym Warning: Acronym `MAC' is not defined on input line 479.
-
-
-Package acronym Warning: Acronym `VIL' is not defined on input line 479.
-
-
-Package acronym Warning: Acronym `CCA' is not defined on input line 491.
-
-Package acronym Info: Label `acro:CCA' newly defined as it shall be overridden
-although it is yet undefined on input line 493.
-
-Package acronym Warning: Acronym `CCA' is not defined on input line 493.
-
-
-Package acronym Warning: Acronym `CCA' is not defined on input line 493.
-
-
-
-
-Package acronym Warning: Acronym `SKE' is not defined on input line 495.
 
 [20 <./drawings/cbc-mac-eps-converted-to.pdf>]
-
-Package acronym Warning: Acronym `CCA' is not defined on input line 495.
-
-
-Package acronym Warning: Acronym `SKE' is not defined on input line 496.
-
-
-Package acronym Warning: Acronym `CCA' is not defined on input line 503.
-
-
-Package acronym Warning: Acronym `PPT' is not defined on input line 503.
-
-
-Package acronym Warning: Acronym `CCA' is not defined on input line 509.
-
+Package acronym Info: Label `acro:CCA' newly defined as it shall be overridden
+although it is yet undefined on input line 493.
 Package hyperref Info: bookmark level for unknown claim defaults to 0 on input line 511.
-
-Package acronym Warning: Acronym `SKE' is not defined on input line 512.
-
-
-Package acronym Warning: Acronym `CCA' is not defined on input line 512.
-
-
-LaTeX Warning: Reference `clm:ske-cca-example' on page 1 undefined on input line 515.
-
-
-Package acronym Warning: Acronym `CPA' is not defined on input line 540.
-
 Package acronym Info: Label `acro:INT' newly defined as it shall be overridden
 although it is yet undefined on input line 540.
 
-Package acronym Warning: Acronym `INT' is not defined on input line 540.
+Overfull \hbox (4.96927pt too wide) in paragraph at lines 548--550
+\OT1/cmr/m/n/10 and the [][] $^^E[] = []$, with key space $\OMS/cmsy/m/n/10 K[]$\OT1/cmr/m/n/10 . We build the en-cryp-tion scheme $^^E[] = []$,
+ []
 
 
-Package acronym Warning: Acronym `INT' is not defined on input line 540.
-
-
-Package acronym Warning: Acronym `CPA' is not defined on input line 542.
-
-
-Package acronym Warning: Acronym `INT' is not defined on input line 542.
-
-
-Package acronym Warning: Acronym `CCA' is not defined on input line 542.
-
-
-Package acronym Warning: Acronym `CCA' is not defined on input line 542.
-
-
-Package acronym Warning: Acronym `CPA' is not defined on input line 542.
-
-
-Package acronym Warning: Acronym `CPA' is not defined on input line 544.
-
-
-Package acronym Warning: Acronym `MAC' is not defined on input line 544.
-
-
-Package acronym Warning: Acronym `CCA' is not defined on input line 544.
-
-
-Package acronym Warning: Acronym `MAC' is not defined on input line 545.
-
-
-Package acronym Warning: Acronym `MAC' is not defined on input line 547.
-
-
-Package acronym Warning: Acronym `MAC' is not defined on input line 548.
-
-
-Package acronym Warning: Acronym `CPA' is not defined on input line 557.
-
-
-Package acronym Warning: Acronym `UFCMA' is not defined on input line 557.
-
-
-Package acronym Warning: Acronym `CPA' is not defined on input line 557.
-
-
-Package acronym Warning: Acronym `INT' is not defined on input line 557.
-
-
-Package acronym Warning: Acronym `UFCMA' is not defined on input line 562.
-
-
-LaTeX Warning: Reference `thm:cpa-int-encrypted-mac' on page 1 undefined on input line 566.
-
-
-Package acronym Warning: Acronym `CPA' is not defined on input line 567.
-
-
-Package acronym Warning: Acronym `INT' is not defined on input line 567.
-
-
-Package acronym Warning: Acronym `CPA' is not defined on input line 569.
-
-
-Package acronym Warning: Acronym `CPA' is not defined on input line 569.
-
-
-Package acronym Warning: Acronym `CPA' is not defined on input line 570.
-
-
-Package acronym Warning: Acronym `CPA' is not defined on input line 570.
-
-
-
-
-Package acronym Warning: Acronym `SKE' is not defined on input line 571.
-
-
-Package acronym Warning: Acronym `CCA' is not defined on input line 571.
 
 [21]
-
-Package acronym Warning: Acronym `MAC' is not defined on input line 572.
-
-
-Package acronym Warning: Acronym `INT' is not defined on input line 576.
-
-
-Package acronym Warning: Acronym `INT' is not defined on input line 576.
-
-
-Package acronym Warning: Acronym `INT' is not defined on input line 576.
-
-
-Package acronym Warning: Acronym `INT' is not defined on input line 581.
-
-
-Package acronym Warning: Acronym `CCA' is not defined on input line 585.
-
-
-Package acronym Warning: Acronym `MAC' is not defined on input line 585.
-
-
-Package acronym Warning: Acronym `MAC' is not defined on input line 588.
-
 Package acronym Info: Label `acro:SSH' newly defined as it shall be overridden
 although it is yet undefined on input line 588.
-
-Package acronym Warning: Acronym `SSH' is not defined on input line 588.
-
-
-Package acronym Warning: Acronym `SSH' is not defined on input line 588.
-
-
-Package acronym Warning: Acronym `MAC' is not defined on input line 589.
-
 Package acronym Info: Label `acro:TLS' newly defined as it shall be overridden
 although it is yet undefined on input line 589.
-
-Package acronym Warning: Acronym `TLS' is not defined on input line 589.
-
-
-Package acronym Warning: Acronym `TLS' is not defined on input line 589.
-
-
-Package acronym Warning: Acronym `PRP' is not defined on input line 592.
-
 Package acronym Info: Label `acro:PRP' newly defined as it shall be overridden
 although it is yet undefined on input line 594.
-
-Package acronym Warning: Acronym `PRP' is not defined on input line 594.
-
-
-Package acronym Warning: Acronym `PRP' is not defined on input line 594.
-
-
-Package acronym Warning: Acronym `PRF' is not defined on input line 594.
-
-
-Package acronym Warning: Acronym `PRP' is not defined on input line 595.
-
-
-Package acronym Warning: Acronym `PRP' is not defined on input line 596.
-
-
-Package acronym Warning: Acronym `PRF' is not defined on input line 597.
-
-
-Package acronym Warning: Acronym `PRP' is not defined on input line 597.
-
-
-Package acronym Warning: Acronym `PRP' is not defined on input line 597.
-
-
-LaTeX Warning: Reference `fig:feistel' on page 1 undefined on input line 600.
 
 
 LaTeX Warning: File `drawings/feistel.eps' not found on input line 606.
@@ -2307,186 +1268,27 @@ Package epstopdf Info: Source file: <drawings/feistel.eps>
 (epstopdf)             Command: <repstopdf --outfile=drawings/feistel-eps-converted-to.pdf drawings/feistel.eps>
 (epstopdf)             \includegraphics on input line 606.
 Package epstopdf Info: Output file is already uptodate.
-<drawings/feistel-eps-converted-to.pdf, id=398, 289.08pt x 144.54pt>
+<drawings/feistel-eps-converted-to.pdf, id=890, 289.08pt x 144.54pt>
 File: drawings/feistel-eps-converted-to.pdf Graphic file (type pdf)
 <use drawings/feistel-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/feistel-eps-converted-to.pdf  used on input line 606.
 (pdftex.def)             Requested size: 386.95897pt x 193.49069pt.
 
-Package acronym Warning: Acronym `PRF' is not defined on input line 627.
-
-
-Package acronym Warning: Acronym `PRP' is not defined on input line 627.
-
-
-Package acronym Warning: Acronym `PRP' is not defined on input line 627.
-
-
-
-
-Package acronym Warning: Acronym `SKE' is not defined on input line 628.
-
-
-Package acronym Warning: Acronym `PRP' is not defined on input line 628.
 
 [22 <./drawings/feistel-eps-converted-to.pdf>]
-
-Package acronym Warning: Acronym `PRP' is not defined on input line 630.
-
-
-Package acronym Warning: Acronym `PRF' is not defined on input line 632.
-
-
-Package acronym Warning: Acronym `PRP' is not defined on input line 632.
-
-
-LaTeX Warning: Reference `thm:feistel-3-prp' on page 1 undefined on input line 640.
-
-
-Package acronym Warning: Acronym `PRF' is not defined on input line 656.
-
-
-Package acronym Warning: Acronym `PRP' is not defined on input line 683.
-
-
-Package acronym Warning: Acronym `CCA' is not defined on input line 683.
-
-
-Package acronym Warning: Acronym `PRP' is not defined on input line 689.
-
-
-Package acronym Warning: Acronym `PRP' is not defined on input line 691.
-
 Package acronym Info: Label `acro:ECB' newly defined as it shall be overridden
 although it is yet undefined on input line 693.
-
-Package acronym Warning: Acronym `ECB' is not defined on input line 693.
-
-
-Package acronym Warning: Acronym `ECB' is not defined on input line 693.
-
 Package acronym Info: Label `acro:CFB' newly defined as it shall be overridden
 although it is yet undefined on input line 696.
-
-Package acronym Warning: Acronym `CFB' is not defined on input line 696.
-
-
-Package acronym Warning: Acronym `CFB' is not defined on input line 696.
-
-
-Package acronym Warning: Acronym `CPA' is not defined on input line 697.
-
-
-Package acronym Warning: Acronym `CBC' is not defined on input line 698.
-
-
-Package acronym Warning: Acronym `CPA' is not defined on input line 699.
-
-
-Package acronym Warning: Acronym `MAC' is not defined on input line 700.
-
-
-Package acronym Warning: Acronym `CBC' is not defined on input line 700.
-
-
-Package acronym Warning: Acronym `MAC' is not defined on input line 700.
-
 Package acronym Info: Label `acro:CTR' newly defined as it shall be overridden
 although it is yet undefined on input line 701.
 
-Package acronym Warning: Acronym `CTR' is not defined on input line 701.
-
-
-Package acronym Warning: Acronym `CTR' is not defined on input line 701.
-
-
-Package acronym Warning: Acronym `PRF' is not defined on input line 707.
-
-
-Package acronym Warning: Acronym `CTR' is not defined on input line 707.
-
-
-Package acronym Warning: Acronym `CPA' is not defined on input line 707.
-
-
-Package acronym Warning: Acronym `VIL' is not defined on input line 707.
-
-
-LaTeX Warning: Reference `thm:ctr-mode-cpa-secure-vil' on page 1 undefined on input line 710.
-
-
-
-
-Package acronym Warning: Acronym `SKE' is not defined on input line 716.
-
-
-Package acronym Warning: Acronym `PRP' is not defined on input line 716.
 
 [23]
 
-Package acronym Warning: Acronym `PRF' is not defined on input line 727.
-
-
-Package acronym Warning: Acronym `PRF' is not defined on input line 728.
-
-
-Package acronym Warning: Acronym `PRF' is not defined on input line 729.
-
-
-Package acronym Warning: Acronym `OTP' is not defined on input line 736.
-
-
-Package acronym Warning: Acronym `CRH' is not defined on input line 746.
-
-
-Package acronym Warning: Acronym `PRF' is not defined on input line 748.
-
-
-Package acronym Warning: Acronym `PRF' is not defined on input line 748.
-
-
-Package acronym Warning: Acronym `PRF' is not defined on input line 748.
-
-
-Package acronym Warning: Acronym `AU' is not defined on input line 748.
-
-
-Package acronym Warning: Acronym `MAC' is not defined on input line 749.
-
-
-Package acronym Warning: Acronym `MAC' is not defined on input line 749.
-
-
-Package acronym Warning: Acronym `CRH' is not defined on input line 749.
-
-
-Package acronym Warning: Acronym `AU' is not defined on input line 753.
-
-
-Package acronym Warning: Acronym `CRH' is not defined on input line 756.
-
-
-Package acronym Warning: Acronym `CRH' is not defined on input line 763.
-
-
-Package acronym Warning: Acronym `PPT' is not defined on input line 763.
-
-
-Package acronym Warning: Acronym `CRH' is not defined on input line 769.
-
+[24]
 Package acronym Info: Label `acro:CR' newly defined as it shall be overridden
 although it is yet undefined on input line 772.
-
-Package acronym Warning: Acronym `CR' is not defined on input line 772.
-
-
-Package acronym Warning: Acronym `CR' is not defined on input line 772.
-
-
-Package acronym Warning: Acronym `MD' is not defined on input line 776.
-
-
-LaTeX Warning: Reference `fig:merkle-damgard' on page 1 undefined on input line 779.
 
 
 LaTeX Warning: File `drawings/merkle-damgard.eps' not found on input line 783.
@@ -2498,761 +1300,99 @@ Package epstopdf Info: Source file: <drawings/merkle-damgard.eps>
 (epstopdf)             Command: <repstopdf --outfile=drawings/merkle-damgard-eps-converted-to.pdf drawings/merkle-damgard.eps>
 (epstopdf)             \includegraphics on input line 783.
 Package epstopdf Info: Output file is already uptodate.
-<drawings/merkle-damgard-eps-converted-to.pdf, id=428, 397.485pt x 126.4725pt>
+<drawings/merkle-damgard-eps-converted-to.pdf, id=983, 397.485pt x 126.4725pt>
 File: drawings/merkle-damgard-eps-converted-to.pdf Graphic file (type pdf)
 <use drawings/merkle-damgard-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/merkle-damgard-eps-converted-to.pdf  used on input line 783.
 (pdftex.def)             Requested size: 386.95897pt x 123.1278pt.
-
-Package acronym Warning: Acronym `MD' is not defined on input line 784.
-
-
-Package acronym Warning: Acronym `CRH' is not defined on input line 784.
-
-
-Package acronym Warning: Acronym `MD' is not defined on input line 784.
-
-
-Package acronym Warning: Acronym `CRH' is not defined on input line 784.
-
-
-
-
-Package acronym Warning: Acronym `SKE' is not defined on input line 787.
-
-
-Package acronym Warning: Acronym `CRH' is not defined on input line 787.
-
-[24]
 Package acronym Info: Label `acro:MD' newly defined as it shall be overridden
 although it is yet undefined on input line 796.
-
-
-Package acronym Warning: Acronym `MD' is not defined on input line 796.
-
-
-Package acronym Warning: Acronym `MD' is not defined on input line 796.
-
-
-LaTeX Warning: Reference `cons:merkle-damgard' on page 1 undefined on input line 796.
-
-
-Package acronym Warning: Acronym `CRH' is not defined on input line 796.
-
-
-Package acronym Warning: Acronym `CR' is not defined on input line 796.
-
-
-LaTeX Warning: Reference `thm:merkle-damgard-crh' on page 1 undefined on input line 799.
-
-
-Package acronym Warning: Acronym `CR' is not defined on input line 801.
-
-
-Package acronym Warning: Acronym `MD' is not defined on input line 807.
-
-
-Package acronym Warning: Acronym `MD' is not defined on input line 808.
-
-
-Package acronym Warning: Acronym `MD' is not defined on input line 814.
-
-
-Package acronym Warning: Acronym `VIL' is not defined on input line 814.
-
-
-Package acronym Warning: Acronym `MD' is not defined on input line 814.
-
-
-Package acronym Warning: Acronym `MD' is not defined on input line 817.
-
-
-LaTeX Warning: Reference `cons:strengthened-merkle-damgard' on page 1 undefined on input line 817.
-
-
-Package acronym Warning: Acronym `CR' is not defined on input line 817.
-
-
-LaTeX Warning: Reference `thm:strengthened-merkle-damgard-crh' on page 1 undefined on input line 820.
-
-
-LaTeX Warning: Reference `thm:merkle-damgard-crh' on page 1 undefined on input line 824.
-
-
-Package acronym Warning: Acronym `CR' is not defined on input line 832.
-
-
-Package acronym Warning: Acronym `PRP' is not defined on input line 834.
-
-
-Package acronym Warning: Acronym `OWF' is not defined on input line 834.
-
-
-Package acronym Warning: Acronym `PRP' is not defined on input line 834.
-
-
-Package acronym Warning: Acronym `CRH' is not defined on input line 834.
-
-
-Package acronym Warning: Acronym `OWF' is not defined on input line 834.
-
-
-Package acronym Warning: Acronym `PRP' is not defined on input line 835.
-
-
-Package acronym Warning: Acronym `PRP' is not defined on input line 836.
-
-
-Package acronym Warning: Acronym `PRP' is not defined on input line 837.
-
 Package acronym Info: Label `acro:ICM' newly defined as it shall be overridden
 although it is yet undefined on input line 840.
 
-Package acronym Warning: Acronym `ICM' is not defined on input line 840.
-
-
-Package acronym Warning: Acronym `ICM' is not defined on input line 840.
-
-
-Package acronym Warning: Acronym `ICM' is not defined on input line 842.
-
-
-Package acronym Warning: Acronym `CR' is not defined on input line 847.
-
-
-Package acronym Warning: Acronym `ICM' is not defined on input line 847.
-
-
-LaTeX Warning: Reference `thm:davies-meyer-cr-icm' on page 1 undefined on input line 850.
-
-
-
-
-Package acronym Warning: Acronym `SKE' is not defined on input line 863.
-
-
-Package acronym Warning: Acronym `CRH' is not defined on input line 863.
 
 [25 <./drawings/merkle-damgard-eps-converted-to.pdf>]
-
-Package acronym Warning: Acronym `CFP' is not defined on input line 891.
-
 Package acronym Info: Label `acro:CFP' newly defined as it shall be overridden
 although it is yet undefined on input line 893.
 
-Package acronym Warning: Acronym `CFP' is not defined on input line 893.
-
-
-Package acronym Warning: Acronym `CFP' is not defined on input line 893.
-
-
-Package acronym Warning: Acronym `CFP' is not defined on input line 896.
-
-
-Package acronym Warning: Acronym `CFP' is not defined on input line 897.
-
-
-Package acronym Warning: Acronym `PPT' is not defined on input line 905.
-
-
-Package acronym Warning: Acronym `CR' is not defined on input line 911.
-
-
-Package acronym Warning: Acronym `CR' is not defined on input line 913.
-
-
-Package acronym Warning: Acronym `CFP' is not defined on input line 913.
-
-
-Package acronym Warning: Acronym `CFP' is not defined on input line 922.
-
-
-LaTeX Warning: Reference `cons:cfp-cr' on page 1 undefined on input line 922.
-
-
-LaTeX Warning: Reference `thm:cons-cfp-cr' on page 1 undefined on input line 925.
-
-
-Package acronym Warning: Acronym `CR' is not defined on input line 926.
-
-
-
-
-Package acronym Warning: Acronym `SKE' is not defined on input line 939.
-
-
-Package acronym Warning: Acronym `CFP' is not defined on input line 939.
 
 [26]
-
-Package acronym Warning: Acronym `RO' is not defined on input line 954.
-
 Package acronym Info: Label `acro:RO' newly defined as it shall be overridden
 although it is yet undefined on input line 956.
-
-Package acronym Warning: Acronym `RO' is not defined on input line 956.
-
-
-Package acronym Warning: Acronym `RO' is not defined on input line 956.
-
-
-Package acronym Warning: Acronym `RO' is not defined on input line 960.
-
-
-Package acronym Warning: Acronym `CRH' is not defined on input line 962.
-
-
-Package acronym Warning: Acronym `PRG' is not defined on input line 963.
-
-
-Package acronym Warning: Acronym `PRF' is not defined on input line 964.
-
 )
-
-
-Package acronym Warning: Acronym `SKE' is not defined on input line 13.
-
-
-Package acronym Warning: Acronym `RO' is not defined on input line 13.
 
 [27] (./number-theory.tex
 Chapter 4.
-
-LaTeX Warning: Reference `lem:gcd-invertible' on page 1 undefined on input line 13.
-
-
-LaTeX Warning: Reference `lem:euclidean-algorithm' on page 1 undefined on input line 29.
-
-
-LaTeX Warning: Reference `thm:euclidean-algorithm-poly-time' on page 1 undefined on input line 44.
-
-
-LaTeX Warning: Reference `lem:euclidean-algorithm' on page 1 undefined on input line 45.
-
 
 
 [28
 
 ]
-
-LaTeX Warning: Reference `thm:prime-number-theorem' on page 1 undefined on input line 89.
-
 Package acronym Info: Label `acro:OWF' overridden on input line 107.
-
-Package acronym Warning: Acronym `OWF' is not defined on input line 107.
-
-
-Package acronym Warning: Acronym `OWF' is not defined on input line 107.
-
 Package acronym Info: Label `acro:NIST' newly defined as it shall be overridden
 although it is yet undefined on input line 108.
-
-Package acronym Warning: Acronym `NIST' is not defined on input line 108.
-
-
-Package acronym Warning: Acronym `NIST' is not defined on input line 108.
-
-
-LaTeX Warning: Reference `thm:lagrange' on page 1 undefined on input line 146.
-
 Package acronym Info: Label `acro:DL' newly defined as it shall be overridden
 although it is yet undefined on input line 155.
-
-Package acronym Warning: Acronym `DL' is not defined on input line 155.
-
-
-Package acronym Warning: Acronym `DL' is not defined on input line 155.
-
 Package acronym Info: Label `acro:PPT' overridden on input line 155.
-
-Package acronym Warning: Acronym `PPT' is not defined on input line 155.
-
-
-Package acronym Warning: Acronym `PPT' is not defined on input line 155.
-
 
 
 [29]
 Package acronym Info: Label `acro:OWP' overridden on input line 183.
-
-
-Package acronym Warning: Acronym `OWP' is not defined on input line 183.
-
-
-Package acronym Warning: Acronym `OWP' is not defined on input line 183.
-
-
-Package acronym Warning: Acronym `CDH' is not defined on input line 185.
-
 Package acronym Info: Label `acro:CDH' newly defined as it shall be overridden
 although it is yet undefined on input line 187.
 
-Package acronym Warning: Acronym `CDH' is not defined on input line 187.
-
-
-Package acronym Warning: Acronym `CDH' is not defined on input line 187.
-
-
-Package acronym Warning: Acronym `PPT' is not defined on input line 187.
+Overfull \hbox (4.97026pt too wide) in paragraph at lines 186--188
+[]\OT1/cmr/bx/n/10 Definition 21 \OT1/cmr/m/n/10 (Com-pu-ta-tional Diffie-Hell-man[][])\OT1/cmr/bx/n/10 . []\OT1/cmr/m/n/10 In-tu-itively, given $(\OML/cmm/m/it/10 g; g[]; g[]\OT1/cmr/m/n/10 )$, it's hard to find $\OML/cmm/m/it/10 g[]$\OT1/cmr/m/n/10 . [][][][]Computational
+ []
 
 Package hyperref Info: bookmark level for unknown observation defaults to 0 on input line 200.
-
-Package acronym Warning: Acronym `CDH' is not defined on input line 201.
-
-
-Package acronym Warning: Acronym `DL' is not defined on input line 201.
-
-
-LaTeX Warning: Reference `obs:cdh-dl' on page 1 undefined on input line 204.
-
-
-Package acronym Warning: Acronym `DL' is not defined on input line 205.
-
-
-Package acronym Warning: Acronym `CDH' is not defined on input line 205.
-
-
-Package acronym Warning: Acronym `DL' is not defined on input line 208.
-
-
-Package acronym Warning: Acronym `CDH' is not defined on input line 208.
-
-
-Package acronym Warning: Acronym `DDH' is not defined on input line 210.
-
-
-Package acronym Warning: Acronym `DDH' is not defined on input line 213.
-
-
-Package acronym Warning: Acronym `DDH' is not defined on input line 213.
-
 Package acronym Info: Label `acro:DDH' newly defined as it shall be overridden
 although it is yet undefined on input line 215.
-
-Package acronym Warning: Acronym `DDH' is not defined on input line 215.
-
-
-Package acronym Warning: Acronym `DDH' is not defined on input line 215.
-
-
-Package acronym Warning: Acronym `PPT' is not defined on input line 215.
-
-
-Package acronym Warning: Acronym `CDH' is not defined on input line 229.
-
-
-Package acronym Warning: Acronym `DDH' is not defined on input line 229.
-
-
-Package acronym Warning: Acronym `DDH' is not defined on input line 230.
-
-
-Package acronym Warning: Acronym `CDH' is not defined on input line 230.
-
 Package hyperref Info: bookmark level for unknown proposition defaults to 0 on input line 233.
-
-Package acronym Warning: Acronym `DDH' is not defined on input line 234.
-
-
-LaTeX Warning: Reference `prop:ddh-not-zp' on page 1 undefined on input line 237.
-
-
-Package acronym Warning: Acronym `DDH' is not defined on input line 260.
-
-
-Package acronym Warning: Acronym `DH' is not defined on input line 263.
-
-
-Package acronym Warning: Acronym `CDH' is not defined on input line 271.
-
-
-Package acronym Warning: Acronym `DDH' is not defined on input line 272.
-
 
 
 [30]
-
-Package acronym Warning: Acronym `PRG' is not defined on input line 278.
-
-
-Package acronym Warning: Acronym `DDH' is not defined on input line 281.
-
 Package acronym Info: Label `acro:PRG' overridden on input line 285.
-
-Package acronym Warning: Acronym `PRG' is not defined on input line 285.
-
-
-Package acronym Warning: Acronym `PRG' is not defined on input line 285.
-
-
-Package acronym Warning: Acronym `PRG' is not defined on input line 287.
-
-
-Package acronym Warning: Acronym `DDH' is not defined on input line 287.
-
-
-Package acronym Warning: Acronym `DDH' is not defined on input line 288.
-
-
-Package acronym Warning: Acronym `PRG' is not defined on input line 288.
-
-
-Package acronym Warning: Acronym `DDH' is not defined on input line 300.
-
-
-LaTeX Warning: Reference `cons:ddh-prg' on page 1 undefined on input line 300.
-
-
-Package acronym Warning: Acronym `PRG' is not defined on input line 300.
-
-
-LaTeX Warning: Reference `thm:ddh-prg' on page 1 undefined on input line 303.
-
-
-Package acronym Warning: Acronym `DDH' is not defined on input line 304.
-
-
-Package acronym Warning: Acronym `PRG' is not defined on input line 304.
-
-
-Package acronym Warning: Acronym `DDH' is not defined on input line 307.
-
-
-Package acronym Warning: Acronym `DDH' is not defined on input line 308.
-
-
-Package acronym Warning: Acronym `DDH' is not defined on input line 308.
-
-
-Package acronym Warning: Acronym `DDH' is not defined on input line 316.
-
-
-Package acronym Warning: Acronym `DDH' is not defined on input line 316.
-
-
-Package acronym Warning: Acronym `PRG' is not defined on input line 335.
-
-
-Package acronym Warning: Acronym `DDH' is not defined on input line 335.
-
-
-Package acronym Warning: Acronym `PRG' is not defined on input line 335.
-
-
-Package acronym Warning: Acronym `DDH' is not defined on input line 335.
-
 Package acronym Info: Label `acro:PRF' overridden on input line 338.
-
-Package acronym Warning: Acronym `PRF' is not defined on input line 338.
-
-
-Package acronym Warning: Acronym `PRF' is not defined on input line 338.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\@acp' on input line 338.
 
-
-Package acronym Warning: Acronym `DDH' is not defined on input line 350.
-
-
-Package acronym Warning: Acronym `PRF' is not defined on input line 350.
-
 Package acronym Info: Label `acro:GGM' overridden on input line 351.
 
-Package acronym Warning: Acronym `GGM' is not defined on input line 351.
-
-
-Package acronym Warning: Acronym `GGM' is not defined on input line 351.
-
-
-Package acronym Warning: Acronym `GGM' is not defined on input line 352.
-
-
-Package acronym Warning: Acronym `CFP' is not defined on input line 354.
-
-
-Package acronym Warning: Acronym `CFP' is not defined on input line 356.
-
-
-
-
-Package acronym Warning: Acronym `DH' is not defined on input line 364.
 
 [31]
-
-Package acronym Warning: Acronym `DL' is not defined on input line 375.
-
-
-LaTeX Warning: Reference `cons:cfp-number-theory' on page 1 undefined on input line 375.
-
 Package acronym Info: Label `acro:CFP' overridden on input line 375.
-
-Package acronym Warning: Acronym `CFP' is not defined on input line 375.
-
-
-Package acronym Warning: Acronym `CFP' is not defined on input line 375.
-
-
-LaTeX Warning: Reference `thm:cfp-number-theory' on page 1 undefined on input line 378.
-
 )
-
-
-Package acronym Warning: Acronym `CFP' is not defined on input line 18.
 
 [32] (./pke.tex
 Chapter 5.
-
-Package acronym Warning: Acronym `PKE' is not defined on input line 2.
-
 Package acronym Info: Label `acro:AES' newly defined as it shall be overridden
 although it is yet undefined on input line 6.
-
-Package acronym Warning: Acronym `AES' is not defined on input line 6.
-
-
-Package acronym Warning: Acronym `AES' is not defined on input line 6.
-
-
-Package acronym Warning: Acronym `PKE' is not defined on input line 8.
-
 Package acronym Info: Label `acro:PKE' newly defined as it shall be overridden
 although it is yet undefined on input line 9.
-
-Package acronym Warning: Acronym `PKE' is not defined on input line 9.
-
-
-Package acronym Warning: Acronym `PKE' is not defined on input line 9.
-
-
-Package acronym Warning: Acronym `PKE' is not defined on input line 16.
-
 Package acronym Info: Label `acro:CPA' overridden on input line 24.
-
-Package acronym Warning: Acronym `CPA' is not defined on input line 24.
-
-
-Package acronym Warning: Acronym `CPA' is not defined on input line 24.
-
 Package acronym Info: Label `acro:CCA' overridden on input line 24.
-
-Package acronym Warning: Acronym `CCA' is not defined on input line 24.
-
-
-Package acronym Warning: Acronym `CCA' is not defined on input line 24.
-
-
-Package acronym Warning: Acronym `CCA' is not defined on input line 24.
-
-
-Package acronym Warning: Acronym `PKE' is not defined on input line 24.
-
-
-Package acronym Warning: Acronym `CPA' is not defined on input line 26.
-
-
-Package acronym Warning: Acronym `PKE' is not defined on input line 26.
-
-
-Package acronym Warning: Acronym `CCA' is not defined on input line 36.
-
-
-Package acronym Warning: Acronym `PKE' is not defined on input line 36.
-
-
-Package acronym Warning: Acronym `CCA' is not defined on input line 46.
-
-
-Package acronym Warning: Acronym `PKE' is not defined on input line 46.
-
 Package acronym Info: Label `acro:PPT' overridden on input line 56.
-
-Package acronym Warning: Acronym `PPT' is not defined on input line 56.
-
-
-Package acronym Warning: Acronym `PPT' is not defined on input line 56.
-
-
-Package acronym Warning: Acronym `CCA' is not defined on input line 61.
-
-
-Package acronym Warning: Acronym `CCA' is not defined on input line 61.
-
 
 
 [33
 
 ]
-
-Package acronym Warning: Acronym `PKE' is not defined on input line 67.
-
 Package acronym Info: Label `acro:DDH' overridden on input line 84.
-
-Package acronym Warning: Acronym `DDH' is not defined on input line 84.
-
-
-Package acronym Warning: Acronym `DDH' is not defined on input line 84.
-
-
-LaTeX Warning: Reference `cons:elgamal' on page 1 undefined on input line 84.
-
-
-Package acronym Warning: Acronym `CPA' is not defined on input line 84.
-
-
-LaTeX Warning: Reference `thm:elgamal-cpa' on page 1 undefined on input line 87.
-
-
-Package acronym Warning: Acronym `DDH' is not defined on input line 102.
-
-
-LaTeX Warning: Reference `itm:elgamal-blindness' on page 34 undefined on input line 124.
-
-
-Package acronym Warning: Acronym `CCA' is not defined on input line 124.
-
-
-LaTeX Warning: Reference `itm:elgamal-homomorphic' on page 34 undefined on input line 126.
-
-
-Package acronym Warning: Acronym `RSA' is not defined on input line 135.
-
 Package acronym Info: Label `acro:RSA' newly defined as it shall be overridden
 although it is yet undefined on input line 137.
-
-Package acronym Warning: Acronym `RSA' is not defined on input line 137.
-
-
-Package acronym Warning: Acronym `RSA' is not defined on input line 137.
-
 Package acronym Info: Label `acro:TDP' newly defined as it shall be overridden
 although it is yet undefined on input line 138.
 
-Package acronym Warning: Acronym `TDP' is not defined on input line 138.
-
-
-Package acronym Warning: Acronym `TDP' is not defined on input line 138.
-
-
-Package acronym Warning: Acronym `PKE' is not defined on input line 138.
-
-
-Package acronym Warning: Acronym `TDP' is not defined on input line 140.
-
-
-Package acronym Warning: Acronym `TDP' is not defined on input line 141.
-
-
-
-
-Package acronym Warning: Acronym `PKE' is not defined on input line 145.
-
-
-Package acronym Warning: Acronym `PKE' is not defined on input line 145.
 
 [34]
-
-Package acronym Warning: Acronym `TDP' is not defined on input line 147.
-
-
-Package acronym Warning: Acronym `PPT' is not defined on input line 153.
-
-
-Package acronym Warning: Acronym `PKE' is not defined on input line 171.
-
-
-Package acronym Warning: Acronym `PKE' is not defined on input line 175.
-
-
-Package acronym Warning: Acronym `TDP' is not defined on input line 175.
-
-
-Package acronym Warning: Acronym `TDP' is not defined on input line 186.
-
-
-Package acronym Warning: Acronym `PKE' is not defined on input line 186.
-
-
-LaTeX Warning: Reference `cons:pke-tdp-hardcore' on page 1 undefined on input line 186.
-
-
-Package acronym Warning: Acronym `CPA' is not defined on input line 186.
-
-
-LaTeX Warning: Reference `thm:gl' on page 1 undefined on input line 192.
-
-
-Package acronym Warning: Acronym `TDP' is not defined on input line 192.
-
-
-Package acronym Warning: Acronym `TDP' is not defined on input line 193.
-
-
-Package acronym Warning: Acronym `TDP' is not defined on input line 194.
-
-
-Package acronym Warning: Acronym `RSA' is not defined on input line 194.
-
 Package acronym Info: Label `acro:DL' overridden on input line 194.
-
-Package acronym Warning: Acronym `DL' is not defined on input line 194.
-
-
-Package acronym Warning: Acronym `DL' is not defined on input line 194.
-
 Package acronym Info: Label `acro:RO' overridden on input line 195.
 
-Package acronym Warning: Acronym `RO' is not defined on input line 195.
-
-
-Package acronym Warning: Acronym `RO' is not defined on input line 195.
-
-
-Package acronym Warning: Acronym `CRT' is not defined on input line 200.
-
-
-Package acronym Warning: Acronym `TDP' is not defined on input line 230.
-
-
-
-
-Package acronym Warning: Acronym `PKE' is not defined on input line 235.
-
-
-Package acronym Warning: Acronym `RSA' is not defined on input line 235.
 
 [35]
-
-Package acronym Warning: Acronym `RSA' is not defined on input line 238.
-
-
-Package acronym Warning: Acronym `PPT' is not defined on input line 238.
-
-
-Package acronym Warning: Acronym `PKE' is not defined on input line 253.
-
-
-Package acronym Warning: Acronym `RSA' is not defined on input line 256.
-
-
-Package acronym Warning: Acronym `RSA' is not defined on input line 258.
-
-
-Package acronym Warning: Acronym `RSA' is not defined on input line 259.
-
-
-Package acronym Warning: Acronym `RSA' is not defined on input line 262.
-
-
-Package acronym Warning: Acronym `CCA' is not defined on input line 265.
-
-
-Package acronym Warning: Acronym `RO' is not defined on input line 265.
-
-
-Package acronym Warning: Acronym `OAEP' is not defined on input line 267.
-
 
 LaTeX Warning: File `drawings/oaep.eps' not found on input line 270.
 
@@ -3263,1073 +1403,97 @@ Package epstopdf Info: Source file: <drawings/oaep.eps>
 (epstopdf)             Command: <repstopdf --outfile=drawings/oaep-eps-converted-to.pdf drawings/oaep.eps>
 (epstopdf)             \includegraphics on input line 270.
 Package epstopdf Info: Output file is already uptodate.
-<drawings/oaep-eps-converted-to.pdf, id=657, 303.1325pt x 289.08pt>
+<drawings/oaep-eps-converted-to.pdf, id=1373, 303.1325pt x 289.08pt>
 File: drawings/oaep-eps-converted-to.pdf Graphic file (type pdf)
 <use drawings/oaep-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/oaep-eps-converted-to.pdf  used on input line 270.
 (pdftex.def)             Requested size: 386.95897pt x 369.02866pt.
-
-Package acronym Warning: Acronym `OAEP' is not defined on input line 271.
-
-
-Package acronym Warning: Acronym `OAEP' is not defined on input line 271.
-
 Package acronym Info: Label `acro:OAEP' newly defined as it shall be overridden
 although it is yet undefined on input line 274.
 
-Package acronym Warning: Acronym `OAEP' is not defined on input line 274.
-
-
-Package acronym Warning: Acronym `OAEP' is not defined on input line 274.
-
-
-LaTeX Warning: Reference `fig:oaep' on page 1 undefined on input line 274.
-
-
-
-
-Package acronym Warning: Acronym `PKE' is not defined on input line 280.
-
-
-Package acronym Warning: Acronym `RSA' is not defined on input line 280.
 
 [36 <./drawings/oaep-eps-converted-to.pdf>]
-
-Package acronym Warning: Acronym `OAEP' is not defined on input line 286.
-
-
-LaTeX Warning: Reference `cons:oaep' on page 1 undefined on input line 286.
-
-
-Package acronym Warning: Acronym `CCA' is not defined on input line 286.
-
-
-Package acronym Warning: Acronym `RSA' is not defined on input line 286.
-
-
-Package acronym Warning: Acronym `RO' is not defined on input line 286.
-
-
-Package acronym Warning: Acronym `TDP' is not defined on input line 289.
-
-
-Package acronym Warning: Acronym `TDP' is not defined on input line 291.
-
-
-Package acronym Warning: Acronym `TDP' is not defined on input line 292.
-
 Package acronym Info: Label `acro:CRT' newly defined as it shall be overridden
 although it is yet undefined on input line 297.
-
-Package acronym Warning: Acronym `CRT' is not defined on input line 297.
-
-
-Package acronym Warning: Acronym `CRT' is not defined on input line 297.
-
-
-LaTeX Warning: Reference `thm:crt' on page 1 undefined on input line 297.
-
-
-Package acronym Warning: Acronym `TDP' is not defined on input line 314.
-
-
-LaTeX Warning: Reference `lem:factor-square' on page 1 undefined on input line 356.
-
-
-Package acronym Warning: Acronym `TDP' is not defined on input line 368.
-
-
-LaTeX Warning: Reference `thm:rabin-bloom-integers' on page 1 undefined on input line 371.
-
-
-Package acronym Warning: Acronym `CS' is not defined on input line 393.
-
-
-Package acronym Warning: Acronym `CCA' is not defined on input line 395.
-
 Package acronym Info: Label `acro:CS' newly defined as it shall be overridden
 although it is yet undefined on input line 396.
 
-Package acronym Warning: Acronym `CS' is not defined on input line 396.
-
-
-Package acronym Warning: Acronym `CS' is not defined on input line 396.
-
-
-
-
-Package acronym Warning: Acronym `PKE' is not defined on input line 398.
-
-
-Package acronym Warning: Acronym `TDP' is not defined on input line 398.
 
 [37]
 
-Package acronym Warning: Acronym `CS' is not defined on input line 398.
-
-
-Package acronym Warning: Acronym `DDH' is not defined on input line 436.
-
-
-Package acronym Warning: Acronym `CS' is not defined on input line 436.
-
-
-Package acronym Warning: Acronym `CCA' is not defined on input line 436.
-
-
-LaTeX Warning: Reference `thm:cs-lite-cca-1' on page 1 undefined on input line 439.
-
-
-Package acronym Warning: Acronym `DDH' is not defined on input line 474.
-
-
-LaTeX Warning: Reference `lem:cs-lite-cca-1' on page 1 undefined on input line 482.
-
-
-LaTeX Warning: Reference `clm:cs-lite-cca-1:additional-info' on page 1 undefined on input line 494.
-
-
-LaTeX Warning: Reference `clm:cs-lite-cca-1:additional-info' on page 1 undefined on input line 494.
-
-
-LaTeX Warning: Reference `eq:cs-lite-cca-1:x1-y1' on page 1 undefined on input line 494.
-
-
-LaTeX Warning: Reference `eq:cs-lite-cca-1:x1-y1' on page 1 undefined on input line 508.
-
-
-LaTeX Warning: Reference `eq:cs-lite-cca-1:r' on page 1 undefined on input line 508.
-
-
-
-
-Package acronym Warning: Acronym `PKE' is not defined on input line 525.
-
-
-Package acronym Warning: Acronym `CS' is not defined on input line 525.
-
 [38]
 
-LaTeX Warning: Reference `clm:cs-lite-cca-1:additional-info' on page 1 undefined on input line 545.
-
-
-LaTeX Warning: Reference `clm:cs-lite-cca-1:illegal-query' on page 1 undefined on input line 579.
-
-
-LaTeX Warning: Reference `clm:cs-lite-cca-1:additional-info' on page 1 undefined on input line 608.
-
-
-LaTeX Warning: Reference `clm:cs-lite-cca-1:illegal-query' on page 1 undefined on input line 608.
-
-
-LaTeX Warning: Reference `lem:cs-lite-cca-1' on page 1 undefined on input line 608.
-
-
-
-
-Package acronym Warning: Acronym `PKE' is not defined on input line 609.
-
-
-Package acronym Warning: Acronym `CS' is not defined on input line 609.
-
 [39]
-
-Package acronym Warning: Acronym `CCA' is not defined on input line 611.
-
-
-LaTeX Warning: Reference `eq:cs-lite-cca-1:x2-y2' on page 1 undefined on input line 616.
-
-
-Package acronym Warning: Acronym `CS' is not defined on input line 626.
-
-
-Package acronym Warning: Acronym `CS' is not defined on input line 628.
-
-
-Package acronym Warning: Acronym `CS' is not defined on input line 629.
-
-
-Package acronym Warning: Acronym `PKE' is not defined on input line 629.
-
 Package acronym Info: Label `acro:CRH' overridden on input line 635.
 
-Package acronym Warning: Acronym `CRH' is not defined on input line 635.
 
-
-Package acronym Warning: Acronym `CRH' is not defined on input line 635.
-
-
-Package acronym Warning: Acronym `CCA' is not defined on input line 674.
-
-
-Package acronym Warning: Acronym `CCA' is not defined on input line 674.
-
-
-Package acronym Warning: Acronym `CS' is not defined on input line 674.
-
-
-LaTeX Warning: Reference `thm:cs-lite-cca-1' on page 1 undefined on input line 674.
-
-
-Package acronym Warning: Acronym `CS' is not defined on input line 677.
-
-
-Package acronym Warning: Acronym `PKE' is not defined on input line 677.
-
-
-LaTeX Warning: Reference `cons:cs' on page 1 undefined on input line 677.
-
-
-Package acronym Warning: Acronym `CCA' is not defined on input line 677.
-
-
-Package acronym Warning: Acronym `DDH' is not defined on input line 677.
-
-
-LaTeX Warning: Reference `thm:cs-cca-2' on page 1 undefined on input line 680.
-
-
-Package acronym Warning: Acronym `DDH' is not defined on input line 686.
-
-
-Package acronym Warning: Acronym `DDH' is not defined on input line 686.
-
-
-
-
-Package acronym Warning: Acronym `PKE' is not defined on input line 692.
-
-
-Package acronym Warning: Acronym `CS' is not defined on input line 692.
-
-[40]
-
-Package acronym Warning: Acronym `CRH' is not defined on input line 709.
-
-)
-
-
-Package acronym Warning: Acronym `PKE' is not defined on input line 23.
-
-
-Package acronym Warning: Acronym `CS' is not defined on input line 23.
+[40])
 
 [41] (./signature-schemes.tex
 Chapter 6.
-
-Package acronym Warning: Acronym `SS' is not defined on input line 2.
-
 Package acronym Info: Label `acro:SS' newly defined as it shall be overridden
 although it is yet undefined on input line 4.
-
-Package acronym Warning: Acronym `SS' is not defined on input line 4.
-
-
-Package acronym Warning: Acronym `SS' is not defined on input line 4.
-
 Package acronym Info: Label `acro:MAC' overridden on input line 5.
-
-Package acronym Warning: Acronym `MAC' is not defined on input line 5.
-
-
-Package acronym Warning: Acronym `MAC' is not defined on input line 5.
-
-
-Package acronym Warning: Acronym `MAC' is not defined on input line 9.
-
-
-Package acronym Warning: Acronym `SS' is not defined on input line 9.
-
-
-Package acronym Warning: Acronym `SS' is not defined on input line 9.
-
-
-Package acronym Warning: Acronym `SS' is not defined on input line 10.
-
-
-Package acronym Warning: Acronym `SS' is not defined on input line 12.
-
-
-Package acronym Warning: Acronym `SS' is not defined on input line 13.
-
-
-Package acronym Warning: Acronym `UFCMA' is not defined on input line 28.
-
-
-Package acronym Warning: Acronym `SS' is not defined on input line 28.
-
 Package acronym Info: Label `acro:UFCMA' overridden on input line 35.
-
-Package acronym Warning: Acronym `UFCMA' is not defined on input line 35.
-
-
-Package acronym Warning: Acronym `UFCMA' is not defined on input line 35.
-
 Package acronym Info: Label `acro:PPT' overridden on input line 35.
-
-Package acronym Warning: Acronym `PPT' is not defined on input line 35.
-
-
-Package acronym Warning: Acronym `PPT' is not defined on input line 35.
-
 Package acronym Info: Label `acro:IBE' newly defined as it shall be overridden
 although it is yet undefined on input line 43.
-
-Package acronym Warning: Acronym `IBE' is not defined on input line 43.
-
-
-Package acronym Warning: Acronym `IBE' is not defined on input line 43.
-
 Package acronym Info: Label `acro:RSA' overridden on input line 45.
-
-Package acronym Warning: Acronym `RSA' is not defined on input line 45.
-
-
-Package acronym Warning: Acronym `RSA' is not defined on input line 45.
-
 Package acronym Info: Label `acro:RO' overridden on input line 68.
-
-Package acronym Warning: Acronym `RO' is not defined on input line 68.
-
-
-Package acronym Warning: Acronym `RO' is not defined on input line 68.
-
-
-Package acronym Warning: Acronym `SS' is not defined on input line 70.
-
-
-Package acronym Warning: Acronym `TDP' is not defined on input line 70.
-
-
-Package acronym Warning: Acronym `RO' is not defined on input line 70.
-
 Package acronym Info: Label `acro:TDP' overridden on input line 71.
-
-Package acronym Warning: Acronym `TDP' is not defined on input line 71.
-
-
-Package acronym Warning: Acronym `TDP' is not defined on input line 71.
-
-
-Package acronym Warning: Acronym `TDP' is not defined on input line 71.
-
 
 
 [42
 
 ]
-
-Package acronym Warning: Acronym `SS' is not defined on input line 81.
-
-
-LaTeX Warning: Reference `cons:ss-tdp-ro' on page 1 undefined on input line 81.
-
-
-Package acronym Warning: Acronym `UFCMA' is not defined on input line 81.
-
-
-Package acronym Warning: Acronym `RO' is not defined on input line 81.
-
-
-Package acronym Warning: Acronym `TDP' is not defined on input line 81.
-
-
-LaTeX Warning: Reference `thm:ss-tdp-ro' on page 1 undefined on input line 84.
-
-
-Package acronym Warning: Acronym `PPT' is not defined on input line 85.
-
-
-Package acronym Warning: Acronym `TDP' is not defined on input line 91.
-
-
-Package acronym Warning: Acronym `RO' is not defined on input line 96.
-
-
-Package acronym Warning: Acronym `TDP' is not defined on input line 116.
-
-
-Package acronym Warning: Acronym `TDP' is not defined on input line 118.
-
-
-Package acronym Warning: Acronym `SS' is not defined on input line 127.
-
 Package acronym Info: Label `acro:OWF' overridden on input line 127.
-
-Package acronym Warning: Acronym `OWF' is not defined on input line 127.
-
-
-Package acronym Warning: Acronym `OWF' is not defined on input line 127.
-
-
-Package acronym Warning: Acronym `WSS' is not defined on input line 131.
-
 Package acronym Info: Label `acro:CDH' overridden on input line 133.
 
-Package acronym Warning: Acronym `CDH' is not defined on input line 133.
-
-
-Package acronym Warning: Acronym `CDH' is not defined on input line 133.
-
-
-
-
-Package acronym Warning: Acronym `SS' is not defined on input line 153.
 
 [43]
-
-Package acronym Warning: Acronym `CDH' is not defined on input line 153.
-
 Package acronym Info: Label `acro:DDH' overridden on input line 154.
-
-Package acronym Warning: Acronym `DDH' is not defined on input line 154.
-
-
-Package acronym Warning: Acronym `DDH' is not defined on input line 154.
-
-
-Package acronym Warning: Acronym `WSS' is not defined on input line 157.
-
-
-Package acronym Warning: Acronym `CDH' is not defined on input line 178.
-
-
-Package acronym Warning: Acronym `CDH' is not defined on input line 182.
-
 Package acronym Info: Label `acro:WSS' newly defined as it shall be overridden
 although it is yet undefined on input line 182.
 
-Package acronym Warning: Acronym `WSS' is not defined on input line 182.
-
-
-Package acronym Warning: Acronym `WSS' is not defined on input line 182.
-
-
-Package acronym Warning: Acronym `UFCMA' is not defined on input line 182.
-
-
-LaTeX Warning: Reference `thm:waters-ss-ufcma' on page 1 undefined on input line 185.
-
-
-Package acronym Warning: Acronym `PPT' is not defined on input line 186.
-
-
-Package acronym Warning: Acronym `WSS' is not defined on input line 186.
-
-
-
-
-Package acronym Warning: Acronym `SS' is not defined on input line 218.
-
-
-Package acronym Warning: Acronym `WSS' is not defined on input line 218.
 
 [44]
 
-Package acronym Warning: Acronym `CDH' is not defined on input line 223.
-
-
-LaTeX Warning: Reference `itm:waters-ss-ufcma:not-aborting:distr' on page 45 undefined on input line 226.
-
-
-LaTeX Warning: Reference `itm:waters-ss-ufcma:not-aborting:cdh' on page 45 undefined on input line 244.
-
-
-
-
-Package acronym Warning: Acronym `SS' is not defined on input line 338.
-
-
-Package acronym Warning: Acronym `WSS' is not defined on input line 338.
-
 [45]
-
-Package acronym Warning: Acronym `CDH' is not defined on input line 341.
-
-
-Package acronym Warning: Acronym `CDH' is not defined on input line 343.
-
-
-Package acronym Warning: Acronym `WSS' is not defined on input line 343.
-
-
-Package acronym Warning: Acronym `IDS' is not defined on input line 348.
-
 Package acronym Info: Label `acro:IDS' newly defined as it shall be overridden
 although it is yet undefined on input line 350.
 
-Package acronym Warning: Acronym `IDS' is not defined on input line 350.
-
-
-Package acronym Warning: Acronym `IDS' is not defined on input line 350.
-
-
-Package acronym Warning: Acronym `PPT' is not defined on input line 350.
-
-
-Package acronym Warning: Acronym `IDS' is not defined on input line 352.
-
-
-Package acronym Warning: Acronym `IDS' is not defined on input line 353.
-
-
-Package acronym Warning: Acronym `IDS' is not defined on input line 369.
-
-
-Package acronym Warning: Acronym `PPT' is not defined on input line 376.
-
-
-Package acronym Warning: Acronym `IDS' is not defined on input line 382.
-
-
-Package acronym Warning: Acronym `SS' is not defined on input line 382.
-
-
-Package acronym Warning: Acronym `IDS' is not defined on input line 390.
-
-
-Package acronym Warning: Acronym `IDS' is not defined on input line 393.
-
-
-Package acronym Warning: Acronym `IDS' is not defined on input line 395.
-
-
-Package acronym Warning: Acronym `IDS' is not defined on input line 396.
-
-
-
-
-Package acronym Warning: Acronym `SS' is not defined on input line 401.
-
-
-Package acronym Warning: Acronym `IDS' is not defined on input line 401.
 
 [46]
-
-Package acronym Warning: Acronym `IDS' is not defined on input line 407.
-
-
-Package acronym Warning: Acronym `SS' is not defined on input line 413.
+Overfull \hbox (25.09937pt too wide) in paragraph at lines 415--417
+[]\OT1/cmr/bx/n/10 Construction 24 \OT1/cmr/m/n/10 (Fi-at-Shamir Trans-form)\OT1/cmr/bx/n/10 . []\OT1/cmr/m/n/10 Let $^^E = ([]\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 P\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 V\OT1/cmr/m/n/10 )$ be an [][]. Con-sider the [][] $^^E[] = ([]\OML/cmm/m/it/10 ; []; []\OT1/cmr/m/n/10 )$
+ []
 
 
-Package acronym Warning: Acronym `IDS' is not defined on input line 413.
-
-
-Package acronym Warning: Acronym `IDS' is not defined on input line 415.
-
-
-Package acronym Warning: Acronym `SS' is not defined on input line 416.
-
-
-LaTeX Warning: Reference `cons:fiat-shamir-transform' on page 1 undefined on input line 431.
-
-
-Package acronym Warning: Acronym `UFCMA' is not defined on input line 431.
-
-
-LaTeX Warning: Reference `thm:fiat-shamir-transform' on page 1 undefined on input line 434.
-
-
-Package acronym Warning: Acronym `PPT' is not defined on input line 435.
-
-
-Package acronym Warning: Acronym `RO' is not defined on input line 437.
-
-
-Package acronym Warning: Acronym `RO' is not defined on input line 442.
-
-
-Package acronym Warning: Acronym `RO' is not defined on input line 444.
-
-
-Package acronym Warning: Acronym `RO' is not defined on input line 451.
-
-
-Package acronym Warning: Acronym `RO' is not defined on input line 453.
-
-
-
-
-Package acronym Warning: Acronym `SS' is not defined on input line 475.
-
-
-Package acronym Warning: Acronym `IDS' is not defined on input line 475.
 
 [47]
-
-Package acronym Warning: Acronym `IDS' is not defined on input line 479.
-
-
-Package acronym Warning: Acronym `HVZK' is not defined on input line 481.
-
-
-Package acronym Warning: Acronym `IDS' is not defined on input line 482.
-
 Package acronym Info: Label `acro:HVZK' newly defined as it shall be overridden
 although it is yet undefined on input line 482.
-
-Package acronym Warning: Acronym `HVZK' is not defined on input line 482.
-
-
-Package acronym Warning: Acronym `HVZK' is not defined on input line 482.
-
-
-Package acronym Warning: Acronym `PPT' is not defined on input line 482.
-
-
-Package acronym Warning: Acronym `HVZK' is not defined on input line 498.
-
-
-Package acronym Warning: Acronym `HVZK' is not defined on input line 499.
-
-
-Package acronym Warning: Acronym `SP' is not defined on input line 502.
-
 Package acronym Info: Label `acro:SP' newly defined as it shall be overridden
 although it is yet undefined on input line 512.
-
-Package acronym Warning: Acronym `SP' is not defined on input line 512.
-
-
-Package acronym Warning: Acronym `SP' is not defined on input line 512.
-
-
-Package acronym Warning: Acronym `IDS' is not defined on input line 512.
-
-
-Package acronym Warning: Acronym `IDS' is not defined on input line 514.
-
-
-Package acronym Warning: Acronym `PPT' is not defined on input line 514.
-
-
-Package acronym Warning: Acronym `IDS' is not defined on input line 521.
-
-
-Package acronym Warning: Acronym `SP' is not defined on input line 521.
-
-
-Package acronym Warning: Acronym `HVZK' is not defined on input line 521.
-
-
-LaTeX Warning: Reference `thm:ids-sp-hvzk-passive-security' on page 1 undefined on input line 524.
-
 Package acronym Info: Label `acro:PS' newly defined as it shall be overridden
 although it is yet undefined on input line 525.
-
-Package acronym Warning: Acronym `PS' is not defined on input line 525.
-
-
-Package acronym Warning: Acronym `PS' is not defined on input line 525.
-
-
-Package acronym Warning: Acronym `SP' is not defined on input line 525.
-
-
-Package acronym Warning: Acronym `HVZK' is not defined on input line 529.
-
-
-Package acronym Warning: Acronym `PS' is not defined on input line 533.
-
-
-Package acronym Warning: Acronym `SP' is not defined on input line 533.
-
-
-Package acronym Warning: Acronym `SP' is not defined on input line 534.
-
 Package acronym Info: Label `acro:RV' overridden on input line 544.
 
-Package acronym Warning: Acronym `RV' is not defined on input line 544.
-
-
-Package acronym Warning: Acronym `RV' is not defined on input line 544.
-
-
-
-
-Package acronym Warning: Acronym `SS' is not defined on input line 576.
-
-
-Package acronym Warning: Acronym `IDS' is not defined on input line 576.
 
 [48]
-
-Package acronym Warning: Acronym `SP' is not defined on input line 577.
-
-
-Package acronym Warning: Acronym `SP' is not defined on input line 604.
-
 Package acronym Info: Label `acro:DL' overridden on input line 604.
-
-Package acronym Warning: Acronym `DL' is not defined on input line 604.
-
-
-Package acronym Warning: Acronym `DL' is not defined on input line 604.
-
-
-Package acronym Warning: Acronym `SP' is not defined on input line 605.
-
 )
-
-
-Package acronym Warning: Acronym `SS' is not defined on input line 28.
-
-
-Package acronym Warning: Acronym `IDS' is not defined on input line 28.
 
 [49]) (./acronyms.tex
 
-LaTeX Warning: Hyper reference `acro:AES' on page 50 undefined on input line 2.
-
-
-LaTeX Warning: Hyper reference `acro:AES' on page 50 undefined on input line 2.
-
-
-LaTeX Warning: Hyper reference `acro:AU' on page 50 undefined on input line 3.
-
-
-LaTeX Warning: Hyper reference `acro:AU' on page 50 undefined on input line 3.
-
-
-LaTeX Warning: Hyper reference `acro:DL' on page 50 undefined on input line 4.
-
-
-LaTeX Warning: Hyper reference `acro:DL' on page 50 undefined on input line 4.
-
-
-LaTeX Warning: Hyper reference `acro:CBC' on page 50 undefined on input line 5.
-
-
-LaTeX Warning: Hyper reference `acro:CBC' on page 50 undefined on input line 5.
-
-
-LaTeX Warning: Hyper reference `acro:CCA' on page 50 undefined on input line 6.
-
-
-LaTeX Warning: Hyper reference `acro:CCA' on page 50 undefined on input line 6.
-
-
-LaTeX Warning: Hyper reference `acro:CDH' on page 50 undefined on input line 7.
-
-
-LaTeX Warning: Hyper reference `acro:CDH' on page 50 undefined on input line 7.
-
-
-Package acronym Warning: Acronym `DH' is not defined on input line 7.
-
-
-LaTeX Warning: Hyper reference `acro:CFB' on page 50 undefined on input line 8.
-
-
-LaTeX Warning: Hyper reference `acro:CFB' on page 50 undefined on input line 8.
-
-
-LaTeX Warning: Hyper reference `acro:CFP' on page 50 undefined on input line 9.
-
-
-LaTeX Warning: Hyper reference `acro:CFP' on page 50 undefined on input line 9.
-
-
-LaTeX Warning: Hyper reference `acro:CPA' on page 50 undefined on input line 10.
-
-
-LaTeX Warning: Hyper reference `acro:CPA' on page 50 undefined on input line 10.
-
-
-LaTeX Warning: Hyper reference `acro:CR' on page 50 undefined on input line 11.
-
-
-LaTeX Warning: Hyper reference `acro:CR' on page 50 undefined on input line 11.
-
-
-LaTeX Warning: Hyper reference `acro:CRH' on page 50 undefined on input line 12.
-
-
-LaTeX Warning: Hyper reference `acro:CRH' on page 50 undefined on input line 12.
-
-
-Package acronym Warning: Acronym `CR' is not defined on input line 12.
-
-
-LaTeX Warning: Hyper reference `acro:CRT' on page 50 undefined on input line 13.
-
-
-LaTeX Warning: Hyper reference `acro:CRT' on page 50 undefined on input line 13.
-
-
-LaTeX Warning: Hyper reference `acro:CS' on page 50 undefined on input line 14.
-
-
-LaTeX Warning: Hyper reference `acro:CS' on page 50 undefined on input line 14.
-
-
-LaTeX Warning: Hyper reference `acro:CTR' on page 50 undefined on input line 15.
-
-
-LaTeX Warning: Hyper reference `acro:CTR' on page 50 undefined on input line 15.
-
-
-LaTeX Warning: Hyper reference `acro:DDH' on page 50 undefined on input line 16.
-
-
-LaTeX Warning: Hyper reference `acro:DDH' on page 50 undefined on input line 16.
-
-
-Package acronym Warning: Acronym `DH' is not defined on input line 16.
-
-
 LaTeX Warning: Hyper reference `acro:DH' on page 50 undefined on input line 17.
 
 
 LaTeX Warning: Hyper reference `acro:DH' on page 50 undefined on input line 17.
 
 
-LaTeX Warning: Hyper reference `acro:ECB' on page 50 undefined on input line 18.
 
-
-LaTeX Warning: Hyper reference `acro:ECB' on page 50 undefined on input line 18.
-
-
-LaTeX Warning: Hyper reference `acro:FIL' on page 50 undefined on input line 19.
-
-
-LaTeX Warning: Hyper reference `acro:FIL' on page 50 undefined on input line 19.
-
-
-LaTeX Warning: Hyper reference `acro:GGM' on page 50 undefined on input line 20.
-
-
-LaTeX Warning: Hyper reference `acro:GGM' on page 50 undefined on input line 20.
-
-
-LaTeX Warning: Hyper reference `acro:GL' on page 50 undefined on input line 21.
-
-
-LaTeX Warning: Hyper reference `acro:GL' on page 50 undefined on input line 21.
-
-
-LaTeX Warning: Hyper reference `acro:HCP' on page 50 undefined on input line 22.
-
-
-LaTeX Warning: Hyper reference `acro:HCP' on page 50 undefined on input line 22.
-
-
-LaTeX Warning: Hyper reference `acro:HVZK' on page 50 undefined on input line 23.
-
-
-LaTeX Warning: Hyper reference `acro:HVZK' on page 50 undefined on input line 23.
-
-
-LaTeX Warning: Hyper reference `acro:IBE' on page 50 undefined on input line 24.
-
-
-LaTeX Warning: Hyper reference `acro:IBE' on page 50 undefined on input line 24.
-
-
-LaTeX Warning: Hyper reference `acro:ICM' on page 50 undefined on input line 25.
-
-
-LaTeX Warning: Hyper reference `acro:ICM' on page 50 undefined on input line 25.
-
-
-LaTeX Warning: Hyper reference `acro:IDS' on page 50 undefined on input line 26.
-
-
-LaTeX Warning: Hyper reference `acro:IDS' on page 50 undefined on input line 26.
-
-
-LaTeX Warning: Hyper reference `acro:INT' on page 50 undefined on input line 27.
-
-
-LaTeX Warning: Hyper reference `acro:INT' on page 50 undefined on input line 27.
-
-
-LaTeX Warning: Hyper reference `acro:MAC' on page 50 undefined on input line 28.
-
-
-LaTeX Warning: Hyper reference `acro:MAC' on page 50 undefined on input line 28.
-
-
-LaTeX Warning: Hyper reference `acro:MD' on page 50 undefined on input line 29.
-
-
-LaTeX Warning: Hyper reference `acro:MD' on page 50 undefined on input line 29.
-
-
-LaTeX Warning: Hyper reference `acro:NIST' on page 50 undefined on input line 30.
-
-
-LaTeX Warning: Hyper reference `acro:NIST' on page 50 undefined on input line 30.
-
-
-LaTeX Warning: Hyper reference `acro:OAEP' on page 50 undefined on input line 31.
-
-
-LaTeX Warning: Hyper reference `acro:OAEP' on page 50 undefined on input line 31.
-
-
-LaTeX Warning: Hyper reference `acro:OTP' on page 50 undefined on input line 32.
-
-
-LaTeX Warning: Hyper reference `acro:OTP' on page 50 undefined on input line 32.
-
-
-LaTeX Warning: Hyper reference `acro:OWF' on page 50 undefined on input line 33.
-
-
-LaTeX Warning: Hyper reference `acro:OWF' on page 50 undefined on input line 33.
-
-
-LaTeX Warning: Hyper reference `acro:OWP' on page 50 undefined on input line 34.
-
-
-LaTeX Warning: Hyper reference `acro:OWP' on page 50 undefined on input line 34.
-
-
-LaTeX Warning: Hyper reference `acro:PKC' on page 50 undefined on input line 35.
-
-
-LaTeX Warning: Hyper reference `acro:PKC' on page 50 undefined on input line 35.
-
-
-LaTeX Warning: Hyper reference `acro:PKE' on page 50 undefined on input line 36.
-
-
-LaTeX Warning: Hyper reference `acro:PKE' on page 50 undefined on input line 36.
-
-
-LaTeX Warning: Hyper reference `acro:PPT' on page 50 undefined on input line 37.
-
-
-LaTeX Warning: Hyper reference `acro:PPT' on page 50 undefined on input line 37.
-
-
-LaTeX Warning: Hyper reference `acro:PRF' on page 50 undefined on input line 38.
-
-
-LaTeX Warning: Hyper reference `acro:PRF' on page 50 undefined on input line 38.
-
-
-LaTeX Warning: Hyper reference `acro:PRG' on page 50 undefined on input line 39.
-
-
-LaTeX Warning: Hyper reference `acro:PRG' on page 50 undefined on input line 39.
-
-
-LaTeX Warning: Hyper reference `acro:PRP' on page 50 undefined on input line 40.
-
-
-LaTeX Warning: Hyper reference `acro:PRP' on page 50 undefined on input line 40.
-
-
-LaTeX Warning: Hyper reference `acro:PS' on page 50 undefined on input line 41.
-
-
-LaTeX Warning: Hyper reference `acro:PS' on page 50 undefined on input line 41.
-
-
-LaTeX Warning: Hyper reference `acro:PU' on page 50 undefined on input line 42.
-
-
-LaTeX Warning: Hyper reference `acro:PU' on page 50 undefined on input line 42.
-
-
-
-
-Package acronym Warning: Acronym `SS' is not defined on input line 43.
-
-
-Package acronym Warning: Acronym `IDS' is not defined on input line 43.
-
-[50]
-
-LaTeX Warning: Hyper reference `acro:RO' on page 51 undefined on input line 43.
-
-
-LaTeX Warning: Hyper reference `acro:RO' on page 51 undefined on input line 43.
-
-
-LaTeX Warning: Hyper reference `acro:RSA' on page 51 undefined on input line 44.
-
-
-LaTeX Warning: Hyper reference `acro:RSA' on page 51 undefined on input line 44.
-
-
-LaTeX Warning: Hyper reference `acro:RV' on page 51 undefined on input line 45.
-
-
-LaTeX Warning: Hyper reference `acro:RV' on page 51 undefined on input line 45.
-
-
-LaTeX Warning: Hyper reference `acro:SKE' on page 51 undefined on input line 46.
-
-
-LaTeX Warning: Hyper reference `acro:SKE' on page 51 undefined on input line 46.
-
-
-LaTeX Warning: Hyper reference `acro:SP' on page 51 undefined on input line 47.
-
-
-LaTeX Warning: Hyper reference `acro:SP' on page 51 undefined on input line 47.
-
-
-LaTeX Warning: Hyper reference `acro:SS' on page 51 undefined on input line 48.
-
-
-LaTeX Warning: Hyper reference `acro:SS' on page 51 undefined on input line 48.
-
-
-LaTeX Warning: Hyper reference `acro:SSH' on page 51 undefined on input line 49.
-
-
-LaTeX Warning: Hyper reference `acro:SSH' on page 51 undefined on input line 49.
-
-
-LaTeX Warning: Hyper reference `acro:TDP' on page 51 undefined on input line 50.
-
-
-LaTeX Warning: Hyper reference `acro:TDP' on page 51 undefined on input line 50.
-
-
-LaTeX Warning: Hyper reference `acro:TLS' on page 51 undefined on input line 51.
-
-
-LaTeX Warning: Hyper reference `acro:TLS' on page 51 undefined on input line 51.
-
-
-LaTeX Warning: Hyper reference `acro:UFCMA' on page 51 undefined on input line 52.
-
-
-LaTeX Warning: Hyper reference `acro:UFCMA' on page 51 undefined on input line 52.
-
-
-LaTeX Warning: Hyper reference `acro:UHF' on page 51 undefined on input line 53.
-
-
-LaTeX Warning: Hyper reference `acro:UHF' on page 51 undefined on input line 53.
-
-
-LaTeX Warning: Hyper reference `acro:VIL' on page 51 undefined on input line 54.
-
-
-LaTeX Warning: Hyper reference `acro:VIL' on page 51 undefined on input line 54.
-
-
-LaTeX Warning: Hyper reference `acro:WSS' on page 51 undefined on input line 55.
-
-
-LaTeX Warning: Hyper reference `acro:WSS' on page 51 undefined on input line 55.
-
-
-Package acronym Warning: Acronym `SS' is not defined on input line 55.
-
-)
-
-
-Package acronym Warning: Acronym `SS' is not defined on input line 107.
-
-
-Package acronym Warning: Acronym `IDS' is not defined on input line 107.
+[50])
 
 [51] (./root.aux)
  ***********
@@ -4341,30 +1505,24 @@ L3 programming layer <2024-05-27>
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
-
-Package rerunfilecheck Warning: File `root.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `root.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  24C4E4BB3A3A3A1326EDA113576975A3;4215.
+Package rerunfilecheck Info: File `root.out' has not changed.
+(rerunfilecheck)             Checksum: 00F06FDDC7082657548D1D1092630A9B;6029.
  ) 
 Here is how much of TeX's memory you used:
- 32346 strings out of 473584
- 599313 string characters out of 5728329
+ 32388 strings out of 473584
+ 599863 string characters out of 5728329
  1955905 words of memory out of 5000000
- 53999 multiletter control sequences out of 15000+600000
- 581211 words of font info for 86 fonts, out of 8000000 for 9000
+ 54038 multiletter control sequences out of 15000+600000
+ 577622 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  83i,19n,93p,860b,775s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qagb.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qagr.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on root.pdf (51 pages, 880501 bytes).
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qagr.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on root.pdf (51 pages, 856785 bytes).
 PDF statistics:
- 1224 PDF objects out of 1440 (max. 8388607)
- 1090 compressed objects within 11 object streams
- 711 named destinations out of 1000 (max. 500000)
- 58 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2146 PDF objects out of 2487 (max. 8388607)
+ 1983 compressed objects within 20 object streams
+ 712 named destinations out of 1000 (max. 500000)
+ 322 words of extra memory for PDF output out of 10000 (max. 10000000)
 

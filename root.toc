@@ -15,13 +15,13 @@
 \contentsline {section}{\numberline {3.3}Domain Extension}{18}{section.3.3}%
 \contentsline {section}{\numberline {3.4}\aclp {CCA} and Authenticated Encryption}{21}{section.3.4}%
 \contentsline {section}{\numberline {3.5}\aclp {PRP}}{22}{section.3.5}%
-\contentsline {subsubsection}{Domain Extension for \aclp {PRP}}{23}{section*.61}%
+\contentsline {subsubsection}{Domain Extension for \aclp {PRP}}{24}{section*.62}%
 \contentsline {section}{\numberline {3.6}\aclp {CRH}}{24}{section.3.6}%
 \contentsline {section}{\numberline {3.7}\aclp {CFP}}{26}{section.3.7}%
 \contentsline {section}{\numberline {3.8}\acl {RO} Model}{27}{section.3.8}%
 \contentsline {chapter}{\numberline {4}Number Theory}{28}{chapter.4}%
-\contentsline {paragraph}{Assumption.}{29}{section*.79}%
-\contentsline {paragraph}{Assumption}{29}{section*.82}%
+\contentsline {paragraph}{Assumption.}{29}{section*.80}%
+\contentsline {paragraph}{Assumption}{30}{section*.83}%
 \contentsline {section}{\numberline {4.1}Elliptic Curves}{30}{section.4.1}%
 \contentsline {section}{\numberline {4.2}\acl {DH} Key Exchange}{31}{section.4.2}%
 \contentsline {section}{\numberline {4.3}\aclp {PRG}}{31}{section.4.3}%
@@ -30,10 +30,10 @@
 \contentsline {chapter}{\numberline {5}\acl {PKE}}{33}{chapter.5}%
 \contentsline {section}{\numberline {5.1}ElGamal \acs {PKE}}{34}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Factoring Assumption and \acs {RSA}}{35}{section.5.2}%
-\contentsline {paragraph}{Assumption}{36}{section*.102}%
+\contentsline {paragraph}{Assumption}{36}{section*.103}%
 \contentsline {section}{\numberline {5.3}\acl {TDP} from Factoring}{37}{section.5.3}%
 \contentsline {section}{\numberline {5.4}\acl {CS} Encryption (1998)}{38}{section.5.4}%
-\contentsline {subsubsection}{Real \acl {CS}}{40}{section*.107}%
+\contentsline {subsubsection}{Real \acl {CS}}{40}{section*.108}%
 \contentsline {chapter}{\numberline {6}\aclp {SS}}{42}{chapter.6}%
 \contentsline {section}{\numberline {6.1}\acl {WSS}}{44}{section.6.1}%
 \contentsline {section}{\numberline {6.2}\aclp {IDS}}{46}{section.6.2}%
