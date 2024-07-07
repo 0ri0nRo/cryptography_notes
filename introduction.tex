@@ -1,4 +1,4 @@
-\section{Introduction}
+\chapter{Introduction}
 
 \begin{quote}
 	\textit{Solomon,\\ I'm concerned about security; I think, when we email each other, we should use some sort of code.}
@@ -8,7 +8,7 @@ Confidentiality is our goal.
 We want to encrypt and decrypt a (plaintext)\footnote{Plaintext usually means unencrypted information pending input into cryptographic algorithms, usually encryption algorithms.} message $m$, using a key, to obtain a cyphertext $c$.
 As per Kirkoff's principle, only the key is secret.
 
-\begin{figure}
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=0.8\linewidth]{drawings/symmetric-encryption.eps}
 	\caption{Message exchange between $A$ and $B$ using symmetric encryption. $E$ is the eavesdropper.}
@@ -31,7 +31,7 @@ We expect an encryption scheme to be at least correct:
 	\forall k \in \K, \forall m \in \M . \GenericDec(k, \GenericEnc(k, m)) = m.
 \end{equation*}
 An encryption scheme is defined by three algorithms $\GenericKeyGen$, $\GenericEnc$, and $\GenericDec$, as well as a specification of a message space $\M$ with $| \M | > 1$.\footnote{If $| M | = 1$ there is only one message and there is no point in communicating, let alone encrypting.}
-\subsection{Perfect secrecy}
+\section{Perfect secrecy}
 
 Shannon defined ``perfect secrecy'', \ie the fact that the cyphertext carries no information about the plaintext.
 \begin{definition}[Perfect secrecy]\label{def:perfect-secrecy}
@@ -170,7 +170,7 @@ so:
 	We are left to show that $\Pr{M = m} = \Pr{M = m | C = c}$, but this is easy with Bayes.
 \end{proof}
 
-\subsection{\acl{OTP} (Vernam's Cipher)}
+\section{\acl{OTP} (Vernam's Cipher)}
 
 Now we'll see a perfect encryption scheme, the \ac{OTP}.
 
@@ -188,7 +188,8 @@ Now we'll see a perfect encryption scheme, the \ac{OTP}.
 \end{construction}
 Seeing that this is correct is immediate.
 
-This can actually be done in any finite abelian group $(\Group, +)$, where you just do $k + m$ to encode and $c - k$ to decode.
+This can actually be done in any finite abelian\footnote{An abelian group, also known as a commutative group, is a fundamental concept in abstract algebra where the group's binary operation (commonly denoted as \(+\) or multiplication in different contexts) is commutative. This means that the order of elements in the operation does not affect the result. Examples include additive groups of integers (\(\mathbb{Z}\)), rational numbers (\(\mathbb{Q}\)), and multiplicative groups of non-zero rational numbers (\(\mathbb{Q}^*\)), as well as matrix groups with matrix multiplication. Abelian groups play a crucial role in abstract algebra, with many theorems and concepts specifically applying to them.
+} group $(\Group, +)$, where you just do $k + m$ to encode and $c - k$ to decode.
 
 \begin{theorem} \label{thm:otp:perfect-secrecy}
 	\ac{OTP} is perfectly secure.
@@ -238,7 +239,7 @@ This can actually be done in any finite abelian group $(\Group, +)$, where you j
 
 In the rest of the course we will forget about perfect secrecy, and strive for computational security, \ie bound the computational power of the adversary.
 
-\subsection{Authentication}
+\section{Authentication}
 
 The aim of authentication is to avoid tampering of $E$ with the messages exchanged between $A$ and $B$ (\cref{fig:symmetric-authentication}).
 
@@ -406,7 +407,7 @@ Note that \cref{cons:pairwise-independent} ($h_k(m) = a m + b \mod p$) is insecu
 	Any $t$-time $2^{-\lambda}$-statistically secure \ac{MAC} has key of size $(t+1)\lambda$.
 \end{theorem}
 
-\subsection{Randomness Extraction}
+\section{Randomness Extraction}
 
 $X$ is a random source (possibly not uniform).
 $\Ext(X) = Y$ is a uniform \ac{RV}.

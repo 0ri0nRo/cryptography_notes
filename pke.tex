@@ -1,5 +1,5 @@
 
-\section{\acl{PKE}}
+\chapter{\acl{PKE}}
 
 % add drawing of PKE
 
@@ -64,7 +64,7 @@ In \ac{CCA}-1 no decryption queries can be made after receiving the cyphertext, 
 \end{equation*}
 The other way around is not true in general.
 
-\subsection{ElGamal \acs{PKE}}
+\section{ElGamal \acs{PKE}}
 
 \begin{construction}[ElGamal] \label{cons:elgamal}
 	Consider $\Pi = (\KGen, \Enc, \Dec)$, where:
@@ -132,7 +132,7 @@ If you are in a group, it suffices to have addition and multiplication.
 You could build a client/server architecture, where the client $C$ wants to compute $f(x)$ without sharing $x$.
 Then $C$ computes $c = \mathrm{FHECPK}(x)$, sends $c,f$ to the server $S$, and obtains $c' = \mathrm{FHCPK}(f(x))$.
 
-\subsection{Factoring Assumption and \acs{RSA}}
+\section{Factoring Assumption and \acs{RSA}}
 
 The factoring assumption will lead us to \ac{RSA}.
 But first, we introduce \acp{TDP}, which can give us \ac{PKE}.
@@ -286,7 +286,7 @@ It's proven to be \ac{CCA}-secure in the \ac{RO} model.
 	\ac{OAEP} (\cref{cons:oaep}) is \ac{CCA}-2 secure under \ac{RSA} in the \ac{RO} model.
 \end{theorem}
 
-\subsection{\acl{TDP} from Factoring}
+\section{\acl{TDP} from Factoring}
 
 Let's see how to build a \ac{TDP} from factoring.
 We've seen that $f_e(x) = x^e \mod n$ is a \ac{TDP}.
@@ -390,7 +390,7 @@ With $p, q$ you can invert $f_{\mathrm{RABIN}}(x) = x^2 = y \mod n$, without the
 	If $z \neq \pm x$, which happens with probability $\frac{1}{2}$, $\Adv^1$ can factor $n$, with probability $\frac{1}{2} \cdot \frac{1}{p(\lambda)}$.
 \end{proof}
 
-\subsection{\acl{CS} Encryption (1998)}
+\section{\acl{CS} Encryption (1998)}
 
 We will build a simplified version that is \ac{CCA}-1.
 We call it \ac{CS} lite.

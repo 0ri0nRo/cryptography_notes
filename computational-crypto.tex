@@ -1,4 +1,4 @@
-\section{Computational Cryptography}
+\chapter{Computational Cryptography}
 
 
 To introduce computational cryptography we first have to define a computational model.
@@ -10,7 +10,7 @@ A function $\epsilon : \NaturalsZ \to \Reals$ is negligible if $\forall c > 0 . 
 We rely on computational assumptions, \ie in tasks believed to be hard for any efficient adversary.
 In this setting we make conditional statements, \ie if a certain assumption holds then a certain crypto-scheme is secure.
 
-\subsection{\aclp{OWF}}
+\section{\aclp{OWF}}
 
 A simple computational assumption is the existence of \acp{OWF}, \ie functions for which is hard to compute the inverse.
 
@@ -46,7 +46,7 @@ Two examples:
 	This is hard to compute in some groups, \eg $\IntegersPrimeGroup$.
 \end{itemize}
 
-\subsection{Computational Indistinguishability}
+\section{Computational Indistinguishability}
 
 \begin{definition}[Distribution Ensemble]
 	A distribution ensemble $\X = \{ X_n \}_{n \in \NaturalsZ}$ is a sequence of distributions $X_i$ over some space $\{0,1\}^{\lambda}$.
@@ -111,7 +111,7 @@ Now we show that computational indistinguishability is transitive.
 
 We often prove $\X \CompInd \Y$ by defining a sequence $\H_0, \H_1, \dots, \H_t$ of distributions ensembles such that $\H_0 \equiv \X$ and $\H_t \equiv \Y$, and that for all $i$, $\H_i \CompInd \H_{i+1}$.
 
-\subsection{\aclp{PRG}}
+\section{\aclp{PRG}}
 
 Let's see our first cryptographic primitive.
 \acp{PRG} take in input a random seed and generate pseudo random sequences with some stretch, \ie output longer than input, and indistinguishable from a true random sequence.
@@ -160,7 +160,7 @@ Let's see our first cryptographic primitive.
 	Thus, $\H_{i}^{\lambda} \CompInd \H_{i+1}^{\lambda}$.
 \end{proof}
 
-\subsection{\aclp{HCP}}
+\section{\aclp{HCP}}
 
 \begin{definition}[\acl{HCP} - I] \label{def:hcp-i}
 	A polynomial time function $h : \{0,1\}^{n} \to \{0,1\}$ is \emph{hard core} for $f : \{0,1\}^{n} \to \{0,1\}^{n}$ if for all \ac{PPT} adversaries $\Adv$

@@ -1,4 +1,4 @@
-\documentclass{article}
+\documentclass{book}
 \usepackage{graphicx}
 \usepackage[a4paper, left=2cm, right=2cm, top=2.5cm, bottom=2cm]{geometry}
 \usepackage[english]{babel}
@@ -13,7 +13,6 @@
 \usepackage{footnote}
 \usepackage{tgadventor}
 \usepackage{titling}
-\usepackage{graphicx}
 \usepackage{tcolorbox}
 \usepackage{multirow}
 \usepackage{booktabs}
@@ -24,10 +23,30 @@
 \usepackage{amsfonts}
 \usepackage{mdframed}
 \usepackage{amssymb}
+\usepackage{titlesec}
+
+% Elimina le pagine vuote
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd{\cleardoublepage}{\hbox{}}{}{}{}
+\patchcmd{\cleardoublepage}{\thispagestyle{empty}}{}{}{}
+\makeatletter
+
+\newcommand{\chapternumberbox}[1]{%
+  \colorbox{gray!50}{%
+    \parbox[c][3cm][c]{3cm}{%
+      \centering\Huge\sffamily #1
+    }%
+  }
+}
+\titleformat{\chapter}[display]
+  {\normalfont\sffamily\LARGE}
+  {\chapternumberbox{\thechapter}}
+  {0pt}
+  {\Huge}
+
 \input{setup.tex}
 \input{macro.tex}
-
-
 
 \setlength{\droptitle}{-5em}   % regola la posizione del titolo
 \pretitle{\begin{center}\LARGE}   % imposta la dimensione della font del titolo
@@ -42,19 +61,16 @@
 \author{}
 \date{\today}
 
-
 \begin{document}
+\raggedbottom % evita spazi verticali extra
+
 \pagestyle{fancy}
 \fancyhf{}
-%\rhead{\thepage}
-%\lhead{\rightmark}
 \rfoot{\thepage}
 \lhead{\quad \leftmark}
 \rhead{ \quad \rightmark}
 
 \renewcommand{\headrulewidth}{0.2pt}
-
-
 
 \begin{titlepage}
     \begin{figure}[t]
@@ -69,25 +85,10 @@
     \end{center}
     \vfill\null
     \renewcommand{\abstractname}{Disclaimer}
-
-    
-    
-    \begin{abstract}  
-    
-    \hrulefill\\
-
-    	Notes taken during the Cryptography lectures held by Daniele Venturi (\url{http://danieleventuri.altervista.org/crypto.shtml}) in fall 2016 at Sapienza.\\
-    \textbf{Note: It is strictly prohibited to sell this material in any form without my consent.} \\
-
-    \hrulefill
-    \end{abstract}
   \end{titlepage}
 
-
-\pagebreak
 \tableofcontents
 
-\pagebreak
 \input{content.tex}
 \input{acronyms.tex}
 

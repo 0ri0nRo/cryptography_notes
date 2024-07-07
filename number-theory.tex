@@ -1,5 +1,5 @@
 
-\section{Number Theory}
+\chapter{Number Theory}
 
 We use modular arithmetic, with modulus some $n$, in $(\Integers_n, +, \cdot)$.
 
@@ -164,7 +164,7 @@ The \ac{DL} problem, that is finding $x$ given $g^x \in \Group$, is hard, \ie fo
 	\le \epsilon(\lambda).
 \end{equation*} 
 
-\subsection{Elliptic Curves}
+\section{Elliptic Curves}
 
 $\Group$ is a group of points over some cubic curve modulo $p$, \ie
 \begin{equation*}
@@ -260,7 +260,7 @@ This result can be improved by returning 0 if and only if $g^x$, $g^y$ and $g^z$
 If we take $\Group = \QR$, with $q = \frac{p-1}{2}$, and where both $q$ and $p$ are prime (Sophie Germain primes), maybe \ac{DDH} holds there.
 This is not always true.
 
-\subsection{\acl{DH} Key Exchange}
+\section{\acl{DH} Key Exchange}
 
 Take $\GroupGen$.
 Alice samples $x \rand{\Integers_q}$, and sends $\X = g^x$ to Bob.
@@ -275,7 +275,7 @@ This is not secure against man in the middle attacks.
 Authentication would be needed, an initial fixed key.
 % add drawing of man in the middle attack here
 
-\subsection{\aclp{PRG}}
+\section{\aclp{PRG}}
 
 $\GroupGen$, $x,y \rand{\Integers_q}$.
 From \ac{DDH} we know that
@@ -335,7 +335,7 @@ so we have a \ac{PRG} $G_{g,q} : \Integers_q^2 \to \Group^3$.
 	So breaking the \ac{PRG} is equivalent to breaking \ac{DDH}, since $\Adv_{\text{DDH}}$ can perfectly simulate the \ac{PRG}, query $\Adv_{\text{PRG}}$ and break \ac{DDH}.
 \end{proof}
 
-\subsection{\acp{PRF}: Naor-Reingold}
+\section{\acp{PRF}: Naor-Reingold}
 
 \begin{construction}[Naor-Reingold]
 	$\GroupGen$.
@@ -351,7 +351,7 @@ so we have a \ac{PRG} $G_{g,q} : \Integers_q^2 \to \Group^3$.
 The proof can be sketched in a similar way as the proof for \ac{GGM}.
 Note that this is like an optimised version of \ac{GGM}.
 
-\subsection{Number Theoretic \acl{CFP}}
+\section{Number Theoretic \acl{CFP}}
 
 \begin{construction}[Number Theoretic \acs{CFP}] \label{cons:cfp-number-theory}
 	\begin{enumerate}

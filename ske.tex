@@ -1,5 +1,5 @@
 
-\section{\acl{SKE} Schemes}
+\chapter{\acl{SKE} Schemes}
 
 \begin{definition}[\acl{SKE} scheme]
 	We call $\SKESchemeTuple$ a \ac{SKE} scheme.
@@ -89,7 +89,7 @@ This scheme is not secure if the adversary knows a $(m_1, c_1)$ pair, and we reu
 Take any $m, c$, then $c \xor c_1 = m \xor m_1$, and you can find $m$.
 This is called a \ac{CPA}, something we will defined shortly using a \ac{PRF}.
 
-\subsection{\aclp{CPA} and \aclp{PRF}}
+\section{\aclp{CPA} and \aclp{PRF}}
 
 \begin{definition}[\acl{PRF}]
 	Let $\F = \{ F_k : \{0,1\}^{n} \to \{0,1\}^{l} \}$ be a family of functions, for $k \in \{0,1\}^{\lambda}$.
@@ -275,7 +275,7 @@ Our construction is both one time computationally secure, and secure against \ac
 	Assume now that exists an adversary $\Adv$ capable of telling apart $\H_{i}(\lambda)$ from $\H_{i+1}(\lambda)$, we could break the \ac{PRG}.
 \end{proof}
 
-\subsection{Computationally Secure \acsp{MAC}}
+\section{Computationally Secure \acsp{MAC}}
 
 A computationally secure \ac{MAC} should be hard to forge, even if you see polynomially many authenticated messages.
 
@@ -320,7 +320,7 @@ As a matter of fact, any \ac{PRF} is a \ac{MAC}.
 
 Up to this point we have shown that \ac{OWF}, \ac{PRG}, \ac{PRF} and \ac{MAC} are all in Minicrypt.
 
-\subsection{Domain Extension}
+\section{Domain Extension}
 
 We look now at domain extension.
 Suppose we have a \ac{PRF} family $\F = \{ F_k : \{0,1\}^{n} \to \{0,1\}^{l}\}$ as above, and we have a message $m = m_1 || \dots || m_t$, with $m_i \in \{0,1\}^{n}$, and with $t$ being the number of blocks of $m$.
@@ -488,7 +488,7 @@ We could then take $m_2 = m_1 || \phi_1 \xor m_1$, and $\phi_1$ would be a valid
 	\text{CBC-MAC}(m_2) = F_k(m_1 \xor \phi_1 \xor F_k(m_1)) = F_k(m_1 \xor \cancel \phi_1 \xor \cancel \phi_1) = F_k(m_1) = \phi_1.
 \end{equation*}
 
-\subsection{\aclp{CCA} and Authenticated Encryption}
+\section{\aclp{CCA} and Authenticated Encryption}
 
 In \ac{CCA} security, the adversary is allowed to choose the cyphertext, and to see its decryption.
 
@@ -589,7 +589,7 @@ Other approaches don't work in general:
 	\item \ac{MAC}-then-Encrypt, which is what \ac{TLS} does, \ie $\phi \from \GenericMac(k_s, m)$ and $c \from \SKEEnc(k_c, m || \phi)$.
 \end{itemize}
 
-\subsection{\aclp{PRP}}
+\section{\aclp{PRP}}
 
 Block cyphers are \acp{PRP}, a function family that is a \ac{PRF} but also a permutation.
 A \ac{PRP} family cannot be distinguished from a true permutation.
@@ -743,7 +743,7 @@ Assume we have a message $m = m_1 || \dots || m_t$, with $m_i \in \{0,1\}^{n}$, 
 	Then, $\Pr{E_i} = \frac{2t - 1}{2^n}$, and $\Pr{E} \le q \frac{2t - 1}{2^n}$, which is negligible.
 \end{proof}
 
-\subsection{\aclp{CRH}}
+\section{\aclp{CRH}}
 
 When we saw domain extensions for \acp{PRF}, we showed that $\F(\H)$ is a \ac{PRF} if $\F$ is a \ac{PRF} and $\H$ is \ac{AU}.
 This doesn't work for \acp{MAC}: to extend the domain of a \ac{MAC} we need \acp{CRH}.
@@ -888,7 +888,7 @@ On later query $(s_1,x_i)$, pick $y_i \rand{\{0,1\}^{n} \setminus \bigcup_{j=1}^
 	$H_3 \CompInd H_4$, and we're done.
 \end{proof}
 
-\subsection{\aclp{CFP}}
+\section{\aclp{CFP}}
 
 We introduce a new assumption: \acp{CFP}.
 A claw is a pair of functions $(f_1, f_0)$ and two values $(x_1,x_0)$ such that $f_1(x_1) = f_0(x_0)$, with $f_1 \neq f_0$.
@@ -951,7 +951,7 @@ We can now define a \ac{CR} compression function.
 	\end{enumerate}
 \end{proof}
 
-\subsection{\acl{RO} Model}
+\section{\acl{RO} Model}
 
 The \ac{RO} is an ideal hash function.
 The only way to compute the hash is to query the oracle.
