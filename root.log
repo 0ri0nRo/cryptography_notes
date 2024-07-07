@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.7.6)  6 JUL 2024 18:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.7.6)  7 JUL 2024 12:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/alex/Desktop/Cybersecurity/Primo Anno/Criptography/main/notes/root"
-(/Users/alex/Desktop/Cybersecurity/Primo Anno/Criptography/main/notes/root.tex
+**"/Users/alex/Desktop/Cybersecurity/Primo Anno/Criptography/cryptography_notes/root"
+(/Users/alex/Desktop/Cybersecurity/Primo Anno/Criptography/cryptography_notes/root.tex
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
 (/usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls
@@ -936,55 +936,55 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
 l.86 \input
            {content.tex} [1] (./content.tex (./introduction.tex
 
-LaTeX Warning: File `drawings/symmetric-encryption.eps' not found on input line 11.
+LaTeX Warning: File `drawings/symmetric-encryption.eps' not found on input line 13.
 
 Package epstopdf Info: Source file: <drawings/symmetric-encryption.eps>
 (epstopdf)             Output file: <drawings/symmetric-encryption-eps-converted-to.pdf>
 (epstopdf)                    date: 2024-07-06 16:28:11
 (epstopdf)                    size: 8566 bytes
 (epstopdf)             Command: <repstopdf --outfile=drawings/symmetric-encryption-eps-converted-to.pdf drawings/symmetric-encryption.eps>
-(epstopdf)             \includegraphics on input line 11.
+(epstopdf)             \includegraphics on input line 13.
 Package epstopdf Info: Output file is already uptodate.
 <drawings/symmetric-encryption-eps-converted-to.pdf, id=215, 469.755pt x 108.405pt>
 File: drawings/symmetric-encryption-eps-converted-to.pdf Graphic file (type pdf)
 <use drawings/symmetric-encryption-eps-converted-to.pdf>
-Package pdftex.def Info: drawings/symmetric-encryption-eps-converted-to.pdf  used on input line 11.
+Package pdftex.def Info: drawings/symmetric-encryption-eps-converted-to.pdf  used on input line 13.
 (pdftex.def)             Requested size: 386.95897pt x 89.29793pt.
-Package hyperref Info: bookmark level for unknown definition defaults to 0 on input line 35.
+Package hyperref Info: bookmark level for unknown definition defaults to 0 on input line 37.
 Package acronym Info: Label `acro:RV' newly defined as it shall be overridden
-although it is yet undefined on input line 36.
-Package hyperref Info: bookmark level for unknown theorem defaults to 0 on input line 46.
+although it is yet undefined on input line 38.
+Package hyperref Info: bookmark level for unknown theorem defaults to 0 on input line 48.
 
 
 [2 <./drawings/symmetric-encryption-eps-converted-to.pdf>]
 Package acronym Info: Label `acro:OTP' newly defined as it shall be overridden
-although it is yet undefined on input line 119.
-Package hyperref Info: bookmark level for unknown construction defaults to 0 on input line 121.
+although it is yet undefined on input line 131.
+Package hyperref Info: bookmark level for unknown construction defaults to 0 on input line 133.
 
 
-[3{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+[3]
 
-LaTeX Warning: File `drawings/symmetric-authentication.eps' not found on input line 188.
+LaTeX Warning: File `drawings/symmetric-authentication.eps' not found on input line 200.
 
 Package epstopdf Info: Source file: <drawings/symmetric-authentication.eps>
 (epstopdf)             Output file: <drawings/symmetric-authentication-eps-converted-to.pdf>
 (epstopdf)                    date: 2024-07-06 16:28:11
 (epstopdf)                    size: 14387 bytes
 (epstopdf)             Command: <repstopdf --outfile=drawings/symmetric-authentication-eps-converted-to.pdf drawings/symmetric-authentication.eps>
-(epstopdf)             \includegraphics on input line 188.
+(epstopdf)             \includegraphics on input line 200.
 Package epstopdf Info: Output file is already uptodate.
-<drawings/symmetric-authentication-eps-converted-to.pdf, id=284, 469.755pt x 108.405pt>
+<drawings/symmetric-authentication-eps-converted-to.pdf, id=286, 469.755pt x 108.405pt>
 File: drawings/symmetric-authentication-eps-converted-to.pdf Graphic file (type pdf)
 <use drawings/symmetric-authentication-eps-converted-to.pdf>
-Package pdftex.def Info: drawings/symmetric-authentication-eps-converted-to.pdf  used on input line 188.
+Package pdftex.def Info: drawings/symmetric-authentication-eps-converted-to.pdf  used on input line 200.
 (pdftex.def)             Requested size: 386.95897pt x 89.29793pt.
 Package acronym Info: Label `acro:MAC' newly defined as it shall be overridden
-although it is yet undefined on input line 193.
+although it is yet undefined on input line 205.
 
 
-[4 <./drawings/symmetric-authentication-eps-converted-to.pdf>]
+[4{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 
-[5])
+[5 <./drawings/symmetric-authentication-eps-converted-to.pdf>])
 
 [6] (./computational-crypto.tex
 Package acronym Info: Label `acro:PPT' newly defined as it shall be overridden
@@ -1010,7 +1010,7 @@ Package epstopdf Info: Source file: <drawings/prg-any-stretch.eps>
 (epstopdf)             Command: <repstopdf --outfile=drawings/prg-any-stretch-eps-converted-to.pdf drawings/prg-any-stretch.eps>
 (epstopdf)             \includegraphics on input line 137.
 Package epstopdf Info: Output file is already uptodate.
-<drawings/prg-any-stretch-eps-converted-to.pdf, id=381, 505.89pt x 108.405pt>
+<drawings/prg-any-stretch-eps-converted-to.pdf, id=391, 505.89pt x 108.405pt>
 File: drawings/prg-any-stretch-eps-converted-to.pdf Graphic file (type pdf)
 <use drawings/prg-any-stretch-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/prg-any-stretch-eps-converted-to.pdf  used on input line 137.
@@ -1072,7 +1072,7 @@ Package epstopdf Info: Source file: <drawings/ggm-tree.eps>
 (epstopdf)             Command: <repstopdf --outfile=drawings/ggm-tree-eps-converted-to.pdf drawings/ggm-tree.eps>
 (epstopdf)             \includegraphics on input line 223.
 Package epstopdf Info: Output file is already uptodate.
-<drawings/ggm-tree-eps-converted-to.pdf, id=570, 433.62pt x 252.945pt>
+<drawings/ggm-tree-eps-converted-to.pdf, id=580, 433.62pt x 252.945pt>
 File: drawings/ggm-tree-eps-converted-to.pdf Graphic file (type pdf)
 <use drawings/ggm-tree-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/ggm-tree-eps-converted-to.pdf  used on input line 223.
@@ -1113,7 +1113,7 @@ Package epstopdf Info: Source file: <drawings/cbc-mac.eps>
 (epstopdf)             Command: <repstopdf --outfile=drawings/cbc-mac-eps-converted-to.pdf drawings/cbc-mac.eps>
 (epstopdf)             \includegraphics on input line 433.
 Package epstopdf Info: Output file is already uptodate.
-<drawings/cbc-mac-eps-converted-to.pdf, id=700, 289.08pt x 216.81pt>
+<drawings/cbc-mac-eps-converted-to.pdf, id=710, 289.08pt x 216.81pt>
 File: drawings/cbc-mac-eps-converted-to.pdf Graphic file (type pdf)
 <use drawings/cbc-mac-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/cbc-mac-eps-converted-to.pdf  used on input line 433.
@@ -1158,7 +1158,7 @@ Package epstopdf Info: Source file: <drawings/feistel.eps>
 (epstopdf)             Command: <repstopdf --outfile=drawings/feistel-eps-converted-to.pdf drawings/feistel.eps>
 (epstopdf)             \includegraphics on input line 606.
 Package epstopdf Info: Output file is already uptodate.
-<drawings/feistel-eps-converted-to.pdf, id=879, 289.08pt x 144.54pt>
+<drawings/feistel-eps-converted-to.pdf, id=889, 289.08pt x 144.54pt>
 File: drawings/feistel-eps-converted-to.pdf Graphic file (type pdf)
 <use drawings/feistel-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/feistel-eps-converted-to.pdf  used on input line 606.
@@ -1188,7 +1188,7 @@ Package epstopdf Info: Source file: <drawings/merkle-damgard.eps>
 (epstopdf)             Command: <repstopdf --outfile=drawings/merkle-damgard-eps-converted-to.pdf drawings/merkle-damgard.eps>
 (epstopdf)             \includegraphics on input line 783.
 Package epstopdf Info: Output file is already uptodate.
-<drawings/merkle-damgard-eps-converted-to.pdf, id=957, 397.485pt x 126.4725pt>
+<drawings/merkle-damgard-eps-converted-to.pdf, id=967, 397.485pt x 126.4725pt>
 File: drawings/merkle-damgard-eps-converted-to.pdf Graphic file (type pdf)
 <use drawings/merkle-damgard-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/merkle-damgard-eps-converted-to.pdf  used on input line 783.
@@ -1285,7 +1285,7 @@ Package epstopdf Info: Source file: <drawings/oaep.eps>
 (epstopdf)             Command: <repstopdf --outfile=drawings/oaep-eps-converted-to.pdf drawings/oaep.eps>
 (epstopdf)             \includegraphics on input line 270.
 Package epstopdf Info: Output file is already uptodate.
-<drawings/oaep-eps-converted-to.pdf, id=1358, 303.1325pt x 289.08pt>
+<drawings/oaep-eps-converted-to.pdf, id=1368, 303.1325pt x 289.08pt>
 File: drawings/oaep-eps-converted-to.pdf Graphic file (type pdf)
 <use drawings/oaep-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/oaep-eps-converted-to.pdf  used on input line 270.
@@ -1386,31 +1386,22 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-
-Package rerunfilecheck Warning: File `root.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `root.out':
-(rerunfilecheck)             Before: 0EA782A4CCC0269409F70035EA8BE1EF;6492
-(rerunfilecheck)             After:  91378C7FFF0175A985E9DC78726D749E;6482.
+Package rerunfilecheck Info: File `root.out' has not changed.
+(rerunfilecheck)             Checksum: 91378C7FFF0175A985E9DC78726D749E;6482.
  ) 
 Here is how much of TeX's memory you used:
- 31324 strings out of 473584
- 577762 string characters out of 5728329
+ 31338 strings out of 473584
+ 577945 string characters out of 5728329
  1954905 words of memory out of 5000000
- 53020 multiletter control sequences out of 15000+600000
- 567155 words of font info for 70 fonts, out of 8000000 for 9000
+ 53028 multiletter control sequences out of 15000+600000
+ 568698 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,19n,93p,635b,754s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{subsubsection.1.1.1} has been referenced but does not exist, replaced by a fixed one
-
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on root.pdf (48 pages, 813764 bytes).
+ 83i,19n,93p,643b,769s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on root.pdf (48 pages, 855770 bytes).
 PDF statistics:
- 2117 PDF objects out of 2487 (max. 8388607)
- 1961 compressed objects within 20 object streams
- 703 named destinations out of 1000 (max. 500000)
+ 2143 PDF objects out of 2487 (max. 8388607)
+ 1979 compressed objects within 20 object streams
+ 705 named destinations out of 1000 (max. 500000)
  338 words of extra memory for PDF output out of 10000 (max. 10000000)
 

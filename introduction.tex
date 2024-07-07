@@ -1,6 +1,8 @@
 \section{Introduction}
 
-\text{Solomon,\\ I'm concerned about security; I think, when we email each other, we should use some sort of code.}
+\begin{quote}
+	\textit{Solomon,\\ I'm concerned about security; I think, when we email each other, we should use some sort of code.}
+\end{quote}
 
 Confidentiality is our goal.
 We want to encrypt and decrypt a (plaintext) message $m$, using a key, to obtain a cyphertext $c$.
@@ -21,14 +23,14 @@ $A$ and $B$, the actors of our communication exchange (\cref{fig:symmetric-encry
 The elements of our encryption scheme play the following roles:
 \begin{enumerate}
 	\item $\GenericKeyGen$ outputs a random key from the key space $\K$, and we write this as $k \rand{\GenericKeyGen}$;
-	\item $\GenericEnc : \K \times \M \to \C$ is the encryption function, mapping a key and a message to a cyphertext;
+	\item $\GenericEnc : \K \times \M \to \C$ is the encryption function, mapping a key and a message to a cyphertext\footnote{In cryptography, ciphertext or cyphertext is the result of encryption performed on plaintext using an algorithm, called a cipher. Ciphertext is also known as encrypted or encoded information because it contains a form of the original plaintext that is unreadable by a human or computer without the proper cipher to decrypt it.};
 	\item $\GenericDec : \K \times \C \to \M$ is the decryption function, mapping a key and a cyphertext to a message.
 \end{enumerate}
 We expect an encryption scheme to be at least correct:
 \begin{equation*}
 	\forall k \in \K, \forall m \in \M . \GenericDec(k, \GenericEnc(k, m)) = m.
 \end{equation*}
-
+An encryption scheme is defined by three algorithms $\GenericKeyGen$, $\GenericEnc$, and $\GenericDec$, as well as a specification of a message space $\M$ with $| \M | > 1$.\footnote{If $| M | = 1$ there is only one message and there is no point in communicating, let alone encrypting.}
 \subsection{Perfect secrecy}
 
 Shannon defined ``perfect secrecy'', \ie the fact that the cyphertext carries no information about the plaintext.
@@ -46,9 +48,13 @@ We have equivalent definitions for perfect secrecy.
 \begin{theorem}\label{thm:perfect-secrecy:equivalent-definitions}
 	The following definitions are equivalent:
 	\begin{enumerate}
-		\item \label{itm:thm:perfect-secrecy:original} \cref{def:perfect-secrecy};
+		\item \label{itm:thm:perfect-secrecy:original} \cref{def:perfect-secrecy}:
+		\begin{equation*}
+			\Pr{M = m} = \Pr{M = m | C = c}
+		\end{equation*}
 		\item \label{itm:thm:perfect-secrecy:independent} $M$ and $C$ are independent;
-		\item \label{itm:thm:perfect-secrecy:invariant} $\forall m, m' \in \M, \forall c \in \C$
+		\item \label{itm:thm:perfect-secrecy:invariant}
+		$\forall m, m' \in \M, \forall c \in \C \quad \footnote{The encryption algorithm may be probabilistic, so that $\GenericEnc(m)$ might output a different ciphertext when run multiple times. To emphasize this, we write $c \leftarrow \GenericEnc(m)$ to denote the possibly probabilistic process by which message $m$ is encrypted using key $k$ to give ciphertext $c$.}:$
 			\begin{equation*}
 				\Pr{\GenericEnc(k,m) = c} = \Pr{\GenericEnc(k,m') = c}
 			\end{equation*}
@@ -70,7 +76,6 @@ We have equivalent definitions for perfect secrecy.
 	which is the definition of independence.
 
 	Now we show that \ref{itm:thm:perfect-secrecy:independent} implies \ref{itm:thm:perfect-secrecy:invariant}.
-	Fix $m \in \M$ and $c \in \C$.
 	\begin{align*}
 		\Pr{\GenericEnc(k, m) = c} 
 		& =
@@ -86,8 +91,15 @@ We have equivalent definitions for perfect secrecy.
 	\end{equation*}
 	which gives us \ref{itm:thm:perfect-secrecy:invariant}.
 
-	Now we want to show that \ref{itm:thm:perfect-secrecy:invariant} implies \ref{itm:thm:perfect-secrecy:original}.
-	Take any $c \in \C$.
+	Now we want to show that \ref{itm:thm:perfect-secrecy:invariant} implies \ref{itm:thm:perfect-secrecy:original}. Assume that the encryption scheme is perfectly secret and fix messages $m$, $m\prime$ $\in \M$ and a ciphertext $c \in \C$. Take any $c \in \C$. By \ref{itm:thm:perfect-secrecy:independent} we have:
+
+	\begin{equation*}
+		\Pr {C = c | M = m} = \Pr {C = c} = \Pr {C = c | M = m'}.
+	\end{equation*}
+
+	completing the proof of the first direction.
+	Assume next that for every distribution over $\M$, every $m$, $m\prime \in \M$, and every $c \in \C$ it holds that $\Pr {C = c | M = m} = \Pr {C = c | M = m\prime}$. Fix some distribution over $\M$, and an arbitrary $m \in \M$ and $c \in \C$. Define $p \stackrel{\text{def}}{=}$ $\Pr {C = c | M = m}$. Since $\Pr {C = c | M = m} = \Pr {C = c | M = m'} = p$ for all $m$, we have:
+
 	\begin{align*}
 		\Pr{C = c}
 		& =
