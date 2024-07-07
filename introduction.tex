@@ -178,7 +178,7 @@ Now we'll see a perfect encryption scheme, the \ac{OTP}.
 	
 	\begin{itemize}
 		\item Fix an integer $l$ $>$ 0. Then the message space $\M$, key space $\K$, and ciphertext space $\C$ are all equal to $\{0, 1\}^l$ (i.e., the set of all binary strings of length $l$);
-		\item The key-generation algorithm $\GenericKeyGen$ works by choosing a string from $\K = \{0, 1\}^l$ according to the uniform distribution (i.e., each of the $2^l$ strings in the space is chosen as the key with probability exactly $2^{-l}$). Generate a random key $k \leftarrow \{0,1\}^l$;
+		\item The key-generation algorithm $\GenericKeyGen$ works by choosing a string from $\K = \{0, 1\}^l$ according to the uniform distribution (i.e., each of the $2^l$ strings in the space is chosen as the key with probability exactly $2^{-l}$). Generate a random key $k \overset{\$}{\leftarrow} \{0,1\}^l$;
 		\item $\GenericEnc$: to encrypt the message \( m \in \{0, 1\}^l \), we define:
 		\begin{equation*}
 			c = \text{Enc}(m) = k \oplus m
