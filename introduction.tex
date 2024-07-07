@@ -191,6 +191,8 @@ Seeing that this is correct is immediate.
 This can actually be done in any finite abelian\footnote{An abelian group, also known as a commutative group, is a fundamental concept in abstract algebra where the group's binary operation (commonly denoted as \(+\) or multiplication in different contexts) is commutative. This means that the order of elements in the operation does not affect the result. Examples include additive groups of integers (\(\mathbb{Z}\)), rational numbers (\(\mathbb{Q}\)), and multiplicative groups of non-zero rational numbers (\(\mathbb{Q}^*\)), as well as matrix groups with matrix multiplication. Abelian groups play a crucial role in abstract algebra, with many theorems and concepts specifically applying to them.
 } group $(\Group, +)$, where you just do $k + m$ to encode and $c - k$ to decode.
 
+\pagebreak
+
 \begin{theorem} \label{thm:otp:perfect-secrecy}
 	\ac{OTP} is perfectly secure.
 \end{theorem}
@@ -213,7 +215,7 @@ This can actually be done in any finite abelian\footnote{An abelian group, also 
 			c' = k + m'
 		\end{array}
 		\implies
-		c - c' = m - m'
+		k = c - m = c' - m'
 		\implies
 		m' = m - (c - c').
 	\end{equation*}
