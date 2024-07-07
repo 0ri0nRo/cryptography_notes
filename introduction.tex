@@ -67,7 +67,7 @@ It is sufficient to show that $(1) \Rightarrow (2) \Rightarrow (3) \Rightarrow (
 
 
 
-\begin{tcolorbox}[colframe=black, colback=white, sharp corners]
+\begin{tcolorbox}[colframe=black, colback=sfondo_gray, sharp corners]
 	
 We can express the relationship between joint and marginal densities through the concept of \textit{conditional discrete density}. The probability of event $\mathcal{E}_1$ conditional on event $\mathcal{E}_2$ is the probability that event $\mathcal{E}_1$ occurs given that $\mathcal{E}_2$ occurs. For example, returning to the example of the die, the probability of getting a $\spadesuit$ knowing that the result of the roll will be $\spadesuit$ or $\heartsuit$ is $1/3$. Formally, we have:
 
@@ -154,28 +154,47 @@ Switching to densities, given two random variables $X \in \mathcal{X}$ and $Y \i
 	We are left to show that $\Pr{M = m} = \Pr{M = m | C = c}$, but this is easy with Bayes.
 \end{proof}
 
+
+\begin{theorem}(Shannon Theorem)
+	Let $|\M| = |\K| = |\C|$. A cipher has perfect secrecy if and only if:
+	\begin{enumerate}[label=(\roman*)]
+		\item Each key $k \in \K$ is chosen uniformly with probability $\frac{1}{|\K|}$;
+		\item For every message $m \in \M$ and every ciphertext $c \in \C$, there exists one and only one key $k$ such that $c = \GenericKeyGen(m)$.
+	\end{enumerate}
+\end{theorem}
+
 \section{\acl{OTP} (Vernam's Cipher)}
 
 Now we'll see a perfect encryption scheme, the \ac{OTP}.
 
+
+
+\begin{tcolorbox}[colframe=black, colback=sfondo_gray, sharp corners]
+
 \begin{construction}[\acl{OTP}]
 	The message space, the cyphertext space, and the key space are all the same, \ie $\M = \K = \C = \{0,1\}^{l}$, with $l \in \Naturals$.
 
-	The one-time pad encryption scheme is defined as follows:
+	The \acl{OTP} encryption scheme by Vernam is defined as follows:
 	
 	\begin{itemize}
 		\item Fix an integer $l$ $>$ 0. Then the message space $\M$, key space $\K$, and ciphertext space $\C$ are all equal to $\{0, 1\}^l$ (i.e., the set of all binary strings of length $l$);
-		\item The key-generation algorithm $\GenericKeyGen$ works by choosing a string from $\K = \{0, 1\}^l$ according to the uniform distribution (i.e., each of the $2^l$ strings in the space is chosen as the key with probability exactly $2^{-l}$);
-		\item $\OTPEnc(k,m) = k \xor m = c$;
-		\item $\OTPDec(k,c) = c \xor k = (k \xor m) \xor k = m$;
+		\item The key-generation algorithm $\GenericKeyGen$ works by choosing a string from $\K = \{0, 1\}^l$ according to the uniform distribution (i.e., each of the $2^l$ strings in the space is chosen as the key with probability exactly $2^{-l}$). Generate a random key $k \leftarrow \{0,1\}^l$;
+		\item $\GenericEnc$: to encrypt the message \( m \in \{0, 1\}^l \), we define:
+		\begin{equation*}
+			c = \text{Enc}(m) = k \oplus m
+		\end{equation*}
+		\item $\GenericDec$: To decrypt the ciphertext $c \in \{0, 1\}^l$ with key $k$ compute:
+		\begin{equation*}
+			m = \text{Dec}(c) = c \oplus k
+		\end{equation*}
 	\end{itemize}
 \end{construction}
+\end{tcolorbox}
 Seeing that this is correct is immediate.
 
 This can actually be done in any finite abelian\footnote{An abelian group, also known as a commutative group, is a fundamental concept in abstract algebra where the group's binary operation (commonly denoted as \(+\) or multiplication in different contexts) is commutative. This means that the order of elements in the operation does not affect the result. Examples include additive groups of integers (\(\mathbb{Z}\)), rational numbers (\(\mathbb{Q}\)), and multiplicative groups of non-zero rational numbers (\(\mathbb{Q}^*\)), as well as matrix groups with matrix multiplication. Abelian groups play a crucial role in abstract algebra, with many theorems and concepts specifically applying to them.
 } group $(\Group, +)$, where you just do $k + m$ to encode and $c - k$ to decode.
 
-\pagebreak
 
 \begin{theorem} \label{thm:otp:perfect-secrecy}
 	\ac{OTP} is perfectly secure.
