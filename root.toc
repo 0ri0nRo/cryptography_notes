@@ -1,39 +1,39 @@
 \babel@toc {english}{}\relax 
 \contentsline {section}{\numberline {1}Introduction}{2}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Perfect secrecy}{2}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}\acl {OTP}}{4}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Authentication}{4}{subsection.1.3}%
-\contentsline {subsection}{\numberline {1.4}Randomness Extraction}{6}{subsection.1.4}%
-\contentsline {section}{\numberline {2}Computational Cryptography}{7}{section.2}%
-\contentsline {subsection}{\numberline {2.1}\aclp {OWF}}{7}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Computational Indistinguishability}{7}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}\aclp {PRG}}{8}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}\aclp {HCP}}{9}{subsection.2.4}%
-\contentsline {section}{\numberline {3}\acl {SKE} Schemes}{10}{section.3}%
-\contentsline {subsection}{\numberline {3.1}\aclp {CPA} and \aclp {PRF}}{11}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Computationally Secure \acsp {MAC}}{13}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Domain Extension}{14}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}\aclp {CCA} and Authenticated Encryption}{16}{subsection.3.4}%
-\contentsline {subsection}{\numberline {3.5}\aclp {PRP}}{18}{subsection.3.5}%
-\contentsline {subsubsection}{\numberline {3.5.1}Domain Extension for \aclp {PRP}}{19}{subsubsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.6}\aclp {CRH}}{20}{subsection.3.6}%
-\contentsline {subsection}{\numberline {3.7}\aclp {CFP}}{22}{subsection.3.7}%
-\contentsline {subsection}{\numberline {3.8}\acl {RO} Model}{23}{subsection.3.8}%
-\contentsline {section}{\numberline {4}Number Theory}{24}{section.4}%
-\contentsline {paragraph}{Assumption.}{25}{section*.79}%
-\contentsline {paragraph}{Assumption}{25}{section*.82}%
-\contentsline {subsection}{\numberline {4.1}Elliptic Curves}{25}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}\acl {DH} Key Exchange}{26}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}\aclp {PRG}}{27}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}\acp {PRF}: Naor-Reingold}{27}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}Number Theoretic \acl {CFP}}{27}{subsection.4.5}%
-\contentsline {section}{\numberline {5}\acl {PKE}}{29}{section.5}%
-\contentsline {subsection}{\numberline {5.1}ElGamal \acs {PKE}}{30}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Factoring Assumption and \acs {RSA}}{30}{subsection.5.2}%
-\contentsline {paragraph}{Assumption}{31}{section*.102}%
-\contentsline {subsection}{\numberline {5.3}\acl {TDP} from Factoring}{32}{subsection.5.3}%
-\contentsline {subsection}{\numberline {5.4}\acl {CS} Encryption (1998)}{33}{subsection.5.4}%
-\contentsline {subsubsection}{\numberline {5.4.1}Real \acl {CS}}{36}{subsubsection.5.4.1}%
-\contentsline {section}{\numberline {6}\aclp {SS}}{38}{section.6}%
-\contentsline {subsection}{\numberline {6.1}\acl {WSS}}{39}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}\aclp {IDS}}{42}{subsection.6.2}%
+\contentsline {subsection}{\numberline {1.2}\acl {OTP} (Vernam's Cipher)}{4}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Authentication}{5}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Randomness Extraction}{7}{subsection.1.4}%
+\contentsline {section}{\numberline {2}Computational Cryptography}{8}{section.2}%
+\contentsline {subsection}{\numberline {2.1}\aclp {OWF}}{8}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Computational Indistinguishability}{8}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}\aclp {PRG}}{9}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}\aclp {HCP}}{10}{subsection.2.4}%
+\contentsline {section}{\numberline {3}\acl {SKE} Schemes}{11}{section.3}%
+\contentsline {subsection}{\numberline {3.1}\aclp {CPA} and \aclp {PRF}}{12}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Computationally Secure \acsp {MAC}}{14}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Domain Extension}{15}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}\aclp {CCA} and Authenticated Encryption}{17}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}\aclp {PRP}}{19}{subsection.3.5}%
+\contentsline {subsubsection}{\numberline {3.5.1}Domain Extension for \aclp {PRP}}{20}{subsubsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.6}\aclp {CRH}}{21}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}\aclp {CFP}}{23}{subsection.3.7}%
+\contentsline {subsection}{\numberline {3.8}\acl {RO} Model}{24}{subsection.3.8}%
+\contentsline {section}{\numberline {4}Number Theory}{25}{section.4}%
+\contentsline {paragraph}{Assumption.}{26}{section*.79}%
+\contentsline {paragraph}{Assumption}{26}{section*.82}%
+\contentsline {subsection}{\numberline {4.1}Elliptic Curves}{26}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}\acl {DH} Key Exchange}{27}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}\aclp {PRG}}{28}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}\acp {PRF}: Naor-Reingold}{28}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Number Theoretic \acl {CFP}}{28}{subsection.4.5}%
+\contentsline {section}{\numberline {5}\acl {PKE}}{30}{section.5}%
+\contentsline {subsection}{\numberline {5.1}ElGamal \acs {PKE}}{31}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Factoring Assumption and \acs {RSA}}{31}{subsection.5.2}%
+\contentsline {paragraph}{Assumption}{32}{section*.102}%
+\contentsline {subsection}{\numberline {5.3}\acl {TDP} from Factoring}{33}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}\acl {CS} Encryption (1998)}{34}{subsection.5.4}%
+\contentsline {subsubsection}{\numberline {5.4.1}Real \acl {CS}}{37}{subsubsection.5.4.1}%
+\contentsline {section}{\numberline {6}\aclp {SS}}{39}{section.6}%
+\contentsline {subsection}{\numberline {6.1}\acl {WSS}}{40}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}\aclp {IDS}}{43}{subsection.6.2}%

@@ -5,7 +5,7 @@
 \end{quote}
 
 Confidentiality is our goal.
-We want to encrypt and decrypt a (plaintext) message $m$, using a key, to obtain a cyphertext $c$.
+We want to encrypt and decrypt a (plaintext)\footnote{Plaintext usually means unencrypted information pending input into cryptographic algorithms, usually encryption algorithms.} message $m$, using a key, to obtain a cyphertext $c$.
 As per Kirkoff's principle, only the key is secret.
 
 \begin{figure}
@@ -62,6 +62,50 @@ We have equivalent definitions for perfect secrecy.
 	\end{enumerate}
 \end{theorem}
 
+
+\begin{tcolorbox}[colframe=black, colback=white, sharp corners]
+We know that:
+	\begin{equation*}
+		\Pr {A \cap B} = \Pr {A \mid B} \cdot \Pr {B}
+	\end{equation*}
+so:
+	\begin{equation*}
+			\Pr{A|B} = \frac{\Pr{A}}{\Pr{B}}
+	\end{equation*}
+	
+\begin{proof}
+	
+	Bayes' Theorem can be derived from the definition of conditional probability. By definition, the conditional probability of \(A\) given \(B\) is:
+	\begin{equation*}
+		\Pr{A|B} = \frac {\Pr{A \cap B}}{\Pr{B}}
+	\end{equation*}
+	
+	Similarly, the conditional probability of \(B\) given \(A\) is:
+	\begin{equation*}
+		\Pr{B|A} = \frac{\Pr{A \cap B}}{\Pr{A}}
+	\end{equation*}
+	
+	Solving for \(\Pr{A \cap B}\) in both equations, we get:
+	\begin{equation*}
+		\Pr{A \cap B} = \Pr{A|B} \Pr{B}
+	\end{equation*}
+	\begin{equation*}
+		\Pr{A \cap B} = \Pr{B|A} \Pr{A}
+	\end{equation*}
+	
+	Since \(\Pr{A \cap B}\) is the same in both equations, we can set them equal to each other:
+	\begin{equation*}
+		\Pr{A|B} \Pr{B} = \Pr{B|A} \Pr{A}
+	\end{equation*}
+	
+	Solving for \(\Pr{A|B}\), we obtain Bayes' Theorem:
+	\begin{equation*}
+		\Pr{A|B} = \frac{\Pr{B|A} \Pr{A}}{\Pr{B}}
+	\end{equation*}
+\end{proof}
+\end{tcolorbox}
+
+
 \begin{proof}[Proof of \cref{thm:perfect-secrecy:equivalent-definitions}]
 	First, we show that \ref{itm:thm:perfect-secrecy:original} implies \ref{itm:thm:perfect-secrecy:independent}.
 	\begin{align*}
@@ -73,7 +117,7 @@ We have equivalent definitions for perfect secrecy.
 		& =
 		\Pr{M = m \land C = c}
 	\end{align*}
-	which is the definition of independence.
+	which is the definition of independence \footnote{In the context of probability theory: Both \( \land \) and \( \cap \) serve the purpose of indicating the intersection of events. The choice between \( \land \) and \( \cap \) may vary based on personal preference or the context in which it's used, but they convey the same meaning in probability theory.}.
 
 	Now we show that \ref{itm:thm:perfect-secrecy:independent} implies \ref{itm:thm:perfect-secrecy:invariant}.
 	\begin{align*}
@@ -126,17 +170,20 @@ We have equivalent definitions for perfect secrecy.
 	We are left to show that $\Pr{M = m} = \Pr{M = m | C = c}$, but this is easy with Bayes.
 \end{proof}
 
-\subsection{\acl{OTP}}
+\subsection{\acl{OTP} (Vernam's Cipher)}
 
 Now we'll see a perfect encryption scheme, the \ac{OTP}.
 
 \begin{construction}[\acl{OTP}]
 	The message space, the cyphertext space, and the key space are all the same, \ie $\M = \K = \C = \{0,1\}^{l}$, with $l \in \Naturals$.
 
-	Encryption and decryption use the xor operation:
+	The one-time pad encryption scheme is defined as follows:
+	
 	\begin{itemize}
+		\item Fix an integer $l$ $>$ 0. Then the message space $\M$, key space $\K$, and ciphertext space $\C$ are all equal to $\{0, 1\}^l$ (i.e., the set of all binary strings of length $l$);
+		\item The key-generation algorithm $\GenericKeyGen$ works by choosing a string from $\K = \{0, 1\}^l$ according to the uniform distribution (i.e., each of the $2^l$ strings in the space is chosen as the key with probability exactly $2^{-l}$);
 		\item $\OTPEnc(k,m) = k \xor m = c$;
-		\item $\OTPDec(k,c) = c \xor k = (k \xor m) \xor k = m$.
+		\item $\OTPDec(k,c) = c \xor k = (k \xor m) \xor k = m$;
 	\end{itemize}
 \end{construction}
 Seeing that this is correct is immediate.
