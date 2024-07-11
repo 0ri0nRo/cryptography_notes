@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.7.6)  7 JUL 2024 19:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.7.6)  11 JUL 2024 09:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -753,6 +753,45 @@ File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
 Package zref Info: New property: mdf@pagevalue on input line 895.
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/tocloft/tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 51.
+\cftparskip=\skip148
+\cftbeforetoctitleskip=\skip149
+\cftaftertoctitleskip=\skip150
+\cftbeforepartskip=\skip151
+\cftpartnumwidth=\skip152
+\cftpartindent=\skip153
+\cftbeforechapskip=\skip154
+\cftchapindent=\skip155
+\cftchapnumwidth=\skip156
+\cftbeforesecskip=\skip157
+\cftsecindent=\skip158
+\cftsecnumwidth=\skip159
+\cftbeforesubsecskip=\skip160
+\cftsubsecindent=\skip161
+\cftsubsecnumwidth=\skip162
+\cftbeforesubsubsecskip=\skip163
+\cftsubsubsecindent=\skip164
+\cftsubsubsecnumwidth=\skip165
+\cftbeforeparaskip=\skip166
+\cftparaindent=\skip167
+\cftparanumwidth=\skip168
+\cftbeforesubparaskip=\skip169
+\cftsubparaindent=\skip170
+\cftsubparanumwidth=\skip171
+\cftbeforeloftitleskip=\skip172
+\cftafterloftitleskip=\skip173
+\cftbeforefigskip=\skip174
+\cftfigindent=\skip175
+\cftfignumwidth=\skip176
+\c@lofdepth=\count354
+\c@lotdepth=\count355
+\cftbeforelottitleskip=\skip177
+\cftafterlottitleskip=\skip178
+\cftbeforetabskip=\skip179
+\cfttabindent=\skip180
+\cfttabnumwidth=\skip181
 ) (./setup.tex (/usr/local/texlive/2024/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
 \thm@style=\toks44
@@ -760,14 +799,14 @@ Package: amsthm 2020/05/29 v2.20.6
 \thm@headfont=\toks46
 \thm@notefont=\toks47
 \thm@headpunct=\toks48
-\thm@preskip=\skip148
-\thm@postskip=\skip149
-\thm@headsep=\skip150
+\thm@preskip=\skip182
+\thm@postskip=\skip183
+\thm@headsep=\skip184
 \dth@everypar=\toks49
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/thmtools/thmtools.sty
 Package: thmtools 2023/05/04 v0.76
 \thmt@toks=\toks50
-\c@thmt@dummyctr=\count354
+\c@thmt@dummyctr=\count356
  (/usr/local/texlive/2024/texmf-dist/tex/latex/thmtools/thm-patch.sty
 Package: thm-patch 2023/05/04 v0.76
  (/usr/local/texlive/2024/texmf-dist/tex/latex/thmtools/parseargs.sty
@@ -793,8 +832,8 @@ Package: acronym 2020/04/17 v1.47 Support for acronyms (Tobias Oetiker)
  (/usr/local/texlive/2024/texmf-dist/tex/latex/bigfoot/suffix.sty
 Package: suffix 2006/07/15 1.5a Variant command support
 ) (/usr/local/texlive/2024/texmf-dist/tex/generic/xstring/xstring.sty (/usr/local/texlive/2024/texmf-dist/tex/generic/xstring/xstring.tex
-\xs_counta=\count355
-\xs_countb=\count356
+\xs_counta=\count357
+\xs_countb=\count358
 )
 Package: xstring 2023/08/22 v1.86 String manipulations (CT)
 )
@@ -819,15 +858,15 @@ Package cleveref Info: `listings' support loaded on input line 3131.
 Package: cancel 2013/04/12 v2.2 Cancel math terms
 )
 Package hyperref Info: Option `colorlinks' set `false' on input line 16.
-\c@theorem=\count357
-\c@lemma=\count358
-\c@corollary=\count359
-\c@fact=\count360
-\c@claim=\count361
-\c@observation=\count362
-\c@proposition=\count363
-\c@definition=\count364
-\c@construction=\count365
+\c@theorem=\count359
+\c@lemma=\count360
+\c@corollary=\count361
+\c@fact=\count362
+\c@claim=\count363
+\c@observation=\count364
+\c@proposition=\count365
+\c@definition=\count366
+\c@construction=\count367
 ) (./macro.tex) (./root.aux
 
 LaTeX Warning: Label `acro:PPT@cref' multiply defined.
@@ -925,36 +964,36 @@ LaTeX Warning: Label `acro:DL@cref' multiply defined.
 )
 \openout1 = `root.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
  (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count366
+\scratchcounter=\count368
 \scratchdimen=\dimen308
 \scratchbox=\box86
-\nofMPsegments=\count367
-\nofMParguments=\count368
+\nofMPsegments=\count369
+\nofMParguments=\count370
 \everyMPshowfont=\toks54
-\MPscratchCnt=\count369
+\MPscratchCnt=\count371
 \MPscratchDim=\dimen309
-\MPnumerator=\count370
-\makeMPintoPDFobject=\count371
+\MPnumerator=\count372
+\makeMPintoPDFobject=\count373
 \everyMPtoPDFconversion=\toks55
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1001,22 +1040,22 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 68.
+Package hyperref Info: Link coloring OFF on input line 90.
 (./root.out) (./root.out)
 \@outlinefile=\write4
 \openout4 = `root.out'.
 
-\c@lstlisting=\count372
+\c@lstlisting=\count374
 <drawings/logo_sapienza_new.png, id=139, 2569.6pt x 769.87625pt>
 File: drawings/logo_sapienza_new.png Graphic file (type png)
 <use drawings/logo_sapienza_new.png>
-Package pdftex.def Info: drawings/logo_sapienza_new.png  used on input line 82.
+Package pdftex.def Info: drawings/logo_sapienza_new.png  used on input line 109.
 (pdftex.def)             Requested size: 338.58632pt x 101.43837pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 92.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 119.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 92.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 119.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
@@ -1024,11 +1063,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 [1
 
 
-{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./drawings/logo_sapienza_new.png>]
-LaTeX Font Info:    Trying to load font information for OT1+qag on input line 106.
- (/usr/local/texlive/2024/texmf-dist/tex/latex/tex-gyre/ot1qag.fd
-File: ot1qag.fd 2009/09/25 v1.2 font definition file for OT1/qag
-) (./root.toc
+{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./drawings/logo_sapienza_new.png>] (./root.toc
 Package acronym Info: Label `acro:PRF' newly defined as it shall be overridden
 although it is yet undefined on input line 28.
 )
@@ -1037,10 +1072,12 @@ although it is yet undefined on input line 28.
 
  (./content.tex (./introduction.tex
 
-[2
-
-{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/tex-gyre/q-rm.enc}]
+[2]
 Chapter 1.
+LaTeX Font Info:    Trying to load font information for OT1+qag on input line 1.
+(/usr/local/texlive/2024/texmf-dist/tex/latex/tex-gyre/ot1qag.fd
+File: ot1qag.fd 2009/09/25 v1.2 font definition file for OT1/qag
+)
 
 LaTeX Warning: File `drawings/symmetric-encryption.eps' not found on input line 13.
 
@@ -1051,7 +1088,7 @@ Package epstopdf Info: Source file: <drawings/symmetric-encryption.eps>
 (epstopdf)             Command: <repstopdf --outfile=drawings/symmetric-encryption-eps-converted-to.pdf drawings/symmetric-encryption.eps>
 (epstopdf)             \includegraphics on input line 13.
 Package epstopdf Info: Output file is already uptodate.
-<drawings/symmetric-encryption-eps-converted-to.pdf, id=202, 469.755pt x 108.405pt>
+<drawings/symmetric-encryption-eps-converted-to.pdf, id=200, 469.755pt x 108.405pt>
 File: drawings/symmetric-encryption-eps-converted-to.pdf Graphic file (type pdf)
 <use drawings/symmetric-encryption-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/symmetric-encryption-eps-converted-to.pdf  used on input line 13.
@@ -1060,7 +1097,7 @@ Package pdftex.def Info: drawings/symmetric-encryption-eps-converted-to.pdf  use
 
 [3
 
- <./drawings/symmetric-encryption-eps-converted-to.pdf>]
+{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/tex-gyre/q-rm.enc} <./drawings/symmetric-encryption-eps-converted-to.pdf>]
 Package hyperref Info: bookmark level for unknown definition defaults to 0 on input line 37.
 Package acronym Info: Label `acro:RV' newly defined as it shall be overridden
 although it is yet undefined on input line 38.
@@ -1086,7 +1123,7 @@ Package epstopdf Info: Source file: <drawings/symmetric-authentication.eps>
 (epstopdf)             Command: <repstopdf --outfile=drawings/symmetric-authentication-eps-converted-to.pdf drawings/symmetric-authentication.eps>
 (epstopdf)             \includegraphics on input line 253.
 Package epstopdf Info: Output file is already uptodate.
-<drawings/symmetric-authentication-eps-converted-to.pdf, id=306, 469.755pt x 108.405pt>
+<drawings/symmetric-authentication-eps-converted-to.pdf, id=305, 469.755pt x 108.405pt>
 File: drawings/symmetric-authentication-eps-converted-to.pdf Graphic file (type pdf)
 <use drawings/symmetric-authentication-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/symmetric-authentication-eps-converted-to.pdf  used on input line 253.
@@ -1124,7 +1161,7 @@ Package epstopdf Info: Source file: <drawings/prg-any-stretch.eps>
 (epstopdf)             Command: <repstopdf --outfile=drawings/prg-any-stretch-eps-converted-to.pdf drawings/prg-any-stretch.eps>
 (epstopdf)             \includegraphics on input line 137.
 Package epstopdf Info: Output file is already uptodate.
-<drawings/prg-any-stretch-eps-converted-to.pdf, id=388, 505.89pt x 108.405pt>
+<drawings/prg-any-stretch-eps-converted-to.pdf, id=387, 505.89pt x 108.405pt>
 File: drawings/prg-any-stretch-eps-converted-to.pdf Graphic file (type pdf)
 <use drawings/prg-any-stretch-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/prg-any-stretch-eps-converted-to.pdf  used on input line 137.
@@ -1192,7 +1229,7 @@ Package epstopdf Info: Source file: <drawings/ggm-tree.eps>
 (epstopdf)             Command: <repstopdf --outfile=drawings/ggm-tree-eps-converted-to.pdf drawings/ggm-tree.eps>
 (epstopdf)             \includegraphics on input line 223.
 Package epstopdf Info: Output file is already uptodate.
-<drawings/ggm-tree-eps-converted-to.pdf, id=605, 433.62pt x 252.945pt>
+<drawings/ggm-tree-eps-converted-to.pdf, id=604, 433.62pt x 252.945pt>
 File: drawings/ggm-tree-eps-converted-to.pdf Graphic file (type pdf)
 <use drawings/ggm-tree-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/ggm-tree-eps-converted-to.pdf  used on input line 223.
@@ -1232,7 +1269,7 @@ Package epstopdf Info: Source file: <drawings/cbc-mac.eps>
 (epstopdf)             Command: <repstopdf --outfile=drawings/cbc-mac-eps-converted-to.pdf drawings/cbc-mac.eps>
 (epstopdf)             \includegraphics on input line 433.
 Package epstopdf Info: Output file is already uptodate.
-<drawings/cbc-mac-eps-converted-to.pdf, id=732, 289.08pt x 216.81pt>
+<drawings/cbc-mac-eps-converted-to.pdf, id=731, 289.08pt x 216.81pt>
 File: drawings/cbc-mac-eps-converted-to.pdf Graphic file (type pdf)
 <use drawings/cbc-mac-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/cbc-mac-eps-converted-to.pdf  used on input line 433.
@@ -1274,7 +1311,7 @@ Package epstopdf Info: Source file: <drawings/feistel.eps>
 (epstopdf)             Command: <repstopdf --outfile=drawings/feistel-eps-converted-to.pdf drawings/feistel.eps>
 (epstopdf)             \includegraphics on input line 606.
 Package epstopdf Info: Output file is already uptodate.
-<drawings/feistel-eps-converted-to.pdf, id=894, 289.08pt x 144.54pt>
+<drawings/feistel-eps-converted-to.pdf, id=893, 289.08pt x 144.54pt>
 File: drawings/feistel-eps-converted-to.pdf Graphic file (type pdf)
 <use drawings/feistel-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/feistel-eps-converted-to.pdf  used on input line 606.
@@ -1306,7 +1343,7 @@ Package epstopdf Info: Source file: <drawings/merkle-damgard.eps>
 (epstopdf)             Command: <repstopdf --outfile=drawings/merkle-damgard-eps-converted-to.pdf drawings/merkle-damgard.eps>
 (epstopdf)             \includegraphics on input line 783.
 Package epstopdf Info: Output file is already uptodate.
-<drawings/merkle-damgard-eps-converted-to.pdf, id=986, 397.485pt x 126.4725pt>
+<drawings/merkle-damgard-eps-converted-to.pdf, id=985, 397.485pt x 126.4725pt>
 File: drawings/merkle-damgard-eps-converted-to.pdf Graphic file (type pdf)
 <use drawings/merkle-damgard-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/merkle-damgard-eps-converted-to.pdf  used on input line 783.
@@ -1409,7 +1446,7 @@ Package epstopdf Info: Source file: <drawings/oaep.eps>
 (epstopdf)             Command: <repstopdf --outfile=drawings/oaep-eps-converted-to.pdf drawings/oaep.eps>
 (epstopdf)             \includegraphics on input line 270.
 Package epstopdf Info: Output file is already uptodate.
-<drawings/oaep-eps-converted-to.pdf, id=1376, 303.1325pt x 289.08pt>
+<drawings/oaep-eps-converted-to.pdf, id=1375, 303.1325pt x 289.08pt>
 File: drawings/oaep-eps-converted-to.pdf Graphic file (type pdf)
 <use drawings/oaep-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/oaep-eps-converted-to.pdf  used on input line 270.
@@ -1517,18 +1554,18 @@ Package rerunfilecheck Info: File `root.out' has not changed.
 (rerunfilecheck)             Checksum: 00F06FDDC7082657548D1D1092630A9B;6029.
  ) 
 Here is how much of TeX's memory you used:
- 32724 strings out of 473584
- 605684 string characters out of 5728329
+ 33002 strings out of 473584
+ 610041 string characters out of 5728329
  1955905 words of memory out of 5000000
- 54365 multiletter control sequences out of 15000+600000
+ 54640 multiletter control sequences out of 15000+600000
  577622 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,19n,93p,860b,824s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 83i,19n,93p,860b,822s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qagr.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on root.pdf (50 pages, 861274 bytes).
+Output written on root.pdf (50 pages, 859193 bytes).
 PDF statistics:
- 2150 PDF objects out of 2487 (max. 8388607)
- 1988 compressed objects within 20 object streams
- 717 named destinations out of 1000 (max. 500000)
+ 2149 PDF objects out of 2487 (max. 8388607)
+ 1987 compressed objects within 20 object streams
+ 716 named destinations out of 1000 (max. 500000)
  322 words of extra memory for PDF output out of 10000 (max. 10000000)
 

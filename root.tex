@@ -27,6 +27,28 @@
 \usepackage{amssymb}
 \usepackage{titlesec}
 \definecolor{sfondo_gray}{HTML}{f0ecec}
+\usepackage{tocloft}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+
+% Customize the Table of Contents
+\renewcommand{\cftchapfont}{\normalfont\bfseries}
+\renewcommand{\cftsecfont}{\normalfont}
+\renewcommand{\cftsubsecfont}{\normalfont\itshape}
+
+\renewcommand{\cftchappagefont}{\normalfont\bfseries}
+\renewcommand{\cftsecpagefont}{\normalfont}
+\renewcommand{\cftsubsecpagefont}{\normalfont\itshape}
+
+\setlength{\cftbeforechapskip}{0.5em}
+\setlength{\cftbeforesecskip}{0.25em}
+\setlength{\cftbeforesubsecskip}{0.15em}
+
+% Title formatting
+\titleformat{\chapter}[block]{\normalfont\huge\bfseries}{\thechapter.}{1em}{}
+\titleformat{\section}[block]{\normalfont\Large\bfseries}{\thesection.}{1em}{}
+\titleformat{\subsection}[block]{\normalfont\large\itshape}{\thesubsection.}{1em}{}
 
 
 % Elimina le pagine vuote
@@ -73,7 +95,12 @@
 \rfoot{\thepage}
 \lhead{\quad \leftmark}
 \rhead{ \quad \rightmark}
-
+% Fancyhdr settings
+\fancyhf{}
+\fancyhead[L]{\rightmark}
+\fancyhead[R]{\thepage}
+\renewcommand{\headrulewidth}{0.2pt}
+\pagestyle{fancy}
 \renewcommand{\headrulewidth}{0.2pt}
 
 \begin{titlepage}
