@@ -22,7 +22,7 @@ Our encryption schemes have the following syntax:
 $A$ and $B$, the actors of our communication exchange (\cref{fig:symmetric-encryption}), share $k$, the key, taken from some key space $\K$.
 The elements of our encryption scheme play the following roles:
 \begin{enumerate}
-	\item $\GenericKeyGen$ outputs a random key from the key space $\K$, and we write this as $k \leftarrow \GenericKeyGen(1^n)$ with $1^n$ where $n$ will quantify the security of the cipher;
+	\item $\GenericKeyGen$ outputs a random key from the key space $\K$, and we write this as $k \leftarrow \GenericKeyGen(1^n)$ where $n$ will quantify the security of the cipher;
 	\item $\GenericEnc : \K \times \M \to \C$ is the encryption function, mapping a key and a message to a cyphertext\footnote{In cryptography, ciphertext or cyphertext is the result of encryption performed on plaintext using an algorithm, called a cipher. Ciphertext is also known as encrypted or encoded information because it contains a form of the original plaintext that is unreadable by a human or computer without the proper cipher to decrypt it.}. Given a message to be encrypted $m \in \M$ and the shared key $k$ calculate the cryptotext $c = \GenericEnc(m)$;
 	\item $\GenericDec : \K \times \C \to \M$ is the decryption function, mapping a key and a cyphertext to a message. Given a cryptotext $c$ and the shared key $k$ returns the message $m \in \M$ such that $m = \GenericDec(c)$.
 \end{enumerate}
