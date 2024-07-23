@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.7.6)  13 JUL 2024 13:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.7.6)  23 JUL 2024 10:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1114,27 +1114,29 @@ Package hyperref Info: bookmark level for unknown construction defaults to 0 on 
 
 [6{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 
-LaTeX Warning: File `drawings/symmetric-authentication.eps' not found on input line 253.
+LaTeX Warning: File `drawings/symmetric-authentication.eps' not found on input line 254.
 
 Package epstopdf Info: Source file: <drawings/symmetric-authentication.eps>
 (epstopdf)             Output file: <drawings/symmetric-authentication-eps-converted-to.pdf>
 (epstopdf)                    date: 2024-07-06 16:28:11
 (epstopdf)                    size: 14387 bytes
 (epstopdf)             Command: <repstopdf --outfile=drawings/symmetric-authentication-eps-converted-to.pdf drawings/symmetric-authentication.eps>
-(epstopdf)             \includegraphics on input line 253.
+(epstopdf)             \includegraphics on input line 254.
 Package epstopdf Info: Output file is already uptodate.
-<drawings/symmetric-authentication-eps-converted-to.pdf, id=305, 469.755pt x 108.405pt>
+<drawings/symmetric-authentication-eps-converted-to.pdf, id=309, 469.755pt x 108.405pt>
 File: drawings/symmetric-authentication-eps-converted-to.pdf Graphic file (type pdf)
 <use drawings/symmetric-authentication-eps-converted-to.pdf>
-Package pdftex.def Info: drawings/symmetric-authentication-eps-converted-to.pdf  used on input line 253.
+Package pdftex.def Info: drawings/symmetric-authentication-eps-converted-to.pdf  used on input line 254.
 (pdftex.def)             Requested size: 386.95897pt x 89.29793pt.
 Package acronym Info: Label `acro:MAC' newly defined as it shall be overridden
-although it is yet undefined on input line 258.
+although it is yet undefined on input line 259.
 
 
-[7 <./drawings/symmetric-authentication-eps-converted-to.pdf>])
+[7 <./drawings/symmetric-authentication-eps-converted-to.pdf>]
 
-[8] (./computational-crypto.tex
+[8])
+
+[9] (./computational-crypto.tex
 Chapter 2.
 Package acronym Info: Label `acro:PPT' newly defined as it shall be overridden
 although it is yet undefined on input line 5.
@@ -1144,7 +1146,7 @@ Package acronym Info: Label `acro:PKC' newly defined as it shall be overridden
 although it is yet undefined on input line 35.
 
 
-[9
+[10
 
 ]
 Package hyperref Info: bookmark level for unknown lemma defaults to 0 on input line 62.
@@ -1161,7 +1163,7 @@ Package epstopdf Info: Source file: <drawings/prg-any-stretch.eps>
 (epstopdf)             Command: <repstopdf --outfile=drawings/prg-any-stretch-eps-converted-to.pdf drawings/prg-any-stretch.eps>
 (epstopdf)             \includegraphics on input line 137.
 Package epstopdf Info: Output file is already uptodate.
-<drawings/prg-any-stretch-eps-converted-to.pdf, id=387, 505.89pt x 108.405pt>
+<drawings/prg-any-stretch-eps-converted-to.pdf, id=395, 505.89pt x 108.405pt>
 File: drawings/prg-any-stretch-eps-converted-to.pdf Graphic file (type pdf)
 <use drawings/prg-any-stretch-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/prg-any-stretch-eps-converted-to.pdf  used on input line 137.
@@ -1173,7 +1175,7 @@ Overfull \hbox (7.68694pt too wide) in paragraph at lines 146--147
 
 
 
-[10]
+[11]
 Package acronym Info: Label `acro:HCP' newly defined as it shall be overridden
 although it is yet undefined on input line 202.
 Package acronym Info: Label `acro:GL' newly defined as it shall be overridden
@@ -1183,7 +1185,7 @@ although it is yet undefined on input line 219.
 Package hyperref Info: bookmark level for unknown corollary defaults to 0 on input line 222.
 
 
-[11 <./drawings/prg-any-stretch-eps-converted-to.pdf>]
+[12 <./drawings/prg-any-stretch-eps-converted-to.pdf>]
 Overfull \hbox (24.85905pt too wide) in paragraph at lines 246--249
 []\OT1/cmr/m/n/10 Assume in-stead $\OML/cmm/m/it/10 f$ \OT1/cmr/m/n/10 is a [][], and that is 1-to-1 (in-jec-tive). Con-sider $\OMS/cmsy/m/n/10 X \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 g[]\OT1/cmr/m/n/10 ([]) = (\OML/cmm/m/it/10 g\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; h\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; [] ; g\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; h\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x[]\OT1/cmr/m/n/10 ))$,
  []
@@ -1191,7 +1193,7 @@ Overfull \hbox (24.85905pt too wide) in paragraph at lines 246--249
 Package hyperref Info: bookmark level for unknown fact defaults to 0 on input line 251.
 )
 
-[12] (./ske.tex
+[13] (./ske.tex
 Chapter 3.
 Package acronym Info: Label `acro:SKE' newly defined as it shall be overridden
 although it is yet undefined on input line 5.
@@ -1203,7 +1205,7 @@ Package acronym Info: Label `acro:PRG' overridden on input line 36.
 Package acronym Info: Label `acro:OTP' overridden on input line 59.
 
 
-[13
+[14
 
 ]
 Package acronym Info: Label `acro:CPA' newly defined as it shall be overridden
@@ -1216,9 +1218,9 @@ Overfull \hbox (1.16542pt too wide) in paragraph at lines 92--92
 
 
 
-[14]
-
 [15]
+
+[16]
 
 LaTeX Warning: File `drawings/ggm-tree.eps' not found on input line 223.
 
@@ -1229,7 +1231,7 @@ Package epstopdf Info: Source file: <drawings/ggm-tree.eps>
 (epstopdf)             Command: <repstopdf --outfile=drawings/ggm-tree-eps-converted-to.pdf drawings/ggm-tree.eps>
 (epstopdf)             \includegraphics on input line 223.
 Package epstopdf Info: Output file is already uptodate.
-<drawings/ggm-tree-eps-converted-to.pdf, id=604, 433.62pt x 252.945pt>
+<drawings/ggm-tree-eps-converted-to.pdf, id=612, 433.62pt x 252.945pt>
 File: drawings/ggm-tree-eps-converted-to.pdf Graphic file (type pdf)
 <use drawings/ggm-tree-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/ggm-tree-eps-converted-to.pdf  used on input line 223.
@@ -1239,7 +1241,7 @@ although it is yet undefined on input line 228.
 Package acronym Info: Label `acro:MAC' overridden on input line 280.
 
 
-[16 <./drawings/ggm-tree-eps-converted-to.pdf>]
+[17 <./drawings/ggm-tree-eps-converted-to.pdf>]
 Package acronym Info: Label `acro:UFCMA' newly defined as it shall be overridden
 although it is yet undefined on input line 289.
 Package acronym Info: Label `acro:OWF' overridden on input line 321.
@@ -1253,12 +1255,12 @@ Package acronym Info: Label `acro:AU' newly defined as it shall be overridden
 although it is yet undefined on input line 348.
 
 
-[17]
+[18]
 Package acronym Info: Label `acro:CBC' newly defined as it shall be overridden
 although it is yet undefined on input line 425.
 
 
-[18]
+[19]
 
 LaTeX Warning: File `drawings/cbc-mac.eps' not found on input line 433.
 
@@ -1269,7 +1271,7 @@ Package epstopdf Info: Source file: <drawings/cbc-mac.eps>
 (epstopdf)             Command: <repstopdf --outfile=drawings/cbc-mac-eps-converted-to.pdf drawings/cbc-mac.eps>
 (epstopdf)             \includegraphics on input line 433.
 Package epstopdf Info: Output file is already uptodate.
-<drawings/cbc-mac-eps-converted-to.pdf, id=731, 289.08pt x 216.81pt>
+<drawings/cbc-mac-eps-converted-to.pdf, id=739, 289.08pt x 216.81pt>
 File: drawings/cbc-mac-eps-converted-to.pdf Graphic file (type pdf)
 <use drawings/cbc-mac-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/cbc-mac-eps-converted-to.pdf  used on input line 433.
@@ -1280,7 +1282,7 @@ Package acronym Info: Label `acro:VIL' newly defined as it shall be overridden
 although it is yet undefined on input line 463.
 
 
-[19 <./drawings/cbc-mac-eps-converted-to.pdf>]
+[20 <./drawings/cbc-mac-eps-converted-to.pdf>]
 Package acronym Info: Label `acro:CCA' newly defined as it shall be overridden
 although it is yet undefined on input line 493.
 Package hyperref Info: bookmark level for unknown claim defaults to 0 on input line 511.
@@ -1293,7 +1295,7 @@ Overfull \hbox (4.96927pt too wide) in paragraph at lines 548--551
 
 
 
-[20]
+[21]
 Package acronym Info: Label `acro:SSH' newly defined as it shall be overridden
 although it is yet undefined on input line 588.
 Package acronym Info: Label `acro:TLS' newly defined as it shall be overridden
@@ -1311,14 +1313,14 @@ Package epstopdf Info: Source file: <drawings/feistel.eps>
 (epstopdf)             Command: <repstopdf --outfile=drawings/feistel-eps-converted-to.pdf drawings/feistel.eps>
 (epstopdf)             \includegraphics on input line 606.
 Package epstopdf Info: Output file is already uptodate.
-<drawings/feistel-eps-converted-to.pdf, id=893, 289.08pt x 144.54pt>
+<drawings/feistel-eps-converted-to.pdf, id=900, 289.08pt x 144.54pt>
 File: drawings/feistel-eps-converted-to.pdf Graphic file (type pdf)
 <use drawings/feistel-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/feistel-eps-converted-to.pdf  used on input line 606.
 (pdftex.def)             Requested size: 386.95897pt x 193.49069pt.
 
 
-[21 <./drawings/feistel-eps-converted-to.pdf>]
+[22 <./drawings/feistel-eps-converted-to.pdf>]
 Package acronym Info: Label `acro:ECB' newly defined as it shall be overridden
 although it is yet undefined on input line 693.
 Package acronym Info: Label `acro:CFB' newly defined as it shall be overridden
@@ -1327,9 +1329,9 @@ Package acronym Info: Label `acro:CTR' newly defined as it shall be overridden
 although it is yet undefined on input line 701.
 
 
-[22]
-
 [23]
+
+[24]
 Package acronym Info: Label `acro:CR' newly defined as it shall be overridden
 although it is yet undefined on input line 772.
 
@@ -1343,7 +1345,7 @@ Package epstopdf Info: Source file: <drawings/merkle-damgard.eps>
 (epstopdf)             Command: <repstopdf --outfile=drawings/merkle-damgard-eps-converted-to.pdf drawings/merkle-damgard.eps>
 (epstopdf)             \includegraphics on input line 783.
 Package epstopdf Info: Output file is already uptodate.
-<drawings/merkle-damgard-eps-converted-to.pdf, id=985, 397.485pt x 126.4725pt>
+<drawings/merkle-damgard-eps-converted-to.pdf, id=992, 397.485pt x 126.4725pt>
 File: drawings/merkle-damgard-eps-converted-to.pdf Graphic file (type pdf)
 <use drawings/merkle-damgard-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/merkle-damgard-eps-converted-to.pdf  used on input line 783.
@@ -1354,21 +1356,21 @@ Package acronym Info: Label `acro:ICM' newly defined as it shall be overridden
 although it is yet undefined on input line 840.
 
 
-[24 <./drawings/merkle-damgard-eps-converted-to.pdf>]
+[25 <./drawings/merkle-damgard-eps-converted-to.pdf>]
 Package acronym Info: Label `acro:CFP' newly defined as it shall be overridden
 although it is yet undefined on input line 893.
 
 
-[25]
+[26]
 Package acronym Info: Label `acro:RO' newly defined as it shall be overridden
 although it is yet undefined on input line 956.
 )
 
-[26] (./number-theory.tex
+[27] (./number-theory.tex
 Chapter 4.
 
 
-[27
+[28
 
 ]
 Package acronym Info: Label `acro:OWF' overridden on input line 107.
@@ -1379,7 +1381,7 @@ although it is yet undefined on input line 155.
 Package acronym Info: Label `acro:PPT' overridden on input line 155.
 
 
-[28]
+[29]
 Package acronym Info: Label `acro:OWP' overridden on input line 183.
 Package acronym Info: Label `acro:CDH' newly defined as it shall be overridden
 although it is yet undefined on input line 187.
@@ -1394,7 +1396,7 @@ although it is yet undefined on input line 215.
 Package hyperref Info: bookmark level for unknown proposition defaults to 0 on input line 233.
 
 
-[29]
+[30]
 Package acronym Info: Label `acro:PRG' overridden on input line 285.
 Package acronym Info: Label `acro:PRF' overridden on input line 338.
 
@@ -1405,11 +1407,11 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package acronym Info: Label `acro:GGM' overridden on input line 351.
 
 
-[30]
+[31]
 Package acronym Info: Label `acro:CFP' overridden on input line 375.
 )
 
-[31] (./pke.tex
+[32] (./pke.tex
 Chapter 5.
 Package acronym Info: Label `acro:AES' newly defined as it shall be overridden
 although it is yet undefined on input line 6.
@@ -1420,7 +1422,7 @@ Package acronym Info: Label `acro:CCA' overridden on input line 24.
 Package acronym Info: Label `acro:PPT' overridden on input line 56.
 
 
-[32
+[33
 
 ]
 Package acronym Info: Label `acro:DDH' overridden on input line 84.
@@ -1430,12 +1432,12 @@ Package acronym Info: Label `acro:TDP' newly defined as it shall be overridden
 although it is yet undefined on input line 138.
 
 
-[33]
+[34]
 Package acronym Info: Label `acro:DL' overridden on input line 194.
 Package acronym Info: Label `acro:RO' overridden on input line 195.
 
 
-[34]
+[35]
 
 LaTeX Warning: File `drawings/oaep.eps' not found on input line 270.
 
@@ -1446,7 +1448,7 @@ Package epstopdf Info: Source file: <drawings/oaep.eps>
 (epstopdf)             Command: <repstopdf --outfile=drawings/oaep-eps-converted-to.pdf drawings/oaep.eps>
 (epstopdf)             \includegraphics on input line 270.
 Package epstopdf Info: Output file is already uptodate.
-<drawings/oaep-eps-converted-to.pdf, id=1375, 303.1325pt x 289.08pt>
+<drawings/oaep-eps-converted-to.pdf, id=1382, 303.1325pt x 289.08pt>
 File: drawings/oaep-eps-converted-to.pdf Graphic file (type pdf)
 <use drawings/oaep-eps-converted-to.pdf>
 Package pdftex.def Info: drawings/oaep-eps-converted-to.pdf  used on input line 270.
@@ -1455,24 +1457,24 @@ Package acronym Info: Label `acro:OAEP' newly defined as it shall be overridden
 although it is yet undefined on input line 274.
 
 
-[35 <./drawings/oaep-eps-converted-to.pdf>]
+[36 <./drawings/oaep-eps-converted-to.pdf>]
 Package acronym Info: Label `acro:CRT' newly defined as it shall be overridden
 although it is yet undefined on input line 297.
 Package acronym Info: Label `acro:CS' newly defined as it shall be overridden
 although it is yet undefined on input line 396.
 
 
-[36]
-
 [37]
 
 [38]
+
+[39]
 Package acronym Info: Label `acro:CRH' overridden on input line 635.
 
 
-[39])
+[40])
 
-[40] (./signature-schemes.tex
+[41] (./signature-schemes.tex
 Chapter 6.
 Package acronym Info: Label `acro:SS' newly defined as it shall be overridden
 although it is yet undefined on input line 4.
@@ -1486,34 +1488,34 @@ Package acronym Info: Label `acro:RO' overridden on input line 68.
 Package acronym Info: Label `acro:TDP' overridden on input line 71.
 
 
-[41
+[42
 
 ]
 Package acronym Info: Label `acro:OWF' overridden on input line 127.
 Package acronym Info: Label `acro:CDH' overridden on input line 133.
 
 
-[42]
+[43]
 Package acronym Info: Label `acro:DDH' overridden on input line 154.
 Package acronym Info: Label `acro:WSS' newly defined as it shall be overridden
 although it is yet undefined on input line 182.
 
 
-[43]
-
 [44]
+
+[45]
 Package acronym Info: Label `acro:IDS' newly defined as it shall be overridden
 although it is yet undefined on input line 350.
 
 
-[45]
+[46]
 Overfull \hbox (25.09937pt too wide) in paragraph at lines 415--418
 []\OT1/cmr/bx/n/10 Construction 24 \OT1/cmr/m/n/10 (Fi-at-Shamir Trans-form)\OT1/cmr/bx/n/10 . []\OT1/cmr/m/n/10 Let $^^E = ([]\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 P\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 V\OT1/cmr/m/n/10 )$ be an [][]. Con-sider the [][] $^^E[] = ([]\OML/cmm/m/it/10 ; []; []\OT1/cmr/m/n/10 )$
  []
 
 
 
-[46]
+[47]
 Package acronym Info: Label `acro:HVZK' newly defined as it shall be overridden
 although it is yet undefined on input line 482.
 Package acronym Info: Label `acro:SP' newly defined as it shall be overridden
@@ -1523,22 +1525,22 @@ although it is yet undefined on input line 525.
 Package acronym Info: Label `acro:RV' overridden on input line 544.
 
 
-[47]
+[48]
 Package acronym Info: Label `acro:DL' overridden on input line 604.
 )
 
-[48]) (./acronyms.tex
+[49]) (./acronyms.tex
 
-LaTeX Warning: Hyper reference `acro:DH' on page 49 undefined on input line 17.
-
-
-LaTeX Warning: Hyper reference `acro:DH' on page 49 undefined on input line 17.
+LaTeX Warning: Hyper reference `acro:DH' on page 50 undefined on input line 17.
 
 
+LaTeX Warning: Hyper reference `acro:DH' on page 50 undefined on input line 17.
 
-[49])
 
-[50] (./root.aux)
+
+[50])
+
+[51] (./root.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
@@ -1554,18 +1556,18 @@ Package rerunfilecheck Info: File `root.out' has not changed.
 (rerunfilecheck)             Checksum: 00F06FDDC7082657548D1D1092630A9B;6029.
  ) 
 Here is how much of TeX's memory you used:
- 33002 strings out of 473584
- 610041 string characters out of 5728329
- 1955905 words of memory out of 5000000
- 54640 multiletter control sequences out of 15000+600000
- 577622 words of font info for 82 fonts, out of 8000000 for 9000
+ 33007 strings out of 473584
+ 610094 string characters out of 5728329
+ 1956905 words of memory out of 5000000
+ 54642 multiletter control sequences out of 15000+600000
+ 578308 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,19n,93p,860b,822s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qagr.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on root.pdf (50 pages, 859173 bytes).
+ 83i,19n,93p,969b,822s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qagr.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on root.pdf (51 pages, 873570 bytes).
 PDF statistics:
- 2149 PDF objects out of 2487 (max. 8388607)
- 1987 compressed objects within 20 object streams
- 716 named destinations out of 1000 (max. 500000)
+ 2160 PDF objects out of 2487 (max. 8388607)
+ 1995 compressed objects within 20 object streams
+ 718 named destinations out of 1000 (max. 500000)
  322 words of extra memory for PDF output out of 10000 (max. 10000000)
 
