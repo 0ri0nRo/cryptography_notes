@@ -11,6 +11,8 @@
 *.synctex.gz
 *.fdb_latexmk
 *.fls
+# Ignora i file synctex
+*.synctex(busy)
 
 # Backup files
 *~
