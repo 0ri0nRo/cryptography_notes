@@ -13,7 +13,7 @@
 *.fls
 # Ignora i file synctex
 *.synctex(busy)
-
+*.DS_Store
 # Backup files
 *~
 *.bak
