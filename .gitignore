@@ -25,7 +25,6 @@
 !*.bib
 !*.sty
 !*.cls
-!*.tex
 
 # Other common files
 *.fls
