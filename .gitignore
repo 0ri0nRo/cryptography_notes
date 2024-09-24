@@ -1,3 +1,44 @@
-root *
+# Compiled LaTeX files
+*.aux
+*.bbl
+*.blg
+*.dvi
+*.log
+*.lot
+*.out
 *.toc
+*.ps
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+
+# Backup files
+*~
+*.bak
+
+# Temporary files
+*.tmp
+*.temp
+
+# Directories
+/texput/
+!*.bib
+!*.sty
+!*.cls
+!*.tex
+
+# Other common files
+*.fls
+*.log
+*.glo
+*.idx
+*.ilg
+*.ind
+*.ist
+*.maf
+*.mtc*
+*.nav
+*.snm
+*.run.xml
+
 Crypto_a_Parole.pdf
