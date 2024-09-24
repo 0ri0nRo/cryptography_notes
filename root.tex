@@ -31,6 +31,15 @@
 \usepackage{titlesec}
 \usepackage{fancyhdr}
 \usepackage{hyperref}
+\usepackage{amsfonts} % for "\mathbb" macro
+\usepackage{amsmath,amsfonts}
+\usepackage{xcolor}
+\usepackage{xargs}                      % Use more than one optional parameter in a new commands
+\usepackage[pdftex,dvipsnames]{xcolor}  % Coloured text etc.
+% 
+\usepackage[colorinlistoftodos,prependcaption,textsize=tiny]{todonotes}
+\newcommandx{\info}[2][1=]{\todo[linecolor=OliveGreen,backgroundcolor=OliveGreen!25,bordercolor=OliveGreen,#1]{#2}}
+
 
 % Customize the Table of Contents
 \renewcommand{\cftchapfont}{\normalfont\bfseries}
